@@ -1058,3 +1058,36 @@
   "method": "GET",
   "url": "/api/recipients"
 }
+[2026-10-09T22:25:38.775Z] [INFO] Budget_App Server démarré
+[2026-10-09T22:25:38.775Z] [INFO] Server running on http://localhost:3000
+[2026-10-09T22:25:38.779Z] [ERROR] MySQL connection error
+  Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: NO)
+  Stack: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: NO)
+    at Sequence._packetToError (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/node_modules/mysql/lib/Connection.js:116:18)
+    at Object.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Bloc2-Backend/utils/db.js:17:4)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+[2026-10-09T22:37:02.591Z] [INFO] Budget_App Server démarré
+[2026-10-09T22:37:02.592Z] [INFO] Server running on http://localhost:3000
+[2026-10-09T22:37:02.632Z] [INFO] Connected to MySQL
+[2026-10-09T22:37:02.637Z] [INFO] Database 'Backend_node' ready.
+[2026-10-09T22:37:02.646Z] [INFO] Users table ready with full schema.
+[2026-10-09T22:37:02.647Z] [INFO] Categories table ready.
+[2026-10-09T22:37:02.649Z] [INFO] Transactions table ready.
