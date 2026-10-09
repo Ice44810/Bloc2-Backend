@@ -1,0 +1,4814 @@
+[2026-02-21T10:11:30.650Z] [INFO] ========================================
+[2026-02-21T10:11:30.653Z] [INFO] Budget_App Server Started
+[2026-02-21T10:11:30.653Z] [INFO] Server running on http://localhost:3000
+[2026-02-21T10:11:30.653Z] [INFO] ========================================
+[2026-02-21T10:11:36.092Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-02-21T10:11:36.146Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-02-21T10:11:36.223Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:11:36.226Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:11:52.683Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-02-21T10:11:52.743Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:11:52.755Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:11:52.810Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:11:52.812Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T10:11:52.813Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T10:11:52.815Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T10:11:52.819Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T10:11:52.822Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:11:52.865Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T10:11:52.867Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:11:52.868Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T10:11:52.869Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T10:11:52.870Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T10:11:52.871Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T10:11:52.872Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T10:11:52.879Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:11:52.882Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-02-21T10:11:52.885Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T10:11:52.888Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "17ms"
+}
+[2026-02-21T10:11:52.897Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "23ms"
+}
+[2026-02-21T10:11:52.911Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T10:11:52.914Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:11:52.916Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T10:11:52.918Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:11:52.929Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T10:11:52.931Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:11:52.932Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:11:52.934Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:11:52.934Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:11:52.936Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:11:52.940Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:11:52.942Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:11:52.944Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:11:52.945Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:11:53.050Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T10:12:19.777Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T10:12:19.830Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:12:19.832Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T10:12:19.833Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T10:12:19.833Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:12:19.834Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:12:19.841Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:12:19.971Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-02-21T10:12:20.015Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T10:12:20.039Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=today"
+}
+[2026-02-21T10:12:26.145Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:12:26.201Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:12:26.202Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T10:12:26.203Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T10:12:26.205Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T10:12:26.209Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T10:12:26.212Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:12:26.255Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T10:12:26.257Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T10:12:26.258Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T10:12:26.259Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T10:12:26.260Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T10:12:26.261Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T10:12:26.263Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T10:12:26.266Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:12:26.267Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:12:26.269Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:12:26.272Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-02-21T10:12:26.279Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T10:12:26.303Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T10:12:26.304Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:12:26.306Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T10:12:26.306Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-02-21T10:12:26.307Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T10:12:26.308Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:12:26.309Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:12:26.309Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:12:26.311Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:12:26.312Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:12:26.326Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:12:26.327Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:12:26.327Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:12:26.328Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:12:26.353Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:12:26.354Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:12:26.354Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:12:26.355Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:12:26.355Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:12:26.355Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:12:26.355Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:12:26.356Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:12:26.364Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T10:12:34.639Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T10:12:34.683Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:12:34.684Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:12:34.687Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T10:12:34.689Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T10:12:34.692Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:12:34.705Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "17ms"
+}
+[2026-02-21T10:12:34.810Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-02-21T10:12:34.829Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T10:12:34.858Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=today"
+}
+[2026-02-21T10:21:19.781Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T10:21:19.872Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:21:19.874Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:21:19.877Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T10:21:19.878Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T10:21:19.885Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:21:19.886Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:21:19.990Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-02-21T10:21:20.046Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T10:21:20.079Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=today"
+}
+[2026-02-21T10:21:46.193Z] [INFO] Budget_App Server Started
+[2026-02-21T10:21:46.194Z] [INFO] Server running on http://localhost:3000
+[2026-02-21T10:22:00.965Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-02-21T10:22:01.002Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-02-21T10:22:01.063Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:22:01.067Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:26:03.804Z] [INFO] Budget_App Server Started
+[2026-02-21T10:26:03.805Z] [INFO] Server running on http://localhost:3000
+[2026-02-21T10:26:08.105Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-02-21T10:26:08.155Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-02-21T10:26:08.205Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:26:08.207Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:26:19.466Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-02-21T10:26:19.525Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:26:19.535Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:26:19.590Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:26:19.592Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T10:26:19.594Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T10:26:19.596Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T10:26:19.600Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T10:26:19.602Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T10:26:19.643Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T10:26:19.646Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:26:19.648Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T10:26:19.649Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T10:26:19.651Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T10:26:19.652Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T10:26:19.653Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T10:26:19.654Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T10:26:19.658Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:26:19.660Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:26:19.661Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T10:26:19.673Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "14ms"
+}
+[2026-02-21T10:26:19.674Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T10:26:19.676Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:26:19.701Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T10:26:19.704Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T10:26:19.707Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:26:19.707Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:26:19.710Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:26:19.710Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:26:19.711Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T10:26:19.712Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:26:19.712Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:26:19.713Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:26:19.728Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:26:19.730Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:26:19.843Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T10:26:24.465Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T10:26:24.524Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:26:24.525Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T10:26:24.526Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T10:26:24.527Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:26:24.529Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:26:24.529Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T10:26:24.644Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-02-21T10:26:24.673Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T10:26:24.697Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=today"
+}
+[2026-02-21T10:33:42.660Z] [INFO] Budget_App Server Started
+[2026-02-21T10:33:42.661Z] [INFO] Server running on http://localhost:3000
+[2026-02-21T10:33:46.206Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-02-21T10:33:46.228Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-02-21T10:33:46.301Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:33:46.309Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:33:58.831Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-02-21T10:33:58.892Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:33:58.904Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:33:58.947Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:33:58.949Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T10:33:58.951Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:33:58.964Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T10:33:58.966Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T10:33:58.971Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:33:59.010Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T10:33:59.012Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T10:33:59.014Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T10:33:59.015Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T10:33:59.016Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T10:33:59.017Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T10:33:59.018Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T10:33:59.020Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T10:33:59.022Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:33:59.024Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:33:59.026Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T10:33:59.036Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T10:33:59.055Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T10:33:59.058Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:33:59.066Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T10:33:59.068Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T10:33:59.071Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T10:33:59.072Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:33:59.073Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:33:59.075Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:33:59.076Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:33:59.077Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T10:33:59.083Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:33:59.084Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:33:59.090Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:33:59.091Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:33:59.191Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T10:34:02.271Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T10:34:02.327Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:34:02.329Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T10:34:02.330Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T10:34:02.331Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T10:34:02.333Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:34:02.340Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T10:34:02.450Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T10:34:02.467Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=today"
+}
+[2026-02-21T10:34:11.129Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=year"
+}
+[2026-02-21T10:34:11.130Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=year"
+}
+[2026-02-21T10:58:37.414Z] [INFO] Budget_App Server Started
+[2026-02-21T10:58:37.415Z] [INFO] Server running on http://localhost:3000
+[2026-02-21T10:58:42.613Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-02-21T10:58:42.667Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-02-21T10:58:42.760Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:58:42.764Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T10:58:56.124Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-02-21T10:59:14.325Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-02-21T10:59:14.383Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:59:14.399Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T10:59:14.447Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:59:14.449Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T10:59:14.452Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T10:59:14.454Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T10:59:14.461Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T10:59:14.465Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T10:59:14.513Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T10:59:14.515Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T10:59:14.515Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T10:59:14.519Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T10:59:14.520Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T10:59:14.521Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T10:59:14.528Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "14ms"
+}
+[2026-02-21T10:59:14.532Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T10:59:14.536Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T10:59:14.539Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "19ms"
+}
+[2026-02-21T10:59:14.542Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "25ms"
+}
+[2026-02-21T10:59:14.566Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "40ms"
+}
+[2026-02-21T10:59:14.585Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T10:59:14.593Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T10:59:14.597Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-02-21T10:59:14.604Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T10:59:14.606Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:59:14.607Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:59:14.608Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T10:59:14.611Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T10:59:14.612Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "19ms"
+}
+[2026-02-21T10:59:14.613Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T10:59:14.635Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:59:14.637Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T10:59:14.640Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:59:14.641Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T10:59:14.743Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T10:59:18.899Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T10:59:18.979Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T10:59:18.982Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T10:59:18.983Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T10:59:18.989Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T10:59:18.992Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T10:59:18.994Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T10:59:19.099Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T10:59:19.127Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=today"
+}
+[2026-02-21T10:59:36.389Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=year"
+}
+[2026-02-21T10:59:36.390Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?type=undefined&period=year"
+}
+[2026-02-21T11:05:12.126Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:05:12.186Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:05:12.191Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:05:12.192Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T11:05:12.193Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:05:12.193Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:05:12.194Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:05:12.194Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:05:12.195Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:05:12.196Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:05:12.197Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:05:12.281Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:05:12.282Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:05:12.321Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:11:23.707Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:11:23.782Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:11:23.783Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:11:23.784Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:11:23.785Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:11:23.786Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:11:23.787Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:11:23.790Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T11:11:23.793Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T11:11:23.803Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:23.805Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:23.871Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:23.872Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:23.920Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:11:42.716Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:11:42.760Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:11:42.763Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:11:42.765Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:11:42.767Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:11:42.768Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:11:42.771Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:11:42.773Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:42.774Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:11:42.775Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:42.779Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:11:42.863Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:42.864Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:42.911Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:11:55.421Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:11:55.476Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:11:55.479Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:11:55.482Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:11:55.482Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:11:55.483Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:11:55.483Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/esther.jpg"
+}
+[2026-02-21T11:11:55.483Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:55.484Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:55.484Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:11:55.484Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:11:55.583Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:55.584Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Leslie.jpg"
+}
+[2026-02-21T11:11:55.605Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:20:06.348Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:20:06.474Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:20:06.475Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:20:06.477Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:20:06.478Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:20:06.481Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:20:06.484Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:20:06.486Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:20:06.489Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:20:06.496Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:20:06.502Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:20:06.621Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:20:10.251Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:20:10.308Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:20:10.310Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-v%C3%A9rifier.gif"
+}
+[2026-02-21T11:20:10.312Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/icons8-v%C3%A9rifier.gif"
+}
+[2026-02-21T11:20:10.314Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T11:20:15.493Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:20:15.544Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:20:15.545Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:20:15.547Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-v%C3%A9rifier.gif"
+}
+[2026-02-21T11:20:15.548Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/icons8-v%C3%A9rifier.gif"
+}
+[2026-02-21T11:21:20.054Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:21:20.124Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:21:20.125Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-v%C3%A9rifier.gif"
+}
+[2026-02-21T11:21:20.127Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/icons8-v%C3%A9rifier.gif"
+}
+[2026-02-21T11:21:20.129Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:22:21.995Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:22:22.069Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:22:22.071Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:22:22.073Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:22:22.076Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:24:18.039Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:24:18.110Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:24:18.112Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:24:18.114Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:24:18.115Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:24:53.415Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:24:53.517Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:24:53.518Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:24:53.523Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:24:53.525Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:25:04.610Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:25:04.687Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:25:04.688Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:25:04.688Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:25:04.689Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:25:22.221Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:25:22.262Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:25:22.264Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:25:22.265Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:25:22.267Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:26:04.548Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:26:04.623Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:26:04.624Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:26:04.625Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:26:04.626Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:26:19.554Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:26:19.602Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:26:19.604Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:26:19.605Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:26:19.606Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:26:22.106Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:26:22.151Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:26:22.152Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:26:22.154Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:26:22.156Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:30:33.546Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bill.html"
+}
+[2026-02-21T11:30:33.666Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:30:33.668Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:30:54.229Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T11:30:54.295Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:30:54.295Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:30:54.297Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:30:54.300Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:30:54.306Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T11:30:54.312Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:30:54.351Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T11:30:54.355Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:30:54.355Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:30:54.357Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T11:30:54.358Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T11:30:54.358Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T11:30:54.358Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T11:30:54.360Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:30:54.363Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:30:54.365Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T11:30:54.367Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T11:30:54.374Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T11:30:54.398Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T11:30:54.399Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T11:30:54.402Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T11:30:54.405Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:30:54.408Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:30:54.409Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:30:54.410Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:30:54.411Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:30:54.412Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:30:54.413Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:30:54.439Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:30:54.440Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:30:54.440Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:30:54.441Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:30:54.464Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:30:54.465Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:30:54.467Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:30:54.469Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:30:54.534Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T11:30:58.569Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:30:58.613Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:30:58.614Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:30:58.615Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:30:58.615Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:30:58.616Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:30:58.617Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:30:58.617Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:30:58.620Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:30:58.623Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:30:58.629Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:30:58.733Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:31:02.560Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T11:31:02.610Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:31:02.611Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:31:02.612Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:31:02.613Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T11:31:02.615Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:31:02.620Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:31:02.671Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T11:31:02.673Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:31:02.674Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T11:31:02.675Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:31:02.676Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T11:31:02.676Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T11:31:02.677Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T11:31:02.680Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T11:31:02.682Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:31:02.683Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T11:31:02.686Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:31:02.696Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T11:31:02.703Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T11:31:02.706Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:31:02.727Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T11:31:02.738Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:31:02.743Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T11:31:02.746Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:31:02.746Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:31:02.747Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:31:02.750Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:31:02.752Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T11:31:02.755Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:31:02.756Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:31:02.767Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:31:02.768Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:31:02.790Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:31:02.792Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:31:02.794Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:31:02.795Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:31:02.802Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:31:02.803Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:31:02.881Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T11:31:08.674Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:31:08.721Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:31:08.722Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:31:08.723Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:31:08.723Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:31:08.724Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:31:08.725Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:31:08.726Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:31:08.727Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:31:08.730Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:31:08.735Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:31:08.818Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:31:35.568Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:31:35.612Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:31:35.613Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:31:35.616Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:31:35.617Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:31:35.617Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:31:35.618Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:31:35.619Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:31:35.621Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:31:35.622Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:31:35.624Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:31:35.759Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?type=undefined&categoryId=undefined&period=today"
+}
+[2026-02-21T11:43:04.994Z] [INFO] Budget_App Server Started
+[2026-02-21T11:43:04.995Z] [INFO] Server running on http://localhost:3000
+[2026-02-21T11:43:09.250Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-02-21T11:43:09.301Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-02-21T11:43:09.354Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:43:09.358Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:43:26.334Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-02-21T11:43:26.394Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T11:43:26.407Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T11:43:26.457Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:43:26.460Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:43:26.461Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T11:43:26.465Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:43:26.469Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:43:26.472Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:43:26.516Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T11:43:26.517Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:43:26.518Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T11:43:26.520Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T11:43:26.521Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T11:43:26.522Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T11:43:26.524Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:43:26.526Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:43:26.528Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T11:43:26.530Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T11:43:26.531Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T11:43:26.537Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-02-21T11:43:26.562Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T11:43:26.563Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:43:26.566Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T11:43:26.567Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T11:43:26.568Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:43:26.569Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:43:26.570Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:43:26.572Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:43:26.572Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:43:26.574Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:43:26.586Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:43:26.587Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:43:26.594Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:43:26.594Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:43:26.621Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:43:26.622Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:43:26.623Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:43:26.623Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:43:26.623Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:43:26.624Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:43:26.625Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:43:26.626Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:43:26.690Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T11:44:09.078Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:44:09.167Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:44:09.169Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:44:09.170Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:44:09.171Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:44:09.181Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T11:44:09.182Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T11:44:09.186Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T11:44:09.187Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:44:09.189Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-02-21T11:44:09.194Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:44:09.243Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T11:44:09.246Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:44:09.301Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:44:09.470Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T11:44:13.063Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:13.079Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:14.144Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:44:14.161Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T11:44:15.375Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:15.389Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:17.574Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:17.586Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:18.913Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:44:18.928Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T11:44:31.159Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:31.172Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:33.822Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:33.836Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:35.019Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:44:35.030Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T11:44:36.761Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:36.777Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:37.914Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:37.927Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:38.859Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:38.872Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:44:39.686Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:44:39.697Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T11:44:40.301Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:44:40.316Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:45:22.475Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/electricity.html"
+}
+[2026-02-21T11:45:22.560Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:45:22.562Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:45:22.564Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:45:22.565Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:45:26.653Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-02-21T11:45:26.718Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:45:26.719Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:45:26.721Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:45:26.722Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:45:32.029Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/electricity.html"
+}
+[2026-02-21T11:45:32.081Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:45:32.083Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:45:32.085Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:45:32.087Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:49:16.590Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/electricity.html"
+}
+[2026-02-21T11:49:16.657Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:49:16.658Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:49:16.660Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:49:16.660Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:51:29.777Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/electricity.html"
+}
+[2026-02-21T11:51:29.842Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:51:29.844Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-02-21T11:51:29.845Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:51:29.846Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:54:23.967Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bill.html"
+}
+[2026-02-21T11:54:24.044Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:54:24.046Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:54:25.385Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T11:54:25.438Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:54:25.439Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:54:25.442Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:54:25.445Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:54:25.447Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T11:54:25.451Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:54:25.502Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T11:54:25.506Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:54:25.507Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:54:25.508Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T11:54:25.509Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T11:54:25.509Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T11:54:25.510Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T11:54:25.511Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:54:25.513Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:54:25.515Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T11:54:25.518Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:54:25.530Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T11:54:25.553Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T11:54:25.554Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T11:54:25.556Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T11:54:25.557Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:54:25.560Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T11:54:25.561Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:54:25.569Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:54:25.570Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:54:25.572Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T11:54:25.573Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T11:54:25.585Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:54:25.586Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:54:25.586Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T11:54:25.587Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T11:54:25.724Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T11:54:28.236Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T11:54:28.295Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T11:54:28.296Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T11:54:28.297Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T11:54:28.297Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T11:54:28.298Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T11:54:28.299Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T11:54:28.301Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:54:28.302Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T11:54:28.306Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T11:54:28.315Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T11:54:28.366Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T11:54:28.367Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T11:54:28.426Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:54:28.463Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T11:59:53.993Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:59:54.005Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:59:55.798Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T11:59:55.812Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T11:59:56.943Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T11:59:56.958Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:00:56.385Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:00:56.477Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:00:56.479Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:00:56.481Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:00:56.484Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:00:56.485Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:00:56.486Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T12:00:56.489Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:00:56.493Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-02-21T12:00:56.497Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T12:00:56.500Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T12:00:56.579Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:00:56.581Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:00:56.784Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:00:56.878Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:01:03.441Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:01:03.492Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:01:03.493Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:01:03.495Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:01:03.496Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:01:03.497Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T12:01:03.498Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T12:01:03.499Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:01:03.500Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:01:03.514Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:01:03.518Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:01:03.556Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:01:03.558Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:01:03.620Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:01:03.717Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:03:00.859Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:03:00.913Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:03:00.914Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:03:00.916Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:03:00.917Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:03:00.918Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:03:00.919Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:03:00.920Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:03:00.921Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:03:00.924Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:03:00.927Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:03:01.042Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:03:01.044Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:03:01.113Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:03:01.289Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:03:46.154Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:03:46.235Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:03:46.236Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:03:46.237Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:03:46.238Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:03:46.238Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:03:46.239Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:03:46.240Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:03:46.242Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:03:46.256Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:03:46.261Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:03:46.304Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:03:46.306Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:03:46.417Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:03:46.464Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:04:12.492Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:04:12.528Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:04:12.531Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:04:12.536Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:04:12.537Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:04:12.538Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:04:12.538Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:04:12.539Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:04:12.540Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:04:12.543Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:04:12.546Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:04:12.606Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:04:12.608Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:04:12.666Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:04:12.764Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:04:41.597Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:04:41.636Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:04:41.637Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:04:41.638Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:04:41.639Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:04:41.639Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:04:41.640Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:04:41.640Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:04:41.641Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:04:41.643Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:04:41.648Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:04:41.700Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:04:41.701Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:04:41.760Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:04:41.797Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:07:22.180Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T12:07:22.193Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T12:07:26.070Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:07:26.089Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:07:27.276Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T12:07:27.292Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T12:07:28.315Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-02-21T12:07:28.331Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-02-21T12:07:31.844Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T12:07:31.915Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:07:31.917Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:07:31.919Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:07:31.923Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:07:31.930Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T12:07:31.936Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T12:07:31.983Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T12:07:31.985Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:07:31.986Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:07:31.987Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T12:07:31.991Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T12:07:31.992Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T12:07:31.995Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T12:07:31.998Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T12:07:32.002Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-02-21T12:07:32.004Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T12:07:32.006Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "14ms"
+}
+[2026-02-21T12:07:32.015Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "18ms"
+}
+[2026-02-21T12:07:32.036Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T12:07:32.037Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:07:32.047Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T12:07:32.050Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T12:07:32.051Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:07:32.052Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:07:32.057Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:07:32.062Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:07:32.064Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T12:07:32.065Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:07:32.089Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:07:32.091Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:07:32.092Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:07:32.094Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:07:32.120Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T12:10:25.515Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Profile.html"
+}
+[2026-02-21T12:10:25.596Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:10:25.598Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:10:25.600Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:10:25.602Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:10:25.604Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T12:10:25.606Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:10:25.707Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-02-21T12:10:25.766Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-02-21T12:11:57.856Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T12:11:57.948Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:11:57.949Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:11:57.952Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:11:57.957Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:11:57.958Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T12:11:57.967Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T12:11:58.062Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T12:11:58.081Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-02-21T12:11:58.086Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:11:58.090Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T12:11:58.094Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T12:11:58.102Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T12:11:58.106Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T12:11:58.111Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "23ms"
+}
+[2026-02-21T12:11:58.115Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "23ms"
+}
+[2026-02-21T12:11:58.121Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "23ms"
+}
+[2026-02-21T12:11:58.125Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "22ms"
+}
+[2026-02-21T12:11:58.140Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "27ms"
+}
+[2026-02-21T12:11:58.250Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T12:11:58.252Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:11:58.253Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:11:58.254Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:11:58.256Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:11:58.258Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:11:58.261Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:11:58.262Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:11:58.263Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:11:58.263Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T12:11:58.274Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T12:11:58.277Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:11:58.291Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T12:11:58.322Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T12:11:58.324Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:13:27.758Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T12:13:27.827Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:13:27.828Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:13:27.829Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T12:13:27.830Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:13:27.833Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:13:27.834Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T12:13:27.898Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T12:13:27.899Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:13:27.900Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T12:13:27.903Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T12:13:27.904Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T12:13:27.905Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T12:13:27.906Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-02-21T12:13:27.908Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T12:13:27.911Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T12:13:27.913Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T12:13:27.916Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-02-21T12:13:27.926Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-02-21T12:13:27.947Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T12:13:27.949Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:13:27.950Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T12:13:27.951Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:13:27.953Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T12:13:27.953Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:13:27.954Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:13:27.955Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:13:27.955Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:13:27.956Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:13:27.984Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:13:27.986Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:13:27.986Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:13:27.987Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:13:28.033Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T12:19:34.764Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-02-21T12:19:34.848Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:19:34.858Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:19:34.860Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-02-21T12:19:34.867Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "17ms"
+}
+[2026-02-21T12:19:34.869Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T12:19:34.872Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T12:19:34.927Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-02-21T12:19:34.932Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:19:34.933Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:19:34.935Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-02-21T12:19:34.936Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-02-21T12:19:34.938Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-02-21T12:19:34.942Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T12:19:34.948Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-02-21T12:19:34.950Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-02-21T12:19:34.952Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-02-21T12:19:34.954Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-02-21T12:19:34.966Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "18ms"
+}
+[2026-02-21T12:19:34.978Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T12:19:34.980Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:19:34.984Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T12:19:34.988Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:19:35.007Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T12:19:35.009Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:19:35.015Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:19:35.016Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-02-21T12:19:35.036Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:19:35.037Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-02-21T12:19:35.039Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:19:35.040Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:19:35.041Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-02-21T12:19:35.041Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-02-21T12:19:35.147Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-02-21T12:19:51.087Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-02-21T12:19:51.139Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:19:51.145Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:19:51.146Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:19:51.148Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-02-21T12:19:51.149Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-02-21T12:19:51.150Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-02-21T12:19:51.153Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:19:51.157Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-02-21T12:19:51.160Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-02-21T12:19:51.163Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-02-21T12:19:51.208Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-02-21T12:19:51.209Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:19:51.274Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-02-21T12:19:51.355Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-02-21T12:19:56.546Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/rewards.html"
+}
+[2026-02-21T12:19:56.591Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-02-21T12:19:56.592Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-02-21T12:19:56.593Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:19:56.596Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-02-21T12:19:56.601Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:19:56.603Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:19:56.650Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-02-21T12:19:56.651Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:19:56.653Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-02-21T12:19:56.654Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logobk.png"
+}
+[2026-02-21T12:19:56.654Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-02-21T12:19:56.655Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logomadco.png"
+}
+[2026-02-21T12:19:56.657Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:19:56.658Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:19:56.659Z] [INFO] HTTP GET /public/assets/images/logomadco.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:19:56.659Z] [INFO] HTTP GET /public/assets/images/logobk.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T12:19:56.660Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logokfc.png"
+}
+[2026-02-21T12:19:56.662Z] [INFO] HTTP GET /public/assets/images/logokfc.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:19:56.671Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logosushishop.png"
+}
+[2026-02-21T12:19:56.673Z] [INFO] HTTP GET /public/assets/images/logosushishop.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:19:56.680Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/burger.png"
+}
+[2026-02-21T12:19:56.682Z] [INFO] HTTP GET /public/assets/images/burger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:19:56.686Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/menuduokfc.jpg"
+}
+[2026-02-21T12:19:56.688Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/glaceburgerking.png"
+}
+[2026-02-21T12:19:56.689Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/krispertenders.png"
+}
+[2026-02-21T12:19:56.689Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/bucketkfc.jpg"
+}
+[2026-02-21T12:19:56.690Z] [INFO] HTTP GET /public/assets/images/bucketkfc.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-02-21T12:19:56.692Z] [INFO] HTTP GET /public/assets/images/menuduokfc.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-02-21T12:19:56.693Z] [INFO] HTTP GET /public/assets/images/krispertenders.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-02-21T12:19:56.693Z] [INFO] HTTP GET /public/assets/images/glaceburgerking.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-02-21T12:19:56.729Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/giftsalade-1.jpg"
+}
+[2026-02-21T12:19:56.730Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/giftravioli-2.jpg"
+}
+[2026-02-21T12:19:56.731Z] [INFO] HTTP GET /public/assets/images/giftravioli-2.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-02-21T12:19:56.732Z] [INFO] HTTP GET /public/assets/images/giftsalade-1.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-02-21T12:19:56.774Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/notifications"
+}
+[2026-02-21T12:20:01.665Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/profile.html"
+}

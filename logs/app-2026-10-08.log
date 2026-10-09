@@ -1,0 +1,1546 @@
+[2026-10-08T21:40:27.266Z] [INFO] Budget_App Server démarré
+[2026-10-08T21:40:27.267Z] [INFO] Server running on http://localhost:3000
+[2026-10-08T21:40:27.271Z] [INFO] Connected to MySQL
+[2026-10-08T21:40:27.272Z] [INFO] Database 'Backend_node' ready.
+[2026-10-08T21:40:27.278Z] [INFO] Users table ready with full schema.
+[2026-10-08T21:40:27.279Z] [INFO] Categories table ready.
+[2026-10-08T21:40:27.281Z] [INFO] Transactions table ready.
+[2026-10-08T21:40:43.677Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:40:43.678Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:40:43.680Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt expired"
+}
+[2026-10-08T21:43:33.775Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:43:33.775Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:43:33.776Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt expired"
+}
+[2026-10-08T21:47:17.619Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:47:17.619Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:47:17.621Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt expired"
+}
+[2026-10-08T21:48:41.528Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:48:41.528Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T21:48:41.528Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T21:55:14.663Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T21:55:14.666Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T21:56:30.500Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:56:30.500Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:57:07.058Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:57:07.058Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:57:40.347Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:57:40.347Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:58:17.853Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:58:17.853Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:58:32.695Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T21:58:32.696Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T22:02:25.237Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile?token=97c105814965274259153087da3ce66c814b6c443f37e566002df857bb9acca3"
+}
+[2026-10-08T22:02:25.237Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile?token=97c105814965274259153087da3ce66c814b6c443f37e566002df857bb9acca3"
+}
+[2026-10-08T22:03:25.043Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:03:25.043Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:03:54.884Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:03:54.884Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:11:26.918Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:11:26.918Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:12:54.023Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/login"
+}
+[2026-10-08T22:12:54.023Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/login"
+}
+[2026-10-08T22:12:56.075Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/login"
+}
+[2026-10-08T22:12:56.075Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/login"
+}
+[2026-10-08T22:13:08.433Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:13:08.433Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:13:19.635Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:13:19.635Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:16:19.568Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:16:19.568Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:19:14.364Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:19:14.364Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:25:20.225Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:25:20.226Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:26:56.100Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-10-08T22:26:56.103Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T22:26:56.105Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:26:56.135Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:26:56.137Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:26:56.156Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:26:56.159Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:26:56.232Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:26:56.233Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:27:15.247Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-10-08T22:27:15.254Z] [INFO] HTTP GET /
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-10-08T22:27:15.299Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jerome.jpg"
+}
+[2026-10-08T22:27:15.300Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-10-08T22:27:15.301Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:27:15.302Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:27:15.302Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:27:15.303Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/betty.jpg"
+}
+[2026-10-08T22:27:15.303Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:27:15.304Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/hawkins.jpg"
+}
+[2026-10-08T22:27:15.304Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/profil.jpg"
+}
+[2026-10-08T22:27:15.305Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/iconeshopping.jpg"
+}
+[2026-10-08T22:27:15.330Z] [INFO] HTTP GET /Public/Assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "26ms"
+}
+[2026-10-08T22:27:15.331Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-10-08T22:27:15.333Z] [INFO] HTTP GET /Public/Assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "33ms"
+}
+[2026-10-08T22:27:15.334Z] [INFO] HTTP GET /Public/Assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "30ms"
+}
+[2026-10-08T22:27:15.335Z] [INFO] HTTP GET /Public/Assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "36ms"
+}
+[2026-10-08T22:27:15.337Z] [INFO] HTTP GET /Public/Assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "32ms"
+}
+[2026-10-08T22:27:15.340Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jenny.jpg"
+}
+[2026-10-08T22:27:15.341Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logofnac.png"
+}
+[2026-10-08T22:27:15.341Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logocdiscount.png"
+}
+[2026-10-08T22:27:15.342Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logoboulanger.png"
+}
+[2026-10-08T22:27:15.344Z] [INFO] HTTP GET /Public/Assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-10-08T22:27:15.345Z] [INFO] HTTP GET /Public/Assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-10-08T22:27:15.346Z] [INFO] HTTP GET /Public/Assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-10-08T22:27:15.347Z] [INFO] HTTP GET /Public/Assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-10-08T22:27:15.349Z] [INFO] HTTP GET /Public/Assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-10-08T22:27:15.353Z] [INFO] HTTP GET /Public/Assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "46ms"
+}
+[2026-10-08T22:27:15.405Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T22:27:15.405Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T22:27:15.410Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T22:27:15.410Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T22:27:15.412Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T22:27:15.412Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T22:27:15.414Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T22:27:15.415Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T22:28:15.346Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:28:15.346Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:28:22.050Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/profile.html"
+}
+[2026-10-08T22:28:22.053Z] [INFO] HTTP GET /profile.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:28:22.090Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:28:22.091Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:22.094Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:28:22.096Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:28:22.097Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Themesflat.jpg"
+}
+[2026-10-08T22:28:22.099Z] [INFO] HTTP GET /Public/Assets/images/Themesflat.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:22.122Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T22:28:22.122Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-10-08T22:28:27.207Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/setting.html"
+}
+[2026-10-08T22:28:27.210Z] [INFO] HTTP GET /setting.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:28:27.236Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:28:27.237Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:29.340Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/logout"
+}
+[2026-10-08T22:28:29.345Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T22:28:29.347Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:28:29.379Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:28:29.380Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:28:29.380Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:29.381Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:45.051Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-10-08T22:28:55.719Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-10-08T22:28:55.941Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-10-08T22:28:55.942Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:55.975Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:28:55.976Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:55.977Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:28:55.978Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:28:55.983Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/profil.jpg"
+}
+[2026-10-08T22:28:55.984Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-10-08T22:28:55.984Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/hawkins.jpg"
+}
+[2026-10-08T22:28:55.985Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jenny.jpg"
+}
+[2026-10-08T22:28:55.986Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-10-08T22:28:55.986Z] [INFO] HTTP GET /Public/Assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:28:55.987Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jerome.jpg"
+}
+[2026-10-08T22:28:55.988Z] [INFO] HTTP GET /Public/Assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-10-08T22:28:55.989Z] [INFO] HTTP GET /Public/Assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-10-08T22:28:55.990Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/betty.jpg"
+}
+[2026-10-08T22:28:55.990Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/iconeshopping.jpg"
+}
+[2026-10-08T22:28:55.991Z] [INFO] HTTP GET /Public/Assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-10-08T22:28:55.992Z] [INFO] HTTP GET /Public/Assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-10-08T22:28:55.993Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logofnac.png"
+}
+[2026-10-08T22:28:55.994Z] [INFO] HTTP GET /Public/Assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:28:55.994Z] [INFO] HTTP GET /Public/Assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-10-08T22:28:55.995Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logocdiscount.png"
+}
+[2026-10-08T22:28:55.996Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logoboulanger.png"
+}
+[2026-10-08T22:28:55.996Z] [INFO] HTTP GET /Public/Assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:28:55.996Z] [INFO] HTTP GET /Public/Assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-10-08T22:28:55.997Z] [INFO] HTTP GET /Public/Assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:28:55.999Z] [INFO] HTTP GET /Public/Assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-10-08T22:28:56.027Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T22:28:56.027Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T22:28:56.030Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T22:28:56.030Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T22:28:56.032Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T22:28:56.033Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T22:28:56.036Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T22:28:56.036Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T22:29:02.634Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:29:02.634Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:29:35.192Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:29:35.192Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:29:35.192Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T22:29:38.604Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:29:38.605Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/categories"
+}
+[2026-10-08T22:29:38.605Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T22:45:27.963Z] [INFO] Budget_App Server démarré
+[2026-10-08T22:45:27.965Z] [INFO] Server running on http://localhost:3000
+[2026-10-08T22:45:27.967Z] [INFO] Connected to MySQL
+[2026-10-08T22:45:27.969Z] [INFO] Database 'Backend_node' ready.
+[2026-10-08T22:45:27.972Z] [INFO] Users table ready with full schema.
+[2026-10-08T22:45:27.972Z] [INFO] Categories table ready.
+[2026-10-08T22:45:27.973Z] [INFO] Transactions table ready.
+[2026-10-08T22:45:34.656Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:45:34.656Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:48:21.233Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login?id=yangueissa@gmail.com&password=12345678"
+}
+[2026-10-08T22:48:21.233Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login?id=yangueissa@gmail.com&password=12345678"
+}
+[2026-10-08T22:49:38.536Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:49:38.536Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:50:44.400Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:50:44.400Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:51:05.997Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:51:05.997Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:51:43.216Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:51:43.216Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:52:01.534Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:52:01.534Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T22:52:01.535Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T22:54:37.698Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-10-08T22:54:37.708Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T22:54:37.711Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:54:37.757Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:54:37.758Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:54:37.759Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:54:37.761Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:55:12.057Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-10-08T22:55:12.255Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-10-08T22:55:12.257Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:55:12.280Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:55:12.281Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:55:12.282Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:55:12.283Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:55:12.285Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/profil.jpg"
+}
+[2026-10-08T22:55:12.286Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-10-08T22:55:12.286Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/hawkins.jpg"
+}
+[2026-10-08T22:55:12.288Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jenny.jpg"
+}
+[2026-10-08T22:55:12.288Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-10-08T22:55:12.289Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jerome.jpg"
+}
+[2026-10-08T22:55:12.294Z] [INFO] HTTP GET /Public/Assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-10-08T22:55:12.294Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/betty.jpg"
+}
+[2026-10-08T22:55:12.301Z] [INFO] HTTP GET /Public/Assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "14ms"
+}
+[2026-10-08T22:55:12.302Z] [INFO] HTTP GET /Public/Assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-10-08T22:55:12.303Z] [INFO] HTTP GET /Public/Assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "17ms"
+}
+[2026-10-08T22:55:12.304Z] [INFO] HTTP GET /Public/Assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-10-08T22:55:12.304Z] [INFO] HTTP GET /Public/Assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-10-08T22:55:12.304Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/iconeshopping.jpg"
+}
+[2026-10-08T22:55:12.306Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logofnac.png"
+}
+[2026-10-08T22:55:12.306Z] [INFO] HTTP GET /Public/Assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "17ms"
+}
+[2026-10-08T22:55:12.307Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logocdiscount.png"
+}
+[2026-10-08T22:55:12.308Z] [INFO] HTTP GET /Public/Assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:55:12.309Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logoboulanger.png"
+}
+[2026-10-08T22:55:12.309Z] [INFO] HTTP GET /Public/Assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T22:55:12.310Z] [INFO] HTTP GET /Public/Assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:55:12.316Z] [INFO] HTTP GET /Public/Assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-10-08T22:55:12.352Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T22:55:12.352Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T22:55:12.355Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T22:55:12.355Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T22:55:12.357Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T22:55:12.357Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T22:55:12.359Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T22:55:12.360Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T22:55:19.967Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-10-08T22:55:19.968Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T22:55:19.969Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:55:29.248Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-10-08T22:55:29.250Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T22:55:29.250Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-10-08T22:55:47.424Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-10-08T22:55:47.427Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T22:55:47.460Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T22:55:47.460Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-10-08T22:55:47.461Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T22:55:47.462Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-10-08T22:55:47.496Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?"
+}
+[2026-10-08T22:55:47.496Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?"
+}
+[2026-10-08T22:56:00.750Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-10-08T22:56:00.752Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T22:56:00.753Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T22:57:04.935Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:57:04.935Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:57:12.940Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:57:12.941Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-10-08T22:57:12.941Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T23:19:05.821Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-10-08T23:19:05.829Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-10-08T23:19:05.849Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-10-08T23:19:05.850Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/style.css"
+}
+[2026-10-08T23:19:05.851Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T23:19:05.852Z] [INFO] HTTP GET /Public/Assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T23:19:05.853Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/profil.jpg"
+}
+[2026-10-08T23:19:05.853Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/esther.jpg"
+}
+[2026-10-08T23:19:05.853Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/hawkins.jpg"
+}
+[2026-10-08T23:19:05.854Z] [INFO] HTTP GET /Public/Assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T23:19:05.856Z] [INFO] HTTP GET /Public/Assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T23:19:05.857Z] [INFO] HTTP GET /Public/Assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T23:19:05.863Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jenny.jpg"
+}
+[2026-10-08T23:19:05.863Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Leslie.jpg"
+}
+[2026-10-08T23:19:05.864Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/jerome.jpg"
+}
+[2026-10-08T23:19:05.864Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/betty.jpg"
+}
+[2026-10-08T23:19:05.865Z] [INFO] HTTP GET /Public/Assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T23:19:05.866Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/iconeshopping.jpg"
+}
+[2026-10-08T23:19:05.866Z] [INFO] HTTP GET /Public/Assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T23:19:05.867Z] [INFO] HTTP GET /Public/Assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T23:19:05.867Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logofnac.png"
+}
+[2026-10-08T23:19:05.868Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logocdiscount.png"
+}
+[2026-10-08T23:19:05.869Z] [INFO] HTTP GET /Public/Assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-10-08T23:19:05.870Z] [INFO] HTTP GET /Public/Assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-10-08T23:19:05.870Z] [INFO] HTTP GET /Public/Assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-10-08T23:19:05.871Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/logoboulanger.png"
+}
+[2026-10-08T23:19:05.871Z] [INFO] HTTP GET /Public/Assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-10-08T23:19:05.873Z] [INFO] HTTP GET /Public/Assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-10-08T23:19:05.899Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T23:19:05.899Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-10-08T23:19:05.902Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T23:19:05.902Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/rewards"
+}
+[2026-10-08T23:19:05.907Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T23:19:05.907Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-10-08T23:19:05.909Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T23:19:05.909Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-10-08T23:45:52.498Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:45:52.498Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:49:36.538Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:49:36.538Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:50:21.402Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:50:21.402Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:50:21.402Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T23:50:36.799Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:50:36.799Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:50:36.800Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T23:51:08.826Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:51:08.826Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:51:08.826Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T23:51:30.636Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:51:30.636Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:51:30.636Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T23:52:19.168Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:52:19.168Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:52:19.169Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-10-08T23:52:38.686Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:52:38.686Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:53:12.269Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:53:12.269Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/login"
+}
+[2026-10-08T23:53:41.097Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/"
+}
+[2026-10-08T23:53:41.100Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-10-08T23:53:41.101Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-10-08T23:54:18.510Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/index"
+}
+[2026-10-08T23:54:18.510Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/index"
+}
+[2026-10-08T23:54:34.652Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/api/index"
+}
+[2026-10-08T23:54:34.652Z] [INFO] API request
+  Data: {
+  "method": "POST",
+  "url": "/api/index"
+}
+[2026-10-08T23:55:27.406Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/index"
+}
+[2026-10-08T23:55:27.407Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/index"
+}

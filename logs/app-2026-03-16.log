@@ -1,0 +1,278 @@
+[2026-03-16T00:40:24.443Z] [INFO] Budget_App Server Started
+[2026-03-16T00:40:24.451Z] [INFO] Server running on http://localhost:3000
+[2026-03-16T00:41:24.294Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-16T00:41:24.353Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T00:41:24.451Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T00:41:24.457Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-16T00:41:25.101Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T00:41:25.111Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T00:41:40.251Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T00:42:01.179Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T00:42:28.251Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/inscription.html"
+}
+[2026-03-16T00:42:28.315Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T00:42:28.318Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-16T00:42:28.505Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T00:42:28.515Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T00:42:49.001Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/register"
+}
+[2026-03-16T00:43:00.391Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/inscription.html"
+}
+[2026-03-16T00:43:00.465Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T00:43:00.467Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-16T00:43:00.616Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T00:43:00.630Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T00:43:02.275Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T00:43:02.284Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T00:43:21.282Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T00:43:27.859Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T00:43:27.860Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-16T00:43:27.869Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-16T00:43:27.871Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T00:43:35.130Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T16:00:04.763Z] [INFO] Budget_App Server Started
+[2026-03-16T16:00:04.788Z] [INFO] Server running on http://localhost:3001
+[2026-03-16T16:01:24.892Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-16T16:06:07.170Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-16T16:06:07.225Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:06:07.346Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T16:06:07.358Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-03-16T16:06:08.053Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T16:06:08.059Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:06:33.710Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T16:13:11.356Z] [INFO] Budget_App Server Started
+[2026-03-16T16:13:11.357Z] [INFO] Server running on http://localhost:3001
+[2026-03-16T16:13:23.883Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-16T16:13:23.924Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:13:24.018Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T16:13:24.024Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-16T16:13:24.627Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T16:13:24.638Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:13:41.643Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T16:13:51.867Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T16:13:51.869Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-16T16:13:51.884Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-16T16:13:51.886Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:14:03.753Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-16T16:33:41.316Z] [INFO] Budget_App Server Started
+[2026-03-16T16:33:41.318Z] [INFO] Server running on http://localhost:3001
+[2026-03-16T16:33:46.133Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-16T16:33:46.174Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:33:46.286Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-16T16:33:46.290Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-16T16:33:47.110Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-16T16:33:47.127Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-16T16:34:03.631Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notifications – Budget App</title>
+  <meta name="description" content="Gérez vos préférences de notifications Budget App." />
+  <link rel="canonical" href="notification-setting.html" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../Public/Assets/style.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">Notifications</h1>
+
+    <div class="container">
+        <div class="breadcrumb mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="./setting.html">Paramètres</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <span class="bi bi-gear-fill text-black" style="font-size: 15px;"></span>
+                        Paramètres de notification
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <div class="list-group mb-4">
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-arrow-left-right me-3 text-primary" id="generalsnotification" aria-hidden="true"></i> Notifications
+                    Générales</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch" checked>
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-receipt me-3 text-primary" id="song" aria-hidden="true"></i> son</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch" checked>
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-phone-vibrate me-3 text-primary" id="vibrate" aria-hidden="true"></i>Vibreur</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch">
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-phone me-3 text-primary" id="update" aria-hidden="true"></i> Mise à jour Appli</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch" checked>
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-envelope me-3 text-primary" id="billreminder" aria-hidden="true"></i>Rappel facture</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch" checked>
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-chat-text me-3 text-primary" id="voucher" aria-hidden="true"></i>Promotion</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch">
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-cash-coin me-3 text-primary" id="balance" aria-hidden="true"></i>Soldes Disponibles</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch">
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-chat-text me-3 text-primary" id="paymentrequire" aria-hidden="true"></i>Paiment Requis</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch">
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-chat-text me-3 text-primary" id="newservice" aria-hidden="true"></i>Nouveau service disponible</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch">
+                </div>
+            </div>
+            <div class="list-group-item d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-chat-text me-3 text-primary" id="newstips" aria-hidden="true"></i>Nouveautés astuces</span>
+                <div class="form-check form-switch">
+                    <input class="form-check-input fs-4" type="checkbox" role="switch">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Script pour gérer les bascules des notifications
+        document.addEventListener("DOMContentLoaded", function () {
+            const generalsnotification = document.getElementById("generalsnotification");
+            const song = document.getElementById("song");
+            const vibrate = document.getElementById("vibrate");
+            const update = document.getElementById("update");
+            const billreminder = document.getElementById("billreminder");
+            const voucher = document.getElementById("voucher");
+            const balance = document.getElementById("balance");
+            const paymentrequire = document.getElementById("paymentrequire");
+            const newservice = document.getElementById("newservice");
+            const newstips = document.getElementById("newstips");
+
+            generalsnotification.addEventListener("click", function () {
+                generalsnotification.classList.toggle("active");
+            });
+            song.addEventListener("click", function () {
+                song.classList.toggle("active");
+            });
+            vibrate.addEventListener("click", function () {
+                vibrate.classList.toggle("active");
+            });
+            update.addEventListener("click", function () {
+                update.classList.toggle("active");
+            });
+            billreminder.addEventListener("click", function () {
+                billreminder.classList.toggle("active");
+            });
+            voucher.addEventListener("click", function () {
+                voucher.classList.toggle("active");
+            });
+            balance.addEventListener("click", function () {
+                balance.classList.toggle("active");
+            });
+            paymentrequire.addEventListener("click", function () {
+                paymentrequire.classList.toggle("active");
+            });
+            newservice.addEventListener("click", function () {
+                newservice.classList.toggle("active");
+            });
+            newstips.addEventListener("click", function () {
+                newstips.classList.toggle("active");
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

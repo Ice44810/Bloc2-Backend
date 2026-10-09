@@ -1,0 +1,139 @@
+[2026-08-30T22:43:11.395Z] [INFO] Budget_App Server démarré
+[2026-08-30T22:43:11.409Z] [INFO] Server running on http://localhost:3000
+[2026-08-30T22:43:11.459Z] [INFO] Connected to MySQL
+[2026-08-30T22:43:11.476Z] [INFO] Database 'Backend_node' ready.
+[2026-08-30T22:43:11.491Z] [INFO] Users table ready with full schema.
+[2026-08-30T22:43:11.493Z] [INFO] Transactions table ready.
+[2026-08-30T22:43:11.494Z] [INFO] Categories table ready.
+[2026-08-30T22:43:42.782Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-08-30T22:43:42.909Z] [INFO] HTTP GET /
+  Data: {
+  "statusCode": 200,
+  "duration": "128ms"
+}
+[2026-08-30T22:43:44.015Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-08-30T22:43:44.039Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-08-30T22:43:44.051Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-08-30T22:43:44.085Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "44ms"
+}
+[2026-08-30T22:43:44.094Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "41ms"
+}
+[2026-08-30T22:43:44.117Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "100ms"
+}
+[2026-08-30T22:43:44.267Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-08-30T22:43:44.272Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-08-30T22:43:44.274Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-08-30T22:43:44.278Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-08-30T22:43:44.281Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-08-30T22:43:44.285Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-08-30T22:43:44.303Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-08-30T22:43:44.308Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-08-30T22:43:44.339Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-08-30T22:43:44.356Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-08-30T22:43:45.768Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-08-30T22:43:45.790Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-08-30T22:43:45.903Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-08-30T22:43:45.903Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-08-30T22:43:46.027Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-08-30T22:43:46.028Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-08-30T22:43:46.086Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-08-30T22:43:46.092Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/favicon.ico.html",
+  "pageName": "favicon.ico.html"
+}
+[2026-08-30T22:44:08.487Z] [INFO] Budget_App Server démarré
+[2026-08-30T22:44:08.498Z] [INFO] Server running on http://localhost:3000

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Réservation cinéma – Budget App</title>
+  <meta name="description" content="Réservez vos places de cinéma depuis Budget App." />
+  <link rel="canonical" href="film.html" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../Public/Assets/style.css" />
+    <style>
+        .tariff-card {
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: 0.2s;
+        }
+
+        .tariff-card.active {
+            border-color: var(--primary-color) !important;
+            background-color: #f0f7ff;
+        }
+    </style>
+</head>
+
+<body>
+  <h1 class="visually-hidden">Réservation cinéma</h1>
+
+    <div class="search-container p-3 bg-white shadow-sm sticky-top">
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-text bg-light border-0"><i class="bi bi-search" aria-hidden="true"></i></span>
+                <input type="text" id="movieSearchInput" class="form-control bg-light border-0"
+                    placeholder="Rechercher un film...">
+                <button class="btn btn-primary opacity-75 ms-2 rounded-3" id="searchBtn">Explorer</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie-banner" id="movieBanner">
+        <div class="container">
+            <h2 class="fw-bold mb-0" id="movieTitle">Sélectionnez un film</h2>
+            <p class="small mb-0 opacity-75" id="movieMeta">Recherchez pour voir les détails</p>
+        </div>
+    </div>
+
+    <div class="container py-4 mb-5">
+        <h6 class="fw-bold mb-3 small text-uppercase text-muted">1. Votre Tarif</h6>
+        <div class="row g-2 mb-4">
+            <div class="col-6">
+                <div class="card p-2 tariff-card active" data-discount="1">
+                    <span class="small fw-bold">Standard</span>
+                    <small class="text-muted">Plein tarif</small>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card p-2 tariff-card" data-discount="0.75">
+                    <span class="small fw-bold">Étudiant</span>
+                    <small class="text-muted">-26 ans</small>
+                </div>
+            </div>
+        </div>
+
+        <h6 class="fw-bold mb-3 small text-uppercase text-muted">2. Cinémas & Horaires</h6>
+        <div class="cinema-card shadow-sm p-3 mb-3 border rounded">
+            <h6 class="fw-bold mb-2">Pathé Bellecour</h6>
+            <div class="d-flex gap-2">
+                <button class="btn btn-sm btn-outline-dark px-3 rounded-pill" onclick="setPrice(14.50)">14:30</button>
+                <button class="btn btn-sm btn-outline-dark px-3 rounded-pill" onclick="setPrice(14.50)">18:00</button>
+            </div>
+        </div>
+
+        <h6 class="fw-bold mb-3 small text-uppercase text-muted">3. Vos Sièges</h6>
+        <div class="bg-white p-4 rounded-4 shadow-sm text-center border">
+            <div class="screen-line"></div>
+            <div class="seat-grid" id="seatGrid"></div>
+        </div>
+    </div>
+
+    <div class="btn-checkout" id="btnCheckout" role="button" tabindex="0" aria-label="Payer les places">
+        <span id="seatCount" class="fw-semibold">0 place sélectionnée</span>
+        <span id="totalPrice" class="fw-semibold text-white ms-1">0.00 €</span>
+    </div>
+
+    <script src="/public/js/api.js"></script>
+    <script>
+        const API_KEY = 'e31ee77b3c03caeaef59a8e58988ed57';
+        let basePrice = 14.50;
+        let discount = 1;
+
+        // Génération des sièges
+        const grid = document.getElementById('seatGrid');
+        for (let i = 0; i < 30; i++) {
+            const seat = document.createElement('div');
+            seat.className = 'seat' + (Math.random() > 0.8 ? ' occupied' : '');
+            seat.onclick = () => {
+                if (!seat.classList.contains('occupied')) {
+                    seat.classList.toggle('selected');
+                    updateUI();
+                }
+            };
+            grid.appendChild(seat);
+        }
+
+        // Recherche films
+        document.getElementById('searchBtn').onclick = async () => {
+            const query = document.getElementById('movieSearchInput').value;
+            if (!query) return;
+            try {
+                const res = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${encodeURIComponent(query)}&language=fr-FR`);
+                const data = await res.json();
+                if (data.results && data.results[0]) updateMovie(data.results[0]);
+            } catch (err) {
+                console.error("Erreur API:", err);
+            }
+        };
+
+        function updateMovie(movie) {
+            document.getElementById('movieTitle').innerText = movie.title;
+            document.getElementById('movieMeta').innerText = `Note: ${movie.vote_average}/10 • Sortie: ${movie.release_date}`;
+            if (movie.backdrop_path) {
+                document.getElementById('movieBanner').style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('https://image.tmdb.org/t/p/w1280${movie.backdrop_path}')`;
+            }
+        }
+
+        // Gestion Tarifs
+        document.querySelectorAll('.tariff-card').forEach(card => {
+            card.onclick = () => {
+                document.querySelectorAll('.tariff-card').forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+                discount = parseFloat(card.dataset.discount);
+                updateUI();
+            };
+        });
+
+        function setPrice(p) {
+            basePrice = p;
+            updateUI();
+        }
+
+        // Payer les places : facture "Film" chez Pathé, puis choix de la source de paiement
+        document.getElementById('btnCheckout').addEventListener('click', () => {
+            const count = document.querySelectorAll('.seat.selected').length;
+            if (count === 0) {
+                alert('Sélectionnez au moins une place.');
+                return;
+            }
+            const amount = Math.round(count * basePrice * discount * 100) / 100;
+            Payment.start({ kind: 'bill', serviceId: 5, serviceName: 'Film', provider: 'Pathé', amount });
+        });
+
+        function updateUI() {
+            const count = document.querySelectorAll('.seat.selected').length;
+            document.getElementById('seatCount').innerText = `${count} place${count > 1 ? 's' : ''} sélectionnée${count > 1 ? 's' : ''}`;
+            document.getElementById('totalPrice').innerText = `${(count * basePrice * discount).toFixed(2)} €`;
+        }
+    </script>
+</body>
+
+</html>

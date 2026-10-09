@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compte bancaire – Budget App</title>
+  <meta name="description" content="Consultez votre compte bancaire et votre IBAN sur Budget App." />
+  <link rel="canonical" href="banque.html" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../Public/Assets/style.css" />
+</head>
+
+<body>
+  <h1 class="visually-hidden">Mon compte bancaire</h1>
+
+  <!-- Header -->
+  <div class="container">
+    <div class="breadcrumb mt-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="bi bi-bank text-primary" style="font-size: 15px;"></span>
+            Compte Bancaire
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container-fluid">
+      <h2 class="fw-semibold mb-4 ms-3 mt-1 fs-6">Détails de mon Compte</h2>
+      <div class="card rounded-3 shadow-sm mb-2 bg-light-subtle">
+        <div class="card-body text-center">
+          <p class="text-muted mb-1">Solde Actuel</p>
+          <p class="fw-bold text-primary mb-2 fs-5" id="accountBalance">…</p>
+          <p class="mb-0 fs-6" id="accountHolder">…</p>
+          <small class="text-muted">Titulaire du Compte</small>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <ul class="list-group list-group-flush rounded-3 shadow-sm">
+          <li class="list-group-item d-flex justify-content-between">
+            <span><i class="bi bi-credit-card-fill me-2" aria-hidden="true"></i>IBAN</span>
+            <span class="fw-semibold text-break" id="accountIban">…</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span><i class="bi bi-bank me-2" aria-hidden="true"></i>BIC/SWIFT</span>
+            <span class="fw-semibold" id="accountBic">…</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span><i class="bi bi-person me-2" aria-hidden="true"></i>Nom Complet</span>
+            <span class="fw-semibold text-uppercase" id="accountFullName">…</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span><i class="bi bi-geo-alt me-2" aria-hidden="true"></i>Banque</span>
+            <span class="fw-semibold" id="accountBank">…</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-primary btn-copy-iban" id="btnCopyIban" style="border-radius: 12px;">
+        <i class="bi bi-clipboard me-2" aria-hidden="true"></i> Copier l'IBAN
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/public/js/api.js"></script>
+  <script>
+    let ibanText = "";
+
+    // GET /api/users/profile (identité, IBAN) + GET /api/balance (solde calculé depuis les transactions)
+    async function loadAccount() {
+      try {
+        const [user, balance] = await Promise.all([api.getProfile(), api.getBalance()]);
+        const notSet = "Non renseigné";
+        ibanText = user.iban || "";
+
+        document.getElementById("accountBalance").textContent = UI.formatCurrency(balance.balance);
+        document.getElementById("accountHolder").textContent = user.fullName || user.email;
+        document.getElementById("accountFullName").textContent = user.fullName || notSet;
+        document.getElementById("accountIban").textContent = user.iban || notSet;
+        document.getElementById("accountBic").textContent = user.bic_swift || notSet;
+        document.getElementById("accountBank").textContent = user.bank_name || notSet;
+      } catch (error) {
+        console.error("Erreur API :", error);
+      }
+    }
+    loadAccount();
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+      // 1. Gestion de la copie de l'IBAN
+      const copyBtn = document.querySelector('.btn-copy-iban'); // J'ai ajouté une classe spécifique ci-dessous
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', function () {
+          if (!ibanText) {
+            alert("Aucun IBAN enregistré pour ce compte.");
+            return;
+          }
+          // Copie dans le presse-papier
+          navigator.clipboard.writeText(ibanText.replace(/\s/g, '')).then(() => {
+
+            // Retour visuel sur le bouton
+            const originalContent = copyBtn.innerHTML;
+            copyBtn.innerHTML = '<i class="bi bi-check2 me-2" aria-hidden="true"></i> Copié !';
+            copyBtn.classList.replace('btn-primary-custom', 'btn-success');
+
+            // Remettre le bouton à l'état initial après 2 secondes
+            setTimeout(() => {
+              copyBtn.innerHTML = originalContent;
+              copyBtn.classList.replace('btn-success', 'btn-primary-custom');
+            }, 2000);
+
+          }).catch(err => {
+            console.error('Erreur lors de la copie : ', err);
+          });
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

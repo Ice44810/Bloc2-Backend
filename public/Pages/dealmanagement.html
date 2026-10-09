@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offres et bons – Budget App</title>
+  <meta name="description" content="Parcourez les offres et cartes cadeaux disponibles sur Budget App." />
+  <link rel="canonical" href="dealmanagement.html" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../Public/Assets/style.css" />
+</head>
+
+<body>
+  <h1 class="visually-hidden">Offres et bons</h1>
+
+  <div class="container">
+    <div class="breadcrumb mt-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item">
+            <a href="./rewards.html">Récompenses</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="bi bi-gear text-black" style="font-size: 15px;"></span>
+            Gérer les offres
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <h2 class="fw-semibold mb-4 ms-3 mt-1 fs-5">Gérer les offres et bons d'achat</h2>
+    <!-- Tableau contenu -->
+    <ul class="nav nav-tabs nav-fill mb-3" id="managementserviceTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" id="dealnearyou-tab" data-bs-toggle="tab" data-bs-target="#dealnearyou"
+          type="button" role="tab" aria-controls="dealnearyou" aria-selected="true">A Proximité </button>
+      </li>
+      <li class="nav-item"><button class="nav-link" id="giftcard-tab" data-bs-toggle="tab"
+          data-bs-target="#giftcard" type="button" role="tab" aria-controls="giftcard"
+          aria-selected="false">Bon d'achat
+        </button></li>
+    </ul>
+    <div class="tab-content px-3" id="recipientTabsContent">
+      <!-- Tableau deal a proximité -->
+      <div class="tab-pane fade show active" id="dealnearyou" role="tabpanel" aria-labelledby="dealnearyou-tab">
+        <div class="contact-item d-flex align-items-center mb-3" data-bs-toggle="modal"
+          data-bs-target="#contactModal">
+        </div>
+        <!-- COLONNE CARD 1-->
+        <div class="row g-3 px-3 pb-3">
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">35%</div>
+              <img src="../Public/Assets/images/burger.png" class="card-img-top" alt="Burger"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">The
+                    Big King Burger</a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">40%</div>
+              <img src="../Public/Assets/images/frites.jpg" class="card-img-top" alt="Fries"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">NOUVEAUTE Frites </a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- COLONNE CARD 2-->
+        <div class="row g-3 px-3 pb-3">
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">35%</div>
+              <img src="../Public/Assets/images/poulet.jpg" class="card-img-top" alt="Burger"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">Poulets Frits King
+                    Burger </a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">40%</div><img src="../Public/Assets/images/spaghetti.jpg"
+                class="card-img-top" alt="Fries" style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700"><a
+                    href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">Spaghetti sauce
+                    Cheese </a></h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem"><span
+                    class="text-warning">★★★★☆</span><span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- COLONNE CARD 3-->
+        <div class="row g-3 px-3 pb-3">
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">35%</div>
+              <img src="../Public/Assets/images/pizza.jpg" class="card-img-top" alt="Burger"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">Pizza Tomate
+                    Fromage - Italya </a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">40%</div>
+              <img src="../Public/Assets/images/hotdog.jpg" class="card-img-top" alt="Fries"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">Pasti Sedap
+                    French Fries - Malaysia </a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- COLONNE CARD 4-->
+        <div class="row g-3 px-3 pb-3">
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">35%</div>
+              <img src="../Public/Assets/images/burger.png" class="card-img-top" alt="Burger"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">The
+                    Big
+                    King Burger </a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card deal-card h-100 shadow-sm border-0">
+              <div class="discount-badge">40%</div>
+              <img src="../Public/Assets/images/giftravioli-2.jpg" class="card-img-top" alt="Fries"
+                style="height: 280px; object-fit: cover" />
+              <div class="card-body p-3 d-flex flex-column justify-content-between">
+                <h5 class="card-title mb-1" style="font-size: 0.85rem; font-weight: 700">
+                  <a href="giftcarddetail.html"
+                    class="text-decoration-none text-dark stretched-link">Ravioli
+                    Cheese - Italya </a>
+                </h5>
+                <div class="d-flex align-items-center mt-2" style="font-size: 0.7rem">
+                  <span class="text-warning">★★★★☆</span>
+                  <span class="ms-1 fw-bold">4.1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tableau deal bon d'achat -->
+    <div class="tab-pane fade" id="giftcard" role="tabpanel" aria-labelledby="giftcard-tab">
+      <div class="contact-item d-flex align-items-center p-2" data-bs-toggle="modal"
+        data-bs-target="#contactModal">
+      </div>
+      <!-- Tableau 1 -->
+      <p class="fw-semibold mb-2 px-3">Virtuels</p>
+      <div class="scroll-container px-3 mb-2" id="virtualScroll">
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="coupon-card bg-dark text-white">
+          <div class="coupon-left">
+            <span clacss="d-block small text-light">CUISINE TEST </span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-light mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right"
+            style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');text-decoration: none;">
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE TEST </span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left"><span class="d-block small text-muted">CUISINE TEST</span><span
+              class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left"><span class="d-block small text-light">CUISINE TEST</span><span
+                class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll ... -->
+      <div class="scroll-dots d-flex justify-content-center gap-2">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <!-- Tableau 2 -->
+      <p class="fw-semibold mb-2 px-3 mt-3">Cuisine</p>
+      <div class="scroll-container px-3 mb-2" id="kitchenScroll">
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="coupon-card bg-dark text-white">
+          <div class="coupon-left">
+            <span clacss="d-block small text-light">CUISINE TEST
+            </span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-light mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right"
+            style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');text-decoration: none;">
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left"><span class="d-block small text-muted">CUISINE TEST
+            </span><span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE
+                TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE
+                TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll ... -->
+      <div class="scroll-dots d-flex justify-content-center gap-2">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <!-- Tableau 3 -->
+      <p class="fw-semibold mb-2 px-3 mt-3">Restaurant</p>
+      <div class="scroll-container px-3 mb-2" id="restaurantScroll">
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE
+              TEST</span>
+            <span class="h5 fw-bold text-successmb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="coupon-card bg-dark text-white">
+          <div class="coupon-left">
+            <span clacss="d-block small text-light">CUISINE
+              TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-light mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right"
+            style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');text-decoration: none;">
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE TEST
+            </span><span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE
+                TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE
+              TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE
+                TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll ... -->
+      <div class="scroll-dots d-flex justify-content-center gap-2">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <!-- Tableau 4 -->
+      <p class="fw-semibold mb-2 px-3 mt-3">Virtuels</p>
+      <div class="scroll-container px-3 mb-2" id="virtual2Scroll">
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE
+              TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="coupon-card bg-dark text-white">
+          <div class="coupon-left">
+            <span clacss="d-block small text-light">CUISINE
+              TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-light mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right"
+            style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');text-decoration: none;">
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left">
+            <span class="d-block small text-muted">CUISINE
+              TEST </span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE
+                TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+        <div class="coupon-card">
+          <div class="coupon-left"><span class="d-block small text-muted">CUISINE
+              TEST</span>
+            <span class="h5 fw-bold text-success mb-0">R100</span>
+            <p class="small text-muted mb-0">COUPON</p>
+          </div>
+          <div class="coupon-right" style="background-image: url('../Public/Assets/images/giftsalade-1.jpg')">
+          </div>
+        </div>
+        <div class="row px-2 mb-4">
+          <div class="coupon-card bg-dark text-white">
+            <div class="coupon-left">
+              <span class="d-block small text-light">CUISINE
+                TEST</span>
+              <span class="h5 fw-bold text-success mb-0">R100</span>
+              <p class="small text-light mb-0">COUPON</p>
+            </div>
+            <div class="coupon-right"
+              style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Scroll ... -->
+      <div class="scroll-dots d-flex justify-content-center gap-2">
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script> // On sélectionne tous les conteneurs de cartes et leurs groupes de points correspondants
+    const scrollContainers = document.querySelectorAll(".scroll-container");
+    const allDotsGroups = document.querySelectorAll(".scroll-dots");
+
+    scrollContainers.forEach((container, index) => {
+      const dots = allDotsGroups[index].querySelectorAll(".dot");
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+
+      // --- 1. GESTION DES POINTS (SCROLL) ---
+      container.addEventListener("scroll", () => {
+        // On calcule la progression du scroll
+        const maxScroll = container.scrollWidth - container.offsetWidth;
+        if (maxScroll <= 0) return;
+
+        const scrollPercentage = container.scrollLeft / maxScroll;
+        // Détermine quel point doit être actif
+        let activeIndex = Math.round(scrollPercentage * (dots.length - 1));
+
+        dots.forEach((dot, i) => {
+          dot.classList.toggle("active", i === activeIndex);
+        }
+
+        );
+      }
+
+      );
+
+      // --- 2. GESTION DU GLISSEMENT A LA SOURIS ---
+      container.addEventListener("mousedown", (e) => {
+        isDown = true;
+        container.classList.add("active"); // Pour changer le curseur
+        startX = e.pageX - container.offsetLeft;
+        scrollLeft = container.scrollLeft;
+      }
+
+      );
+
+      container.addEventListener("mouseleave", () => {
+        isDown = false;
+      }
+
+      );
+
+      container.addEventListener("mouseup", () => {
+        isDown = false;
+      }
+
+      );
+
+      container.addEventListener("mousemove", (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - container.offsetLeft;
+        const walk = (x - startX) * 2; // Vitesse de défilement
+        container.scrollLeft = scrollLeft - walk;
+      }
+
+      );
+    }
+
+    );
+  </script>
+</body>
+
+</html>

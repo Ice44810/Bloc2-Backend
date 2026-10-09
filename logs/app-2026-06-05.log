@@ -1,0 +1,409 @@
+[2026-06-05T21:09:23.876Z] [INFO] Budget_App Server démarré
+[2026-06-05T21:09:23.886Z] [INFO] Server running on http://localhost:3000
+[2026-06-05T21:09:23.905Z] [INFO] Connected to MySQL
+[2026-06-05T21:09:23.908Z] [INFO] Database 'Backend_node' ready.
+[2026-06-05T21:09:23.913Z] [INFO] Users table ready with full schema.
+[2026-06-05T21:09:23.914Z] [INFO] Transactions table ready.
+[2026-06-05T21:09:23.915Z] [INFO] Categories table ready.
+[2026-06-05T21:09:33.859Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users"
+}
+[2026-06-05T21:09:33.860Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users"
+}
+[2026-06-05T21:17:02.350Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/login"
+}
+[2026-06-05T21:17:02.350Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/login"
+}
+[2026-06-05T21:26:27.666Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/user"
+}
+[2026-06-05T21:26:27.669Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/user"
+}
+[2026-06-05T21:45:10.995Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T21:45:10.995Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T21:45:48.104Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T21:45:48.104Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T21:46:25.638Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T21:46:25.638Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T21:46:36.286Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:46:36.287Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:50:04.644Z] [INFO] Budget_App Server démarré
+[2026-06-05T21:50:04.645Z] [INFO] Server running on http://localhost:3000
+[2026-06-05T21:50:04.655Z] [INFO] Connected to MySQL
+[2026-06-05T21:50:04.658Z] [INFO] Database 'Backend_node' ready.
+[2026-06-05T21:50:04.668Z] [INFO] Users table ready with full schema.
+[2026-06-05T21:50:04.669Z] [INFO] Transactions table ready.
+[2026-06-05T21:50:04.670Z] [INFO] Categories table ready.
+[2026-06-05T21:51:13.708Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:51:13.709Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:53:40.397Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:53:40.398Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:06.474Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:06.474Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:06.475Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T21:57:13.371Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:13.371Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:13.372Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T21:57:40.265Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:40.265Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:40.266Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T21:57:48.135Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:48.135Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:57:48.135Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T21:59:02.861Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:59:02.861Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T21:59:02.861Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T22:59:39.475Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T22:59:39.476Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:00:31.069Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:00:31.070Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:00:46.458Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:00:46.458Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:04:51.030Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:04:51.030Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:05:42.232Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:05:42.232Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-06-05T23:06:57.246Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions/login"
+}
+[2026-06-05T23:06:57.247Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions/login"
+}
+[2026-06-05T23:10:56.379Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-06-05T23:10:56.383Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-06-05T23:10:56.385Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-06-05T23:10:56.412Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-06-05T23:10:56.415Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-06-05T23:10:56.514Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-06-05T23:10:56.515Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-06-05T23:42:31.106Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T23:42:31.106Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?5b527703ff9a9abd8f15bdcdbb866086269a2f582d4bb7f774c7b9871b7afaa9"
+}
+[2026-06-05T23:42:31.106Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T23:45:01.336Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-06-05T23:45:01.336Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-06-05T23:45:01.336Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T23:45:49.210Z] [INFO] Incoming request
+  Data: {
+  "method": "PUT",
+  "url": "/api/users/profile"
+}
+[2026-06-05T23:45:49.210Z] [INFO] API request
+  Data: {
+  "method": "PUT",
+  "url": "/api/users/profile"
+}
+[2026-06-05T23:45:49.211Z] [ERROR] JWT Verification failed
+  Data: {
+  "error": "jwt malformed"
+}
+[2026-06-05T23:47:12.254Z] [INFO] Budget_App Server démarré
+[2026-06-05T23:47:12.254Z] [INFO] Server running on http://localhost:3000
+[2026-06-05T23:47:12.258Z] [INFO] Connected to MySQL
+[2026-06-05T23:47:12.260Z] [INFO] Database 'Backend_node' ready.
+[2026-06-05T23:47:12.263Z] [INFO] Users table ready with full schema.
+[2026-06-05T23:47:12.264Z] [INFO] Transactions table ready.
+[2026-06-05T23:47:12.264Z] [INFO] Categories table ready.
+[2026-06-05T23:47:23.937Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-06-05T23:47:28.601Z] [INFO] Connected to MySQL
+[2026-06-05T23:54:46.886Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/register"
+}
+[2026-06-05T23:54:46.891Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-06-05T23:54:46.895Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-06-05T23:55:24.142Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/register"
+}
+[2026-06-05T23:55:24.144Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-06-05T23:55:24.145Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-06-05T23:56:24.661Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/register"
+}
+[2026-06-05T23:56:24.665Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-06-05T23:56:24.666Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-06-05T23:56:41.310Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/register"
+}
+[2026-06-05T23:56:41.312Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-06-05T23:56:41.313Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-06-05T23:58:35.041Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/register"
+}
+[2026-06-05T23:59:18.238Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/register"
+}
+[2026-06-05T23:59:18.240Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-06-05T23:59:18.241Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-06-05T23:59:47.351Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/register"
+}

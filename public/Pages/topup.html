@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recharger le solde – Budget App</title>
+  <meta name="description" content="Rechargez votre solde Budget App depuis une carte ou un compte." />
+  <link rel="canonical" href="topup.html" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Public/Assets/style.css">
+    <style>
+        .pin-input {
+            width: 60px;
+            height: 70px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 12px;
+        }
+
+        .extra-small {
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+
+<body>
+  <h1 class="visually-hidden">Recharger le solde</h1>
+
+    <!-- HEADER -->
+    <div class="container">
+        <div class="breadcrumb mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <span class="bi bi-receipt text-primary" style="font-size: 15px;"></span>
+                        Recharger
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <div class="container py-3">
+            <div class="balance-card p-3 border shadow-sm rounded-4 bg-white">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted small">Solde disponible:</span>
+                    <span class="fw-bold fs-5" id="currentBalance">…</span>
+                </div>
+                <label class="form-label text-muted small">Montant à recharger</label>
+                <div class="position-relative mb-4">
+                    <input type="text" class="form-control amount-input ps-3 py-2" placeholder="€0">
+                    <i class="bi bi-x-circle-fill position-absolute top-50 end-0 translate-middle-y me-3 text-muted"
+                        id="clearAmount" style="cursor: pointer;" aria-hidden="true"></i>
+                </div>
+                <!-- Montant à recharger -->
+                <p class="fw-bold mb-2">Montant</p>
+                <div class="row g-2 mb-2">
+                    <div class="col-4"><button type="button"
+                            class="btn btn-outline-primary w-100 amount-btn">€50</button>
+                    </div>
+                    <div class="col-4"><button type="button"
+                            class="btn btn-outline-primary w-100 amount-btn">€100</button>
+                    </div>
+                    <div class="col-4"><button type="button"
+                            class="btn btn-outline-primary w-100 amount-btn">€200</button>
+                    </div>
+                </div>
+                <div class="row g-2 mb-4">
+                    <div class="col-4"><button type="button"
+                            class="btn btn-outline-primary w-100 amount-btn">€500</button>
+                    </div>
+                    <div class="col-4"><button type="button"
+                            class="btn btn-outline-primary w-100 amount-btn">€1000</button>
+                    </div>
+                    <div class="col-4"><button type="button"
+                            class="btn btn-outline-primary w-100 amount-btn">€2000</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end mt-3" id="btnOpenConfirm">
+                <button class="btn custom-primary-btn" type="button">Continuer</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Partie MODAL pour la CONFIRMATION -->
+    <div class="modal fade" id="confirmModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4">
+                <div class="modal-header border-0 pb-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body px-4">
+                    <h5 class="text-center fw-bold mb-4">Confirmer Rechargement</h5>
+                    <p class="text-muted small">Choisir la Source</p>
+                    <div class="d-flex align-items-center justify-content-between p-3 bg-light rounded-3 mb-4">
+                        <div class="d-flex align-items-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg"
+                                width="35" class="me-3" alt="Logo Mastercard">
+                            <div>
+                                <div class="fw-bold small">Mastercard</div>
+                                <div class="text-muted extra-small">**** 7576</div>
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-right text-muted" aria-hidden="true"></i>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="text-muted">Montant</span>
+                        <span class="fw-bold" id="confirmAmountDisplay">€0</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4">
+                        <span class="text-muted small">Frais</span>
+                        <span class="text-success fw-bold small">Gratuit</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center border-top pt-3">
+                        <div>
+                            <div class="text-muted small">Total</div>
+                            <div class="fw-bold fs-4 small" id="confirmTotalDisplay">€0</div>
+                        </div>
+                        <button class="btn btn-primary px-4 py-2 rounded-pill" id="btnToPin">
+                            <i class="bi bi-shield-check me-2" aria-hidden="true"></i>Recharger</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Partie MODAL pour PIN -->
+    <div class="modal fade" id="pinModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4 p-4 text-center">
+                <h5 class="fw-bold mb-4">Entrer votre PIN</h5>
+                <div class="d-flex justify-content-center gap-2 mb-3">
+                    <input type="password" class="form-control pin-input" maxlength="1">
+                    <input type="password" class="form-control pin-input" maxlength="1">
+                    <input type="password" class="form-control pin-input" maxlength="1">
+                    <input type="password" class="form-control pin-input" maxlength="1">
+                </div>
+                <p class="text-muted small">Entrez votre PIN pour valider</p>
+                <button class="btn btn-primary w-100 py-3 mt-4" id="btnToLoading">Continuer</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="loadingModal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 bg-transparent text-center">
+                <div class="spinner-border text-white mb-3" style="width: 3rem; height: 3rem;"></div>
+                <p class="text-white fw-bold">Encours...</p>
+            </div>
+        </div>
+    </div>
+    <!--Partie MODAL pour succes de la transaction -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4 p-5 text-center bg-primary text-white overflow-hidden">
+                <div class="bg-white rounded-4 p-4 text-dark shadow position-relative" style="z-index: 2;">
+                    <div class="bg-success rounded-circle d-inline-flex p-3 mb-3 text-white">
+                        <i class="bi bi-check-lg fs-1" aria-hidden="true"></i>
+                    </div>
+                    <h4 class="fw-bold">Succes!</h4>
+                    <p class="text-muted small">Votre recharge a été effectuée!</p>
+                    <div class="my-4">
+                        <span class="text-muted small">Total Recharge</span>
+                        <h2 class="fw-bold text-primary" id="successAmountDisplay">€0</h2>
+                    </div>
+                    <button class="btn btn-primary py-3" id="btnDone">Terminer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/js/api.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 1. Éléments de l'interface principale
+            const amountInput = document.querySelector('.amount-input');
+            const amountBtns = document.querySelectorAll('.amount-btn');
+            const clearBtn = document.getElementById('clearAmount');
+
+            // 2. Instances des Modals Bootstrap
+            const modalConfirm = new bootstrap.Modal(document.getElementById('confirmModal'));
+            const modalPin = new bootstrap.Modal(document.getElementById('pinModal'));
+            const modalLoading = new bootstrap.Modal(document.getElementById('loadingModal'));
+            const modalSuccess = new bootstrap.Modal(document.getElementById('successModal'));
+
+            // Transforme "€50" ou "12,5" en nombre (50 / 12.5)
+            function parseAmount(text) {
+                return parseFloat(text.replace(/[^\d,.]/g, '').replace(',', '.'));
+            }
+
+            // --- SOLDE ACTUEL : GET /api/balance ---
+            api.getBalance()
+                .then(data => {
+                    document.getElementById('currentBalance').textContent = UI.formatCurrency(data.balance);
+                })
+                .catch(error => console.error('Erreur API :', error));
+
+            // --- LOGIQUE DE SAISIE ---
+            amountBtns.forEach(btn => {
+                btn.addEventListener('click', () => amountInput.value = btn.textContent);
+            });
+
+            clearBtn.addEventListener('click', () => {
+                amountInput.value = '';
+                amountInput.focus();
+            });
+
+            // --- NAVIGATION ENTRE MODALS ---
+            // Ouvrir Confirmation
+            document.getElementById('btnOpenConfirm').addEventListener('click', () => {
+                const val = amountInput.value || "€0";
+                document.getElementById('confirmAmountDisplay').textContent = val;
+                document.getElementById('confirmTotalDisplay').textContent = val;
+                modalConfirm.show();
+            });
+
+            // Confirmation -> PIN
+            document.getElementById('btnToPin').addEventListener('click', () => {
+                modalConfirm.hide();
+                setTimeout(() => modalPin.show(), 400);
+            });
+
+            // PIN -> Chargement -> POST /api/topup -> Succès
+            document.getElementById('btnToLoading').addEventListener('click', async () => {
+                const amount = parseAmount(amountInput.value);
+                if (!amount || amount <= 0) {
+                    alert('Veuillez saisir un montant valide.');
+                    return;
+                }
+
+                // Petite pause pour laisser à Bootstrap le temps d'animer les modals
+                const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+                modalPin.hide();
+                await wait(400);
+                modalLoading.show();
+
+                try {
+                    // Le serveur crée une transaction "income" et renvoie le nouveau solde
+                    await api.topup(amount);
+                    await wait(800);
+                    modalLoading.hide();
+                    document.getElementById('successAmountDisplay').textContent = UI.formatCurrency(amount);
+                    await wait(400);
+                    modalSuccess.show();
+                } catch (error) {
+                    await wait(400);
+                    modalLoading.hide();
+                    alert('La recharge a échoué : ' + error.message);
+                }
+            });
+
+            // Succès vers la page Home
+            document.getElementById('btnDone').addEventListener('click', () => {
+                window.location.href = 'index.html';
+            });
+
+            // --- BONUS : AUTO-FOCUS PIN ---
+            const pinInputs = document.querySelectorAll('.pin-input');
+            pinInputs.forEach((input, index) => {
+                input.addEventListener('input', () => {
+                    if (input.value && index < pinInputs.length - 1) pinInputs[index + 1].focus();
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

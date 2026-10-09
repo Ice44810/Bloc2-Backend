@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historique bancaire – Budget App</title>
+  <meta name="description" content="Consultez l'historique de vos transactions Budget App." />
+  <link rel="canonical" href="bankhistory.html" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../Public/Assets/style.css" />
+
+</head>
+
+<body>
+  <h1 class="visually-hidden">Historique bancaire</h1>
+
+  <!-- Header -->
+  <div class="container">
+    <div class="breadcrumb mt-3 d-flex justify-content-between">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="./bill.html">Transactions</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="bi bi-graph-up text-success" style="font-size: 15px;"></span>
+            Historique Bancaire
+          </li>
+        </ol>
+      </nav>
+      <button type="button" class="btn border-0 p-0 text-decoration-none" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasFilter" aria-controls="offcanvasFilter" aria-label="Ouvrir les filtres">
+        <i class="bi bi-sliders fs-5" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="row g-3 mb-2">
+      <div class="col-6">
+        <div class="card card-stats p-3">
+          <div class="d-flex align-items-center">
+            <div class="icon-box bg-primary-subtle me-3">
+              <i class="bi bi-arrow-up text-primary fs-4" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-muted small text-center">Entrées</div>
+              <div class="fw-bold text-success text-center" id="totalIncome">…</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card card-stats p-3">
+          <div class="d-flex align-items-center">
+            <div class="icon-box bg-danger-subtle me-3">
+              <i class="bi bi-arrow-down text-danger fs-4" aria-hidden="true"></i>
+            </div>
+            <div>
+              <div class="text-muted small">Sorties</div>
+              <div class="fw-bold text-danger" id="totalExpense">…</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tableau -->
+    <ul class="nav nav-tabs nav-fill mb-3 d-flex justify-content-center mb-2 mt-2 shadow-sm" id="historyTabs"
+      role="tablist">
+      <li class="nav-item bg-primary-subtle rounded-3 me-2">
+        <button class="nav-link active" id="7days-tab" data-bs-toggle="tab" data-bs-target="#7days" type="button"
+          role="tab" aria-controls="7days" aria-selected="true">
+          <!-- aria pour une meilleure accessibilité -->
+          7 derniers jours </button>
+      </li>
+      <li class="nav-item bg-primary-subtle rounded-3 me-2">
+        <button class="nav-link" id="30days-tab" data-bs-toggle="tab" data-bs-target="#30days" type="button" role="tab"
+          aria-controls="30days" aria-selected="false">30 derniers jours </button>
+      </li>
+      <li class="nav-item bg-primary-subtle rounded-3">
+        <button class="nav-link" id="custom-tab" data-bs-toggle="tab" data-bs-target="#custom" type="button" role="tab"
+          aria-controls="custom" aria-selected="false">Personnaliser </button>
+      </li>
+    </ul>
+    <div class="tab-content px-3" id="historyTabsContent">
+      <div class="tab-pane fade show active" id="7days" role="tabpanel">
+        <div class="mb-3 px-2 p-3">
+          <!-- Graphique dessiné par JS (renderChart) -->
+          <div id="chart-7days"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="30days" role="tabpanel">
+        <div class="mb-3 px-2 p-3">
+          <!-- Graphique dessiné par JS (renderChart) -->
+          <div id="chart-30days"></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="custom" role="tabpanel">
+        <div class="mb-3 px-2 p-3">
+          <div class="d-flex gap-2 align-items-end mb-3">
+            <div class="flex-grow-1">
+              <label for="customStart" class="form-label small text-muted mb-1">Du</label>
+              <input type="date" id="customStart" class="form-control form-control-sm">
+            </div>
+            <div class="flex-grow-1">
+              <label for="customEnd" class="form-label small text-muted mb-1">Au</label>
+              <input type="date" id="customEnd" class="form-control form-control-sm">
+            </div>
+          </div>
+          <!-- Graphique dessiné par JS (renderChart) -->
+          <div id="chart-custom"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Transactions groupées par mois, injectées par JS -->
+    <div class="container-fluid mb-5" id="historyList"></div>
+  </div>
+  <!-- Modal Filtre -->
+  <div class="offcanvas offcanvas-start border-0" tabindex="-1" id="offcanvasFilter"
+    aria-labelledby="offcanvasFilterLabel" style="width: 65%;">
+    <div class="offcanvas-header border-bottom"><button type="button" class="btn border-0 p-0"
+        data-bs-dismiss="offcanvas" aria-label="Fermer les filtres"><i class="bi bi-chevron-left fs-6" aria-hidden="true"></i></button>
+      <h2 class="offcanvas-title fw-bold m-auto fs-6" id="offcanvasFilterLabel">Filtre</h2>
+      <div style="width: 24px;"></div>
+    </div>
+    <div class="offcanvas-body p-4">
+      <p class="fw-bold mb-3">Mensuel</p>
+      <div class="row g-2 mb-4" id="monthFilters">
+        <div class="col-4"><button class="btn btn-filter active w-100">Tout</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Jan</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Fev</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Mar</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Avr</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Mai</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Jun</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Juil</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Aou</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Sep</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Oct</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Nov</button></div>
+        <div class="col-4"><button class="btn btn-filter w-100">Dec</button></div>
+        <p class="fw-bold mb-3">Statut</p>
+        <div class="row g-2 mb-5" id="statusFilters">
+          <div class="col-6"><button class="btn btn-filter active w-100">Tout</button></div>
+          <div class="col-6"><button class="btn btn-filter w-100">Réussi</button></div>
+          <div class="col-6"><button class="btn btn-filter w-100">En cours</button></div>
+          <div class="col-6"><button class="btn btn-filter w-100">Échoué</button></div>
+        </div> <!-- Fermeture de la ligne Statut -->
+        <div class="mt-auto pt-4"><a href="./bankhistory.html"
+              class="btn btn-primary-custom w-100 py-3 fw-bold shadow-sm"
+              style="border-radius: 12px;">Appliquer</a></div>
+      </div>
+    </div>
+  </div> <!-- Fin de l'Offcanvas -->
+
+    <!-- FOOTER -->
+    <footer class="footer py-2">
+      <div class="d-flex justify-content-around align-items-center">
+        <a href="./index.html" class="footer-link">
+          <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+          <span>Accueil</span></a>
+        <a href="./bankhistory.html" class="active-link" aria-current="page">
+          <i class="bi bi-clock-history" aria-hidden="true"></i>
+          <span>Historique</span></a>
+        <a href="./myqr.html" class="footer-link">
+          <i class="bi bi-qr-code-scan" aria-hidden="true">
+          </i><span>QR</span></a>
+        <a href="./rewards.html" class="footer-link">
+          <i class="bi bi-gift" aria-hidden="true"></i>
+          <span>Récompenses</span></a>
+        <a href="./profile.html" class="footer-link">
+          <i class="bi bi-person" aria-hidden="true"></i>
+          <span>Profil</span></a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/js/api.js"></script>
+    <script>
+      let transactions = [];      // toutes les transactions de l'utilisateur
+      let monthFilter = 0;        // 0 = tous les mois, sinon 1 à 12
+      let statusFilter = 'Tout';  // les transactions enregistrées sont toutes "Réussi"
+
+      // Clé "AAAA-MM-JJ" en heure locale (toISOString utiliserait l'heure UTC)
+      function dayKey(date) {
+        const d = new Date(date);
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      }
+
+      // Somme (entrées - sorties) de chaque jour entre start et end
+      function dailyNet(start, end) {
+        const days = [];
+        const cursor = new Date(start);
+        cursor.setHours(0, 0, 0, 0);
+        while (cursor <= end) {
+          days.push({ key: dayKey(cursor), label: cursor.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit' }), net: 0 });
+          cursor.setDate(cursor.getDate() + 1);
+        }
+        transactions.forEach(tx => {
+          if (!tx.created_at) return;
+          const day = days.find(d => d.key === dayKey(tx.created_at));
+          if (day) day.net += tx.type === 'income' ? tx.amount : -tx.amount;
+        });
+        return days;
+      }
+
+      // Graphique en barres : vert au-dessus de 0 (entrées), rouge en dessous (sorties)
+      function renderChart(containerId, days) {
+        const container = document.getElementById(containerId);
+        if (days.length === 0) {
+          container.innerHTML = '<p class="text-muted small text-center">Choisissez une période.</p>';
+          return;
+        }
+        const max = Math.max(...days.map(d => Math.abs(d.net)), 1);
+        const half = 100; // hauteur en px de chaque moitié (positive / négative)
+        const bars = days.map(d => {
+          const height = Math.round(Math.abs(d.net) / max * half);
+          const title = `${d.label} : ${UI.formatCurrency(d.net)}`;
+          return `
+            <div class="d-flex flex-column flex-fill align-items-center" style="max-width: 30px;" title="${title}">
+              <div class="d-flex align-items-end w-100" style="height: ${half}px;">
+                ${d.net > 0 ? `<div class="bar bg-success w-100" style="height: ${height}px;"></div>` : ''}
+              </div>
+              <div class="d-flex align-items-start w-100" style="height: ${half}px;">
+                ${d.net < 0 ? `<div class="bar bg-danger w-100" style="height: ${height}px;"></div>` : ''}
+              </div>
+            </div>`;
+        }).join('');
+
+        const round = (n) => Math.round(n);
+        container.innerHTML = `
+          <div class="chart-container d-flex">
+            <div class="y-axis small d-flex flex-column justify-content-between" style="width: 50px; min-width: 50px; height: ${half * 2}px;">
+              <span>${round(max)}</span><span>${round(max / 2)}</span><span>0</span><span>${round(-max / 2)}</span><span>${round(-max)}</span>
+            </div>
+            <div class="flex-grow-1 d-flex justify-content-around gap-1 border-start border-bottom">${bars}</div>
+          </div>
+          <div class="d-flex justify-content-between text-muted small mt-2" style="margin-left: 50px;">
+            <span>${days[0].label}</span><span>${days[days.length - 1].label}</span>
+          </div>`;
+      }
+
+      function renderCharts() {
+        const today = new Date();
+        const daysAgo = (n) => { const d = new Date(); d.setDate(d.getDate() - n); return d; };
+        renderChart('chart-7days', dailyNet(daysAgo(6), today));
+        renderChart('chart-30days', dailyNet(daysAgo(29), today));
+
+        const start = document.getElementById('customStart').value;
+        const end = document.getElementById('customEnd').value;
+        renderChart('chart-custom', start && end && start <= end ? dailyNet(new Date(start + 'T00:00'), new Date(end + 'T00:00')) : []);
+      }
+
+      // Totaux + liste, selon les filtres choisis
+      function renderList() {
+        const visible = transactions.filter(tx => {
+          const monthOk = monthFilter === 0 || (tx.created_at && new Date(tx.created_at).getMonth() + 1 === monthFilter);
+          const statusOk = statusFilter === 'Tout' || statusFilter === 'Réussi';
+          return monthOk && statusOk;
+        });
+
+        const sum = (type) => visible.filter(tx => tx.type === type).reduce((total, tx) => total + tx.amount, 0);
+        document.getElementById('totalIncome').textContent = UI.formatCurrency(sum('income'));
+        document.getElementById('totalExpense').textContent = UI.formatCurrency(sum('expense'));
+
+        const list = document.getElementById('historyList');
+        if (visible.length === 0) {
+          list.innerHTML = '<p class="text-muted text-center">Aucune transaction</p>';
+          return;
+        }
+        // Regroupement par mois, comme dans les maquettes
+        const groups = {};
+        visible.forEach(tx => {
+          const month = tx.created_at
+            ? new Date(tx.created_at).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })
+            : 'Date inconnue';
+          (groups[month] = groups[month] || []).push(tx);
+        });
+        list.innerHTML = Object.entries(groups).map(([month, txs]) => `
+          <h2 class="mb-3 mt-3 fs-6 text-capitalize">${month}</h2>
+          ${txs.map(tx => UI.transactionItemHtml(tx)).join('')}
+        `).join('');
+      }
+
+      // Chargement : GET /api/transactions (déjà triées de la plus récente à la plus ancienne)
+      async function loadHistory() {
+        try {
+          transactions = await api.getTransactions();
+          renderCharts();
+          renderList();
+        } catch (error) {
+          document.getElementById('historyList').innerHTML = '<p class="text-danger">Erreur lors du chargement</p>';
+        }
+      }
+      loadHistory();
+
+      document.getElementById('customStart').addEventListener('change', renderCharts);
+      document.getElementById('customEnd').addEventListener('change', renderCharts);
+
+      document.addEventListener('DOMContentLoaded', function () {
+        // Boutons de filtre : un seul actif par groupe (mois / statut)
+        document.querySelectorAll('.btn-filter').forEach(btn => {
+          btn.addEventListener('click', function () {
+            // ":scope > div >" = seulement les boutons de ce groupe (le groupe Statut est imbriqué dans Mensuel)
+            const group = this.closest('.row');
+            group.querySelectorAll(':scope > div > .btn-filter').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+          });
+        });
+
+        // Appliquer : on lit les boutons actifs, on refiltre, on ferme le panneau
+        document.querySelector('#offcanvasFilter .btn-primary-custom').addEventListener('click', function (e) {
+          e.preventDefault();
+          const monthButtons = Array.from(document.querySelectorAll('#monthFilters > div > .btn-filter'));
+          monthFilter = monthButtons.findIndex(b => b.classList.contains('active')); // 0 = "Tout", 1 = Jan...
+          statusFilter = document.querySelector('#statusFilters > div > .btn-filter.active').textContent.trim();
+          renderList();
+          bootstrap.Offcanvas.getInstance(document.getElementById('offcanvasFilter')).hide();
+        });
+      });
+    </script>
+</body>
+
+</html>

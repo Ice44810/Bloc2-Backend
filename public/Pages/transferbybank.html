@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transfert bancaire – Budget App</title>
+  <meta name="description" content="Effectuez un transfert vers un compte bancaire depuis Budget App." />
+  <link rel="canonical" href="transferbybank.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Public/Assets/style.css">
+
+    <style>
+        .dropdown-item img {
+            object-fit: contain;
+            max-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+  <h1 class="visually-hidden">Transfert bancaire</h1>
+
+    <!-- HEADER -->
+    <div class="container">
+        <div class="breadcrumb mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="./setting.html">Paramètres</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <span class="bi bi-receipt text-primary" style="font-size: 15px;"></span>
+                        Transfert par banque
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h6 class="fw-semibold">Transfert à</h6>
+                <a href="./myqr.html" class="text-primary small">Scan QR</a>
+            </div>
+            <!-- BANK -->
+            <div class="form-box">
+                <label class="form-label">Banque</label>
+                <div class="dropdown" id="bankSelector">
+                    <button class="btn btn-white border w-100 d-flex justify-content-between align-items-center"
+                        type="button" id="dropdownBankBtn" data-bs-toggle="dropdown" style="height: 50px;">
+                        <div class="selected-content d-flex align-items-center gap-2">
+                            <span class="text-muted">Sélectionnez votre banque</span>
+                        </div>
+                        <i class="bi bi-chevron-down text-muted" aria-hidden="true"></i>
+                    </button>
+
+                    <ul class="dropdown-menu w-100 shadow-sm" style="max-height: 300px; overflow-y: auto;">
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#" data-value="Visa">
+                                <img src="../Public/Assets/images/icons8-visa-48.png" alt="Visa logo"
+                                    width="25">
+                                <span>Visa</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="#"
+                                data-value="Techcombank">
+                                <img src="../Public/Assets/images/Techcombank.png" width="25" alt="Techcombank logo">
+                                <span>Techcombank</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                <img src="../Public/Assets/images/acbbank.png" width="30" alt="Logo de la banque ACB">
+                                <span>ACB</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                <img src="../Public/Assets/images/citigroup.png" width="30"
+                                    alt="Logo de la banque Citibank">
+                                <span>Citibank</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                <img src="../Public/Assets/images/chasebank.jpeg" width="30"
+                                    alt="Logo de la banque Bank of America">
+                                <span>Chase Bank</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                <img src="../Public/Assets/images/vietinbank.png" width="30"
+                                    alt="Logo de la banque Vietinbank">
+                                <span>VietInBank</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                <img src="../Public/Assets/images/fivestarbank.jpeg" width="30"
+                                    alt="Logo de la banque Five Star">
+                                <span>Five Star</span>
+                            </a>
+                    </ul>
+                    <input type="hidden" name="bank_choice" id="bank_choice_input">
+                </div>
+            </div>
+
+            <!-- Numéro compte (SELECT) -->
+            <div class="form-box">
+                <div class="d-flex justify-content-between align-items-center">
+                    <label class="form-label mb-0">Numéro compte</label>
+                    <a href="#" class="text-primary small d-flex align-items-center gap-1 text-decoration-none">
+                        Enregister Numéro
+                        <i class="bi bi-credit-card-fill fs-6" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <input type="text" id="accountInput" class="form-control border p-2" placeholder="FR76 1234 0000 2134 3243">
+                <div class="form-box">
+                    <label class="form-label">Nom du compte</label>
+                    <input type="text" id="accountNameInput" class="form-control border p-2" placeholder="Nom du titulaire">
+                </div>
+
+            </div>
+            <!-- Nom du compte -->
+
+            <!-- Montant transfert -->
+            <p class="fw-bold mb-2">Montant</p>
+            <div class="position-relative mb-3">
+                <input type="text" id="amountInput" class="form-control amount-input ps-3 py-2"
+                    inputmode="decimal" placeholder="€0">
+                <i class="bi bi-x-circle-fill position-absolute top-50 end-0 translate-middle-y me-3 text-muted"
+                    id="clearAmount" style="cursor: pointer;" aria-hidden="true"></i>
+            </div>
+            <div class="row g-2 mb-2">
+                <div class="col-4"><button type="button" class="btn btn-outline-primary w-100 amount-btn">€10</button>
+                </div>
+                <div class="col-4"><button type="button" class="btn btn-outline-primary w-100 amount-btn">€20</button>
+                </div>
+                <div class="col-4"><button type="button" class="btn btn-outline-primary w-100 amount-btn">€50</button>
+                </div>
+            </div>
+            <div class="row g-2 mb-2">
+                <div class="col-4"><button type="button" class="btn btn-outline-primary w-100 amount-btn">€75</button>
+                </div>
+                <div class="col-4"><button type="button" class="btn btn-outline-primary w-100 amount-btn">€100</button>
+                </div>
+                <div class="col-4"><button type="button" class="btn btn-outline-primary w-100 amount-btn">€150</button>
+                </div>
+            </div>
+            <div class="form-box">
+                <label class="form-label">Message</label>
+                <input type="text" id="messageInput" class="form-control border p-2"
+                    placeholder="Exemple : remboursement restaurant">
+            </div>
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" id="saveAccountCheck" checked>
+                <label class="form-check-label small" for="saveAccountCheck">
+                    Enregistrer ce compte pour les futurs transferts
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-end mt-3" id="btnOpenContinue">
+        <button class="btn custom-primary-btn mx-5" type="button">Continuer</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/public/js/api.js"></script>
+
+    <script>
+        //Script pour la selection de la banque avec les logos
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdownItems = document.querySelectorAll('#bankSelector .dropdown-item');
+            const displayElement = document.querySelector('#dropdownBankBtn .selected-content');
+            const hiddenInput = document.getElementById('bank_choice_input');
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', function (e) {
+                    e.preventDefault(); // Empêche le lien de recharger la page
+                    // Récupérer le contenu de l'item cliqué (image + texte)
+                    const content = this.innerHTML;
+                    const value = this.textContent.trim(); // nom de la banque affiché
+
+                    // Mettre à jour l'affichage du bouton
+                    displayElement.innerHTML = content;
+
+                    // Mettre à jour l'input caché avec le nom de la banque
+                    if (hiddenInput) {
+                        hiddenInput.value = value;
+                    }
+
+                    console.log("Banque sélectionnée :", value);
+                });
+            });
+        });
+
+        // Script pour la selection du montant
+        document.addEventListener("DOMContentLoaded", function () {
+            const amountInput = document.getElementById('amountInput');
+            const amountButtons = document.querySelectorAll('.amount-btn');
+
+            amountButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Récupérer le montant du bouton cliqué
+                    const selectedAmount = this.textContent;
+
+                    // Mettre à jour la valeur de l'input
+                    amountInput.value = selectedAmount;
+
+                    //  Gérer l'état visuel "actif"
+                    // On retire la classe active de tous les boutons
+                    amountButtons.forEach(btn => btn.classList.remove('active'));
+                    // On l'ajoute au bouton cliqué
+                    this.classList.add('active');
+                });
+            });
+        });
+
+        // Effacer le montant avec la petite croix
+        document.getElementById("clearAmount").addEventListener("click", () => {
+            document.getElementById("amountInput").value = "";
+        });
+
+        // Continuer : enregistrer le compte si demandé, puis passer au choix de la source de paiement
+        document.querySelector("#btnOpenContinue button").addEventListener("click", async () => {
+            const bank = document.getElementById("bank_choice_input").value;
+            const account = document.getElementById("accountInput").value.trim();
+            const name = document.getElementById("accountNameInput").value.trim();
+            const amount = UI.parseAmount(document.getElementById("amountInput").value);
+            const message = document.getElementById("messageInput").value.trim();
+
+            if (!bank || !account || !name) {
+                alert("Choisissez la banque et indiquez le numéro et le nom du compte.");
+                return;
+            }
+            if (!amount || amount <= 0) {
+                alert("Saisissez un montant valide.");
+                return;
+            }
+
+            const payment = {
+                kind: "transfer",
+                amount,
+                recipientName: name,
+                recipientIdentifier: `${bank} - ${account}`,
+                message
+            };
+
+            // Case cochée : on ajoute ce compte aux contacts (POST /api/recipients), sauf s'il y est déjà
+            if (document.getElementById("saveAccountCheck").checked) {
+                try {
+                    const existing = (await api.getRecipients()).find(r => r.type === "bank" && r.identifier === payment.recipientIdentifier);
+                    const recipient = existing || await api.createRecipient({ name, identifier: payment.recipientIdentifier, type: "bank" });
+                    payment.recipientId = recipient.id;
+                } catch (error) {
+                    alert("Impossible d'enregistrer le compte : " + error.message);
+                    return;
+                }
+            }
+
+            Payment.start(payment);
+        });
+    </script>
+
+</body>
+
+</html>

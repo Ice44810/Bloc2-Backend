@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion des services – Budget App</title>
+  <meta name="description" content="Organisez vos services favoris sur Budget App." />
+  <link rel="canonical" href="servicemanagement2.html" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../Public/Assets/style.css" />
+
+</head>
+
+<body>
+  <h1 class="visually-hidden">Gestion des services</h1>
+
+    <!-- Header -->
+    <div class="container">
+        <div class="breadcrumb mt-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a href="./rewards.html">Mes Récompenses</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <span class="bi bi-receipt text-primary" style="font-size: 15px;"></span>
+                        Gérer les services
+                    </li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- 1ere partie tableau : catégories -->
+        <div class="container-fluid service-header border rounded-4 bg-white">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="service-title mb-3 mt-1 fw-semibold">Service Favoris</h2>
+                <button id="btnEdit" class="btn btn-sm btn rounded-pill px-0">Modifier</button>
+            </div>
+            <div class="row row-cols-4 row-cols-md-4 g-3" id="favoriteContainer">
+                <div class="col category-item position-relative">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e1f5fe;">
+                        <a href="./rewards.html" aria-label="Chèque cadeau"><i aria-hidden="true" class="bi bi-gift-fill text-danger"></i></a>
+                    </div>
+                    <p class="small">Chèque cadeau</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #fce4ec;">
+                        <a href="./rewards.html" aria-label="Cosmetique"><i aria-hidden="true" class="bi bi-basket-fill text-warning"></i></a>
+                    </div>
+                    <p class="small">Cosmetique</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #fff9c4;">
+                        <a href="./rewards.html" aria-label="Shopping"><i aria-hidden="true" class="bi bi-shop text-success"></i></a>
+                    </div>
+                    <p class="small">Shopping</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e0f2f1;">
+                        <a href="./rewards.html" aria-label="restaurant"><i aria-hidden="true" class="bi bi-cake2 text-secondary"></i></a>
+                    </div>
+                    <p class="small">restaurant</p>
+                </div>
+            </div>
+        </div>
+        <!-- 1ere partie tableau : catégories -->
+        <div class="container-fluid service-header border rounded-4 bg-white mt-1 px-3">
+            <h2 class="service-title mt-3 fw-semibold mb-3">Autres services</h2>
+            <p class="service-title fw-normal">Accumulation</p>
+            <div class="row row-cols-4 row-cols-md-4 g-3">
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e1f5fe;">
+                        <a href="./transfert.html" aria-label="Carte"><i aria-hidden="true" class="bi bi-credit-card-fill text-info"></i></a>
+                    </div>
+                    <p class="small">Carte</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #fce4ec;">
+                        <a href="./rewards.html" aria-label="Points"><i aria-hidden="true" class="bi bi-stars text-warning"></i></a>
+                    </div>
+                    <p class="small">Points</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #fff9c4;">
+                        <a href="./banque.html" aria-label="Banque"><i aria-hidden="true" class="bi bi-bank text-success"></i></a>
+                    </div>
+                    <p class="small">Banque</p>
+                </div>
+            </div>
+            <p class="service-title px-4 fw-normal">Paiments</p>
+            <div class="row row-cols-4 row-cols-md-4 g-3">
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e1f5fe;">
+                        <a href="./topup.html" aria-label="Recharge"><i aria-hidden="true" class="bi bi-wallet2 text-danger"></i></a>
+                    </div>
+                    <p class="small">Recharge</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #98c1ea;">
+                        <a href="./myqr.html" aria-label="Code scan"><i aria-hidden="true" class="bi bi-qr-code-scan text-dark"></i></a>
+                    </div>
+                    <p class="small">Code scan</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #fff9c4;">
+                        <a href="./rewards.html" aria-label="Shopping"><i aria-hidden="true" class="bi bi-shop text-success"></i></a>
+                    </div>
+                    <p class="small">Shopping</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e0ecf3;">
+                        <a href="./banque.html" aria-label="Banque"><i aria-hidden="true" class="bi bi-bank text-success"></i></a>
+                    </div>
+                    <p class="small">Banque</p>
+                </div>
+            </div>
+            <!-- 3eme Tableau : Paiment -->
+            <p class="service-title px-4 fw-normal">Reçus</p>
+            <div class="row row-cols-4 row-cols-md-4 g-3">
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e1f5fe;">
+                        <a href="./mobile.html" aria-label="Mobile"><i aria-hidden="true" class="bi bi-phone text-primary"></i></a>
+                    </div>
+                    <p class="small">Mobile</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #98c1ea;">
+                        <a href="./internet.html" aria-label="Internet"><i aria-hidden="true" class="bi bi-wifi text-primary"></i></a>
+                    </div>
+                    <p class="small">Internet</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e8baba;">
+                        <a href="./rewards.html" aria-label="Réductions"><i aria-hidden="true" class="bi bi-cash-coin text-success"></i></a>
+                    </div>
+                    <p class="small">Réductions</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e0f2f1;">
+                        <a href="./bill.html" aria-label="Facture"><i aria-hidden="true" class="bi bi-receipt text-info"></i></a>
+                    </div>
+                    <p class="small">Facture</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <a href="./electricity.html" aria-label="Retirer le service électricité"><i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="category-icon" style="background-color: #e1f5fe;">
+                        <i class="bi bi-lightning-fill text-warning" aria-hidden="true"></i>
+                    </div>
+                    <p class="small">Electricité</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #dedbdc;">
+                        <a href="./film.html" aria-label="Film"><i aria-hidden="true" class="bi bi-film text-danger"></i></a>
+                    </div>
+                    <p class="small">Film</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #dcddde;">
+                        <a href="./waterbill.html" aria-label="Facture eau"><i aria-hidden="true" class="bi bi-droplet-fill text-primary"></i></a>
+                    </div>
+                    <p class="small">Facture eau</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e0f2f1;">
+                        <a href="./market.html" aria-label="Marchés"><i aria-hidden="true" class="bi bi-cart4 text-secondary"></i></a>
+                    </div>
+                    <p class="small">Marchés</p>
+                </div>
+            </div>
+            <!-- 4eme Tableau : Traffic -->
+            <p class="service-title fw-normal">Paiment</p>
+            <div class="row row-cols-4 row-cols-md-4 g-3">
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e1f5fe;">
+                        <a href="./topup.html" aria-label="Recharge"><i aria-hidden="true" class="bi bi-wallet2 text-danger"></i></a>
+                    </div>
+                    <p class="small">Recharge</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <a href="./myqr.html" aria-label="Retirer le service QR"><i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="category-icon" style="background-color: #98c1ea;">
+                        <a href="./myqr.html" aria-label="Code scan"><i aria-hidden="true" class="bi bi-qr-code-scan text-dark"></i></a>
+                    </div>
+                    <p class="small">Code scan</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #fff9c4;">
+                        <a href="./market.html" aria-label="Shopping"><i aria-hidden="true" class="bi bi-shop text-success"></i></a>
+                    </div>
+                    <p class="small">Shopping</p>
+                </div>
+                <div class="col category-item">
+                    <div class="delete-badge" style="display: none;">
+                        <i class="bi bi-x-circle-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div class="category-icon" style="background-color: #e0ecf3;">
+                        <a href="./banque.html" aria-label="Banque"><i aria-hidden="true" class="bi bi-bank text-success"></i></a>
+                    </div>
+                    <p class="small">Banque</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // 1. Sélectionner tous les éléments de service
+                const serviceCards = document.querySelectorAll('.category-item');
+
+                // Tableau pour stocker les informations
+                const allServices = [];
+
+                serviceCards.forEach((card) => {
+                    // 2. Extraire le nom du service (le texte dans la balise <p>)
+                    const serviceName = card.querySelector('p').textContent.trim();
+
+                    // 3. Extraire la classe de l'icône (ex: bi-gift-fill)
+                    const iconElement = card.querySelector('i');
+                    const iconClass = iconElement ? iconElement.className : "No icon";
+
+                    // 4. Extraire la couleur de fond du cercle
+                    const bgColor = card.querySelector('.category-icon').style.backgroundColor;
+
+                    // Ajouter l'objet au tableau
+                    allServices.push({
+                        name: serviceName,
+                        icon: iconClass,
+                        backgroundColor: bgColor
+                    });
+
+                    // 5. Ajouter un événement de clic pour l'interactivité
+                    card.addEventListener('click', function () {
+                        console.log("Service sélectionné : " + serviceName);
+                        // Vous pouvez rediriger l'utilisateur ou ouvrir une modal ici
+                    });
+                });
+            });
+
+            // script pour la fonctionnalité "Modifier"
+            document.addEventListener("DOMContentLoaded", function () {
+                const btnEdit = document.getElementById('btnEdit');
+                let isEditMode = false;
+
+                // Gestion du bouton Modifier
+                btnEdit.addEventListener('click', function () {
+                    isEditMode = !isEditMode;
+
+                    // On récupère les éléments mis à jour (au cas où certains ont été supprimés)
+                    const allBadges = document.querySelectorAll('.delete-badge');
+                    const allItems = document.querySelectorAll('.category-item');
+
+                    if (isEditMode) {
+                        this.textContent = "Terminer";
+                        this.classList.replace('btn-outline-primary', 'btn-success');
+                        allBadges.forEach(badge => badge.style.display = 'block');
+                        allItems.forEach(item => item.classList.add('edit-mode'));
+                    } else {
+                        this.textContent = "Modifier";
+                        this.classList.replace('btn-success', 'btn-outline-primary');
+                        allBadges.forEach(badge => badge.style.display = 'none');
+                        allItems.forEach(item => item.classList.remove('edit-mode'));
+                    }
+                });
+
+                // Gestion de la suppression (Délégation d'événement)
+                document.addEventListener('click', function (e) {
+                    // Si on clique sur une croix rouge
+                    if (e.target.closest('.delete-badge')) {
+                        const card = e.target.closest('.col');
+                        card.remove();
+                    }
+
+                    // Empêcher la redirection si on est en mode édition
+                    if (isEditMode && e.target.closest('a')) {
+                        e.preventDefault();
+                    }
+                });
+            });
+        </script>
+</body>
+
+</html>

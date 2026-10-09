@@ -1,0 +1,977 @@
+/* VARIABLES GLOBALES & BASE */
+:root {
+    --container-padding: 15px;
+    --primary-purple: #5e35b1;
+    --purple-accent: #673ab7;
+    --light-text: #ffffff;
+    --secondary-text: #e0e0e0;
+    --card-background: #ffffff;
+    --text-color: #333;
+    --light-gray-icon: #888;
+    --primary-color: #026cdf;
+    --pathe-yellow: #ffd400;
+    --ugc-blue: #004a99;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    /* Mobile first */
+    line-height: 1.5;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit; 
+}
+
+.container-custom {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    width: 100%;
+}
+
+.responsive-card {
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+/* RESPONSIVE - MEDIA QUERIES */
+
+/* TABLETTES (min-width: 768px) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    .container-custom {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .grid-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .grid-item {
+        flex: 0 0 calc(50% - 10px);
+    }
+
+    .shopping-card-item {
+        flex: 0 0 30%;
+    }
+
+    /* Fusionné ici */
+}
+
+/* ORDINATEURS PORTABLES (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container-custom {
+        max-width: 960px;
+    }
+
+    .grid-item {
+        flex: 0 0 calc(33.33% - 14px);
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: flex;
+    }
+}
+
+/* GRANDS ÉCRANS (min-width: 1440px) */
+@media screen and (min-width: 1440px) {
+    .container-custom {
+        max-width: 1200px;
+    }
+}
+
+/* MOBILE SPECIFIQUE */
+@media (max-width: 576px) {
+    .offcanvas {
+        width: 100% !important;
+    }
+
+    .action-sheet-ios.offcanvas-bottom {
+        padding: 0 10px 20px 10px;
+    }
+}
+
+/* COMPOSANTS SPECIFIQUES */
+
+/* HEADER & PROFIL */
+.mobile-header {
+    background: linear-gradient(135deg, #5e35b1, #4a3cc9);
+    color: var(--light-text);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-img-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--light-text);
+}
+
+.profile-img-large {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.username {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.slogan {
+    font-size: 0.8rem;
+    color: var(--secondary-text);
+}
+
+/* NOTIFICATION */
+.notification-icon {
+    position: relative;
+    color: var(--light-text);
+}
+
+.notification-icon::after {
+    content: '2';
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+
+/* SERVICE MANAGEMENT */
+.delete-badge {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background: white;
+    border-radius: 50%;
+    line-height: 1;
+}
+
+.category-item.edit-mode {
+    animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    75% {
+        transform: rotate(-1deg);
+    }
+}
+
+/* STATS & ACTIONS */
+.stats-section {
+    background: var(--card-background);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.stat-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.quick-actions-section {
+    padding: 0 12px;
+}
+
+.action-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 0.8rem;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+.action-icon-wrapper {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.action-icon-wrapper i.transfer-arrow,
+.action-icon-wrapper i.topup-dollar,
+.action-icon-wrapper i.card-fill,
+.action-icon-wrapper i.qr-scan {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8rem;
+    background: white;
+    padding: 3px;
+    border-radius: 50%;
+    color: var(--purple-accent);
+}
+
+/* SERVICES & TABS */
+.service-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.view-all-link {
+    color: #0d6efd;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+button.view-all-link {
+    cursor: pointer;
+}
+
+.service-card {
+    background: white;
+    border-radius: 12px;
+    min-height: 100px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #eee;
+}
+
+.nav-tabs .nav-link {
+    color: #888;
+    border: none;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+/* TRANSACTIONS & PAIMENTS */
+.balance-card {
+    background: white;
+    border-radius: 18px;
+    padding: 16px;
+    margin-top: -30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+}
+
+.amount-input,
+.amount-btn {
+    border-radius: 12px;
+    height: 56px;
+    font-size: 1.1rem;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.amount-btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: #f1f1f1;
+    border: none;
+    font-weight: 500;
+    height: auto;
+}
+
+.amount-btn.active {
+    background-color: rgba(94, 53, 177, .15);
+    color: #4f23c8;
+}
+
+.transfer-card {
+    background: white;
+    border-radius: 18px;
+    padding: 24px 16px;
+    margin-top: 10px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, .08);
+}
+
+.amount {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.divider {
+    border-top: 1px dashed #ddd;
+    margin: 20px 0;
+}
+
+.payment-card {
+    background: white;
+    border-radius: 14px;
+    padding: 14px 16px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .05);
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+/* BOUTONS CONTINUER (GROUPÉS) */
+.continue-btn,
+.btncontinue,
+.confirm-btn,
+.custom-primary-btn,
+#api-booking-btn,
+.btn-partner,
+.btn-checkout,
+.btn-main {
+    position: fixed;
+    padding: 10px;
+    right: 40px;
+    bottom: 20px;
+    height: 40px;
+    border-radius: 14px;
+    font-weight: 300;
+    background-color: #2a40a6;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem !important;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary-purple) !important;
+    color: white !important;
+    border: none;
+}
+
+.btn-filter {
+    background-color: #f1f1f1;
+    color: #666;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.btn-filter.active {
+    background-color: var(--primary-purple) !important;
+    color: white !important;
+}
+
+/* CONFIRMATION & OTP */
+.card-custom {
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.otp-modal {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.otp-input {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.otp-input:focus {
+    outline: var(--ugc-blue);
+    background-color: #5c3eb1;
+    border-color: #5c3eb1;
+    color: white;
+}
+
+.otp-btn {
+    background-color: #5e35b1;
+    border-radius: 14px;
+    padding: 14px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    border: none;
+}
+
+/* BANQUES */
+.bank-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    color: #000;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.bank-card img {
+    height: 28px;
+    margin-bottom: 8px;
+}
+
+.bank-card:hover,
+.bank-card:focus {
+    background-color: rgba(94, 53, 177, 0.12);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+    outline: none;
+}
+
+.bank-list {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.bank-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    color: #000;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.bank-item img {
+    height: 26px;
+}
+
+/* CONTACT & ACTIONS IOS (Style Appel) */
+.profile-img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.camera-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.action-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #5a4dfc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.action-sheet-ios {
+    /* Pour iOS */
+    background-color: transparent !important;
+    border: none !important;
+    height: auto !important;
+}
+
+.action-sheet-ios .list-group,
+.action-sheet-ios .btn-white {
+    background-color: white;
+    border: none;
+}
+
+.action-sheet-ios .list-group-item {
+    border-color: #f2f2f2;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.text-primary-ios {
+    color: #007aff !important;
+}
+
+.offcanvas-backdrop.show {
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.4);
+    /*  */
+}
+
+/* SHOPPING & MARKET & REWARDS */
+.scroll-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Empêche le retour à la ligne */
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    scrollbar-width: none;
+    padding-bottom: 10px;
+    cursor: grab;
+    user-select: none;
+    scroll-behavior: smooth;
+    touch-action: pan-x pan-y;
+    -webkit-overflow-scrolling: touch;
+    min-height: 100px;
+}
+
+.scroll-container.active {
+    cursor: grabbing;
+}
+
+.scroll-container::-webkit-scrollbar,
+.overflow-auto::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.coupon-card {
+    min-width: 280px;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    height: 100px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background-color: #374b9d;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.shopping-card-item {
+    flex: 0 0 50%;
+    scroll-snap-align: start;
+}
+
+/* Ajustement des items pour qu'ils ne rétrécissent pas */
+.rewards-card-item,
+.coupon-card,
+.flex-shrink-0 {
+    flex: 0 0 auto;
+    /* Force la taille réelle de l'élément */
+}
+
+/* CATEGORIES & DEALS */
+.category-item {
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.category-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 24px;
+}
+
+.coupon-left {
+    padding: 15px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.coupon-left::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: #f8f9fa;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.coupon-right {
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.deal-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.deal-card:hover {
+    transform: translateY(-5px);
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: #dc3545;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    z-index: 10;
+}
+
+/* CINEMA */
+.movie-banner {
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding-bottom: 20px;
+    /* Le Haeder du Cinema */
+}
+
+.cinema-card {
+    background: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.brand-badge {
+    width: 60px;
+    height: 22px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.badge-pathe {
+    background-color: var(--pathe-yellow);
+    color: black;
+}
+
+.badge-ugc {
+    background-color: var(--ugc-blue);
+    color: white;
+}
+
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 8px;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.seat {
+    width: 22px;
+    height: 22px;
+    background-color: #e0e0e0;
+    border-radius: 5px 5px 2px 2px;
+    cursor: pointer;
+}
+
+.seat.selected {
+    background-color: #28a745;
+}
+
+.seat.occupied {
+    background-color: #444;
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+/* FOOTER & NAVIGATION */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #dee2e6;
+    padding: 6px 0;
+    z-index: 1000;
+}
+
+.footer a {
+    color: #6c757d;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.footer a i {
+    font-size: 1.3rem;
+}
+
+.footer a.active-link {
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+/* HISTORIQUE & GRAPHIQUES */
+.card-stats {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chart-container {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    height: 230px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.bar {
+    width: 30px;
+    border-radius: 4px;
+    z-index: 1;
+    position: relative;
+}
+
+.bar.up {
+    background-color: #43a047;
+    margin-bottom: 95px;
+}
+
+.bar.down {
+    background-color: #e53935;
+    margin-top: 95px;
+}
+
+.offcanvas-custom-width {
+    width: 75% !important;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* FACTURES */
+.bill-icon img {
+    width: 60px;
+}
+
+/* --- STYLE CARD INFO --- */
+.service-row {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer-info {
+    background: rgba(0, 0, 0, 0.8);
+    margin: 0 -25px -25px -25px;
+    padding: 10px 25px;
+    border-radius: 0 0 15px 15px;
+    color: #fff;
+}
+
+.credit-card {
+    background: linear-gradient(135deg, #5e35b1, #4a3cc9);
+    /* Le violet de ta charte */
+    border-radius: 20px;
+    color: white;
+    overflow: hidden;
+    /* Important pour que le footer noir épouse les bords arrondis */
+    border: none;
+}
+
+.credit-card .card-number {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-top: 10px;
+    display: block;
+}
+
+.credit-card .card-footer-info {
+    background-color: #1a1a1a;
+    /* La barre noire en bas */
+    margin: 25px -25px -25px -25px;
+    /* Compense le padding du parent */
+    padding: 15px 30px;
+}
+
+.credit-card small {
+    color: #aaa;
+    /* Texte gris clair pour les labels */
+    text-transform: none;
+}
+
+#deleteinfo {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: opacity 0.2s;
+}
+
+#deleteinfo:hover {
+    opacity: 0.7;
+}
+
+/* Partie Giftcard Detail */
+/* Image d'entête avec badge */
+.header-image-container {
+    position: relative;
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.header-image-container img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.discount-badge-top {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    font-size: 1.2rem;
+}
+
+/*  DARK MODE FIXES */
+
+[data-bs-theme="dark"] body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+/* Cartes & blocs */
+[data-bs-theme="dark"] .service-card,
+[data-bs-theme="dark"] .stats-section,
+[data-bs-theme="dark"] .payment-card,
+[data-bs-theme="dark"] .bank-card,
+[data-bs-theme="dark"] .cinema-card,
+[data-bs-theme="dark"] .balance-card,
+[data-bs-theme="dark"] .transfer-card {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-body-color);
+}
+
+/* List-group */
+[data-bs-theme="dark"] .list-group-item {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-body-color);
+    border-color: var(--bs-border-color);
+}
+
+/* Footer */
+[data-bs-theme="dark"] footer {
+    background-color: var(--bs-body-bg);
+    border-top: 1px solid var(--bs-border-color);
+}
+
+/* Action sheets iOS */
+[data-bs-theme="dark"] .action-sheet-ios .list-group,
+[data-bs-theme="dark"] .action-sheet-ios .btn-white {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-body-color);
+}
+/* Taille de la largeur de l'offcanvas */
+.offcanvas-custom-width {
+    width: 75% !important;
+}

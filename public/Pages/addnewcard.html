@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajouter une carte – Budget App</title>
+  <meta name="description" content="Ajoutez une nouvelle carte bancaire à votre compte Budget App." />
+  <link rel="canonical" href="addnewcard.html" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../Public/Assets/style.css" />
+</head>
+
+<body>
+  <h1 class="visually-hidden">Ajouter une carte bancaire</h1>
+
+  <!-- Header -->
+  <div class="container">
+    <div class="breadcrumb mt-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="card.html">Carte Bancaire</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="bi bi-credit-card text-primary" style="font-size: 15px;"></span>
+            Ajouter une carte
+          </li>
+        </ol>
+      </nav>
+    </div>
+
+    <h2 class="fw-semibold mb-4 ms-3 mt-1 fs-5">Ajouter les informations de lacarte bancaire</h2>
+    <form class="form-group">
+      <div class="form-floating" id="cardform" methode="post">
+        <div class="mb-4 position-relative">
+          <label class="position-absolute px-2 ms-3 text-muted fs-6" style="top: -15px; left: 0; z-index: 5;">
+            Numéro carte</label>
+          <div class="input-group border rounded-3 align-items-center px-3" style="height: 40px;">
+            <input type="text" name="card_number" id="card-number"
+              class="form-control border-0 bg-transparent fs-6" placeholder="0123 4546 0000 2133" inputmode="numeric"
+              style="box-shadow: none;">
+            <i class="bi bi-credit-card-fill text-primary fs-5" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="invalid-feedback">
+        </div>
+        <div class=" mb-4 position-relative">
+          <label class="position-absolute px-2 ms-3 text-muted fs-6" style="top: -15px; left: 0; z-index: 5;">
+            Nom du titulaire
+          </label>
+          <div class="border rounded-3 px-3 d-flex align-items-center" style="height: 40px;">
+            <input type="text" name="card_holder" id="card-holder"
+              class="form-control border-0 bg-transparent fs-6" placeholder="Nom sur la carte"
+              style="box-shadow: none;">
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="position-relative">
+              <label class="position-absolute px-2 ms-3 text-muted fs-6"
+                style="top: -15px; left: 0; z-index: 5;">
+                Date expiration
+              </label>
+              <div class="input-group border rounded-3 align-items-center px-3" style="height: 40px;">
+                <input type="date" id="card-expiry" class="form-control border-0 bg-transparent fs-6 text-muted"
+                  style="box-shadow: none">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="position-relative">
+              <label class="position-absolute bg-white px-2 ms-3 text-muted fs-6"
+                style="top: -15px; left: 0; z-index: 5;">
+                CVV
+              </label>
+              <div class="input-group border rounded-3 align-items-center px-3" style="height: 40px;">
+                <input type="text" class="form-control border-0 bg-transparent fs- text-muted"
+                  placeholder="CVV" style="box-shadow: none;">
+                <i class="bi bi-info-circle text-secondary fs-6" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 d-flex justify-content-end">
+        <button class="btn btn-primary fs-6" id="btnToOTP">Continuer</button>
+      </div>
+    </form>
+  </div>
+  <!-- MODALS -->
+  <div class="modal fade" id="otpModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 p-4 text-center">
+        <button type="button" class="btn-close position-absolute top-0 start-0 m-3"
+          data-bs-dismiss="modal" aria-label="Fermer"></button>
+        <h5 class="fw-semibold mb-4">Verification OTP</h5>
+        <div class="d-flex justify-content-center gap-3 mb-3">
+          <input type="text" maxlength="1" class="otp-input">
+          <input type="text" maxlength="1" class="otp-input">
+          <input type="text" maxlength="1" class="otp-input">
+          <input type="text" maxlength="1" class="otp-input">
+        </div>
+        <p class="text-muted mb-1 small">Un code a été envoyé à votre téléphone</p>
+        <p class="mb-4"><span id="resendText" class="text-primary fw-semibold"><span
+              id="timer">01:00</span></span>
+        </p>
+        <button class="btn btn-primary w-100 rounded-3 py-2" id="btnToLoading">Continuer</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="loadingModal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 bg-transparent text-center">
+        <div class="spinner-border text-white mb-3" style="width: 3rem; height: 3rem;"></div>
+        <p class="text-white fw-bold">Encours...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 rounded-4 p-5 text-center bg-primary text-white overflow-hidden">
+        <div class="bg-white rounded-4 p-4 text-dark shadow position-relative" style="z-index: 2;">
+          <div class="bg-success rounded-circle d-inline-flex p-3 mb-3 text-white">
+            <i class="bi bi-check-lg fs-1" aria-hidden="true"></i>
+          </div>
+          <h4 class="fw-bold">Succes!</h4>
+          <p class="text-muted small">Votre transfert a été effectuer!</p>
+          <div class="my-4">
+            <span class="text-muted small">Total Transfert</span>
+            <h2 class="fw-bold text-primary" id="successAmountDisplay">€70.0</h2>
+          </div>
+          <button class="btn btn-primary w-100 py-3" id="btnDone">Terminer</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/public/js/api.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Initialisation des modals
+      const modalOtp = new bootstrap.Modal(document.getElementById('otpModal'));
+      const modalLoading = new bootstrap.Modal(document.getElementById('loadingModal'));
+      const modalSuccess = new bootstrap.Modal(document.getElementById('successModal'));
+
+      const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+      // Récupère les champs du formulaire.
+      // Le CVV n'est jamais envoyé au serveur : on ne stocke pas ce code secret.
+      function getCardData() {
+        return {
+          cardNumber: document.getElementById('card-number').value.replace(/\s/g, ''),
+          cardHolderName: document.getElementById('card-holder').value.trim(),
+          // "2026-01-15" -> "2026-01" (le serveur stocke année-mois)
+          expiryDate: document.getElementById('card-expiry').value.slice(0, 7)
+        };
+      }
+
+      // 1. Vérifier le formulaire puis ouvrir OTP au clic sur Continuer
+      document.getElementById('btnToOTP').addEventListener('click', (e) => {
+        e.preventDefault(); // le bouton est dans un <form> : on empêche le rechargement de la page
+        const card = getCardData();
+        if (!card.cardNumber || !card.cardHolderName || !card.expiryDate) {
+          alert('Veuillez remplir le numéro, le titulaire et la date d\'expiration.');
+          return;
+        }
+        modalOtp.show();
+      });
+
+      // 2. OTP -> Loading -> POST /api/cards -> Succès
+      document.getElementById('btnToLoading').addEventListener('click', async () => {
+        modalOtp.hide();
+        await wait(400);
+        modalLoading.show();
+
+        try {
+          const card = await api.createCard(getCardData());
+          await wait(800);
+          modalLoading.hide();
+          document.getElementById('successAmountDisplay').textContent = `${card.card_brand} •••• ${card.last_4_digits}`;
+          await wait(400);
+          modalSuccess.show();
+        } catch (error) {
+          await wait(400);
+          modalLoading.hide();
+          alert('Impossible d\'ajouter la carte : ' + error.message);
+        }
+      });
+
+      // 3. Redirection vers la liste des cartes
+      document.getElementById('btnDone').addEventListener('click', () => {
+        window.location.href = 'card.html';
+      });
+
+      // 4. Auto-focus OTP inputs
+      const otpInputs = document.querySelectorAll('.otp-input');
+      otpInputs.forEach((input, index) => {
+        input.addEventListener('input', () => {
+          if (input.value && index < otpInputs.length - 1) otpInputs[index + 1].focus();
+        });
+      });
+
+      // 5. Timer OTP simplifié
+      let timeLeft = 60;
+      const timerElement = document.getElementById("timer");
+      const countdown = setInterval(() => {
+        let m = Math.floor(timeLeft / 60);
+        let s = timeLeft % 60;
+        timerElement.textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        if (timeLeft <= 0) clearInterval(countdown);
+        timeLeft--;
+      }, 1000);
+    });
+
+  </script>
+</body>
+
+</html>

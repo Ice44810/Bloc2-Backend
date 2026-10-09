@@ -1,0 +1,2614 @@
+nohup: les entrées sont ignorées
+[2026-03-18T22:43:12.193Z] [INFO] Budget_App Server Started
+[2026-03-18T22:43:12.206Z] [INFO] Server running on http://localhost:3000
+[2026-03-18T22:43:12.214Z] [INFO] Connected to MySQL
+[2026-03-18T22:43:12.217Z] [INFO] Database 'Backend_node' ready.
+Indexes transactions créés.
+Indexes categories créés.
+Indexes cards créés.
+Indexes recipients créés.
+[2026-03-18T22:43:12.223Z] [INFO] Users table ready.
+[2026-03-18T22:43:12.224Z] [INFO] Transactions table ready.
+[2026-03-18T22:43:12.225Z] [INFO] Categories table ready.
+Table 'cards' prête.
+Table 'recipients' prête.
+Colonne 'role' ajoutée à 'users'.
+Colonne de profil ajoutée à 'users'.
+Colonne de profil ajoutée à 'users'.
+Colonne de profil ajoutée à 'users'.
+Colonne de profil ajoutée à 'users'.
+Colonne de profil ajoutée à 'users'.
+Colonne 'category_id' ajoutée à 'transactions'.
+[2026-03-18T22:45:01.589Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bill.html"
+}
+[2026-03-18T22:45:01.618Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-18T22:45:01.621Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:45:01.668Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:45:01.685Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-18T22:45:01.686Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:45:01.705Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:45:01.706Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:45:02.385Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-18T22:45:02.436Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-18T22:45:02.437Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:05.983Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-18T22:49:05.985Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:06.046Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:06.061Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-18T22:49:06.065Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-18T22:49:06.082Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:06.083Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:06.580Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-18T22:49:06.624Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-18T22:49:06.626Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:26.586Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-18T22:49:26.808Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-18T22:49:26.809Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:26.820Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-18T22:49:26.821Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:26.867Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:26.868Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:26.878Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:26.879Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:26.880Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-03-18T22:49:26.882Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-03-18T22:49:26.889Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-18T22:49:26.891Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-18T22:49:27.106Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-03-18T22:49:27.108Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-03-18T22:49:27.109Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-03-18T22:49:27.111Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T22:49:27.112Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-03-18T22:49:27.112Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-18T22:49:27.114Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-18T22:49:27.118Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-18T22:49:27.119Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-18T22:49:27.120Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-18T22:49:27.120Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-03-18T22:49:27.132Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "17ms"
+}
+[2026-03-18T22:49:27.149Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-18T22:49:27.150Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-18T22:49:27.154Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-18T22:49:27.155Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-18T22:49:27.156Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-18T22:49:27.157Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:49:27.157Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:49:27.158Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:49:27.158Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:49:27.159Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-18T22:49:27.169Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:49:27.170Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:49:27.170Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:49:27.170Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:49:27.231Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:49:27.232Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:49:27.233Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:49:27.234Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:49:27.234Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:49:27.235Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:49:27.235Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:49:27.235Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:49:27.373Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T22:49:27.373Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T22:49:27.632Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/favicon.ico"
+}
+[2026-03-18T22:49:27.632Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/favicon.ico.html",
+  "pageName": "favicon.ico.html"
+}
+[2026-03-18T22:49:34.609Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mobile.html"
+}
+[2026-03-18T22:49:34.610Z] [INFO] HTTP GET /mobile.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:34.670Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:34.671Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:34.681Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:34.682Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-03-18T22:49:34.683Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:34.691Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-18T22:49:39.639Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:39.640Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:39.862Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:39.864Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:39.877Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:39.880Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:40.752Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/internet.html"
+}
+[2026-03-18T22:49:40.753Z] [INFO] HTTP GET /internet.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:40.806Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:40.807Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:40.828Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:40.829Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:40.832Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-03-18T22:49:40.833Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:42.613Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:42.614Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:42.815Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:42.816Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:43.550Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bill.html"
+}
+[2026-03-18T22:49:43.552Z] [INFO] HTTP GET /bill.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:43.622Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:43.623Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:43.663Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:43.665Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:45.666Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:45.667Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:45.907Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:45.908Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:46.741Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/electricity.html"
+}
+[2026-03-18T22:49:46.742Z] [INFO] HTTP GET /electricity.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:46.817Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:46.817Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:46.841Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:46.842Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:46.843Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/verifier.png"
+}
+[2026-03-18T22:49:46.845Z] [INFO] HTTP GET /public/assets/images/verifier.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:48.737Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:48.738Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:48.990Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:48.991Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:49.691Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/film.html"
+}
+[2026-03-18T22:49:49.692Z] [INFO] HTTP GET /film.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:49.766Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:49.766Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:49.782Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:49.783Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:51.343Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:51.346Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:51.541Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:51.541Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:52.294Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/waterbill.html"
+}
+[2026-03-18T22:49:52.295Z] [INFO] HTTP GET /waterbill.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:52.372Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:52.373Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:52.386Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:52.387Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-18T22:49:52.390Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-calendrier.gif"
+}
+[2026-03-18T22:49:52.393Z] [INFO] HTTP GET /public/assets/images/icons8-calendrier.gif
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:49:53.926Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:53.928Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:54.150Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:54.151Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:55.253Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/rewards.html"
+}
+[2026-03-18T22:49:55.255Z] [INFO] HTTP GET /rewards.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.338Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:49:55.339Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:49:55.363Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:49:55.363Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-18T22:49:55.363Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-18T22:49:55.366Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.370Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-18T22:49:55.371Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:55.617Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-18T22:49:55.618Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:55.619Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-18T22:49:55.620Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logobk.png"
+}
+[2026-03-18T22:49:55.620Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-18T22:49:55.621Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logomadco.png"
+}
+[2026-03-18T22:49:55.621Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.621Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logokfc.png"
+}
+[2026-03-18T22:49:55.622Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.622Z] [INFO] HTTP GET /public/assets/images/logomadco.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:55.622Z] [INFO] HTTP GET /public/assets/images/logobk.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.623Z] [INFO] HTTP GET /public/assets/images/logokfc.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.634Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logosushishop.png"
+}
+[2026-03-18T22:49:55.636Z] [INFO] HTTP GET /public/assets/images/logosushishop.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:55.642Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/burger.png"
+}
+[2026-03-18T22:49:55.644Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/menuduokfc.jpg"
+}
+[2026-03-18T22:49:55.644Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/glaceburgerking.png"
+}
+[2026-03-18T22:49:55.644Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/krispertenders.png"
+}
+[2026-03-18T22:49:55.645Z] [INFO] HTTP GET /public/assets/images/menuduokfc.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:49:55.646Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/bucketkfc.jpg"
+}
+[2026-03-18T22:49:55.647Z] [INFO] HTTP GET /public/assets/images/burger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-18T22:49:55.647Z] [INFO] HTTP GET /public/assets/images/glaceburgerking.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:49:55.647Z] [INFO] HTTP GET /public/assets/images/krispertenders.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:49:55.648Z] [INFO] HTTP GET /public/assets/images/bucketkfc.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:49:55.718Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/giftsalade-1.jpg"
+}
+[2026-03-18T22:49:55.720Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/giftravioli-2.jpg"
+}
+[2026-03-18T22:49:55.721Z] [INFO] HTTP GET /public/assets/images/giftsalade-1.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:49:55.723Z] [INFO] HTTP GET /public/assets/images/giftravioli-2.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:49:55.828Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/notifications"
+}
+[2026-03-18T22:49:55.829Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/notifications"
+}
+[2026-03-18T22:50:02.769Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:02.770Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:03.063Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:03.064Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:05.128Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/market.html"
+}
+[2026-03-18T22:50:05.130Z] [INFO] HTTP GET /market.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:50:05.225Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:05.226Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:05.245Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:50:05.246Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/banner5.jpg"
+}
+[2026-03-18T22:50:05.246Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-18T22:50:05.247Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:05.247Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:05.247Z] [INFO] HTTP GET /public/assets/images/banner5.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:05.444Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-18T22:50:05.445Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-18T22:50:05.446Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-18T22:50:05.446Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:50:09.369Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:09.371Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:09.683Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:09.684Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:19.460Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Profile.html"
+}
+[2026-03-18T22:50:19.462Z] [INFO] HTTP GET /Profile.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:50:19.547Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:19.547Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:19.557Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:50:19.558Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-18T22:50:19.559Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T22:50:19.559Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:19.560Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:50:19.560Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:19.968Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-18T22:50:19.969Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-18T22:50:20.056Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-18T22:50:20.057Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-18T22:50:24.932Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Profile.html"
+}
+[2026-03-18T22:50:24.933Z] [INFO] HTTP GET /Profile.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:25.004Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:25.004Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:25.021Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:50:25.027Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-18T22:50:25.028Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T22:50:25.037Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-03-18T22:50:25.039Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-18T22:50:25.042Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-03-18T22:50:25.338Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-18T22:50:25.339Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-18T22:50:25.502Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-18T22:50:25.503Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-18T22:50:30.794Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Profile.html"
+}
+[2026-03-18T22:50:30.795Z] [INFO] HTTP GET /Profile.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:30.872Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-18T22:50:30.874Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-18T22:50:30.881Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:50:30.882Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:30.885Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-18T22:50:30.887Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:30.888Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T22:50:30.890Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:50:31.171Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-18T22:50:31.172Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-18T22:50:31.332Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-18T22:50:31.332Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-18T22:51:39.575Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-18T22:51:39.577Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:51:39.642Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:51:39.643Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-03-18T22:51:39.644Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:51:39.647Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:51:39.650Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-03-18T22:51:39.652Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:51:39.875Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-03-18T22:51:39.877Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:51:39.877Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-03-18T22:51:39.878Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-03-18T22:51:39.879Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T22:51:39.879Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-03-18T22:51:39.880Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-18T22:51:39.880Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:51:39.882Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-18T22:51:39.883Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T22:51:39.884Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T22:51:39.889Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-18T22:51:39.906Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-18T22:51:39.908Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:51:39.909Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-18T22:51:39.909Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-18T22:51:39.910Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:51:39.910Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T22:51:39.916Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:51:39.917Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:51:39.918Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:51:39.918Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:51:39.923Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:51:39.923Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:51:39.924Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:51:39.924Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:51:39.952Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:51:39.953Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T22:51:39.953Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:51:39.953Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T22:51:39.954Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:51:39.954Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T22:51:39.954Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:51:39.954Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T22:51:40.055Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T22:51:40.055Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T22:53:07.048Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/mycontact.html"
+}
+[2026-03-18T22:53:07.077Z] [INFO] HTTP GET /mycontact.html
+  Data: {
+  "statusCode": 200,
+  "duration": "30ms"
+}
+[2026-03-18T22:53:07.175Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:53:07.177Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:53:07.426Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-18T22:53:07.427Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-18T22:53:18.311Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/card.html"
+}
+[2026-03-18T22:53:18.313Z] [INFO] HTTP GET /card.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:53:18.363Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:53:18.366Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:53:18.441Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-18T22:53:18.442Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-18T22:53:18.457Z] [ERROR] Cards handler error
+  Error: ER_BAD_FIELD_ERROR: Unknown column 'last_4_digits' in 'field list'
+  Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'last_4_digits' in 'field list'
+    at Sequence._packetToError (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:76:16
+    at new Promise (<anonymous>)
+    at CardService.getCards (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:75:16)
+    at handleCards (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:44:45)
+    at Server.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/server.js:281:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-03-18T22:59:10.528Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/card.html"
+}
+[2026-03-18T22:59:10.530Z] [INFO] HTTP GET /card.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:59:10.620Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T22:59:10.621Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:59:10.630Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Techcombank.png"
+}
+[2026-03-18T22:59:10.632Z] [INFO] HTTP GET /public/assets/images/Techcombank.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T22:59:10.656Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/acbbank.png"
+}
+[2026-03-18T22:59:10.658Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/fivestarbank.jpeg"
+}
+[2026-03-18T22:59:10.659Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/citigroup.png"
+}
+[2026-03-18T22:59:10.660Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/fivestarbank.jpeg"
+}
+[2026-03-18T22:59:10.661Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/citigroup.png"
+}
+[2026-03-18T22:59:10.662Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/ICBC.png"
+}
+[2026-03-18T22:59:10.663Z] [INFO] HTTP GET /public/assets/images/acbbank.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-18T22:59:10.663Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/ICBC.png"
+}
+[2026-03-18T22:59:10.663Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/chasebank.jpeg"
+}
+[2026-03-18T22:59:10.664Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/chasebank.jpeg"
+}
+[2026-03-18T22:59:10.664Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/vietinbank.png"
+}
+[2026-03-18T22:59:10.664Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/vietinbank.png"
+}
+[2026-03-18T22:59:10.686Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Techcombank.png"
+}
+[2026-03-18T22:59:10.687Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Techcombank.png"
+}
+[2026-03-18T22:59:10.690Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/acbbank.png"
+}
+[2026-03-18T22:59:10.690Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/acbbank.png"
+}
+[2026-03-18T22:59:10.735Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-18T22:59:10.736Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-18T22:59:10.739Z] [ERROR] Cards handler error
+  Error: ER_BAD_FIELD_ERROR: Unknown column 'last_4_digits' in 'field list'
+  Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'last_4_digits' in 'field list'
+    at Sequence._packetToError (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:76:16
+    at new Promise (<anonymous>)
+    at CardService.getCards (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:75:16)
+    at handleCards (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:44:45)
+    at Server.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/server.js:281:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2026-03-18T23:00:06.537Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/banque.html"
+}
+[2026-03-18T23:00:06.540Z] [INFO] HTTP GET /banque.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T23:00:06.611Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:00:06.612Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-18T23:00:22.597Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-18T23:00:22.602Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T23:00:22.639Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:00:22.640Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-03-18T23:00:22.641Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-03-18T23:00:22.642Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T23:00:22.655Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "13ms"
+}
+[2026-03-18T23:00:22.656Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-03-18T23:00:22.695Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-03-18T23:00:22.697Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-03-18T23:00:22.698Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-03-18T23:00:22.698Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T23:00:22.700Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-03-18T23:00:22.700Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-18T23:00:22.711Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-03-18T23:00:22.721Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "25ms"
+}
+[2026-03-18T23:00:22.723Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "22ms"
+}
+[2026-03-18T23:00:22.725Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-18T23:00:22.727Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "29ms"
+}
+[2026-03-18T23:00:22.730Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "30ms"
+}
+[2026-03-18T23:00:22.732Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-18T23:00:22.738Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-18T23:00:22.739Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-18T23:00:22.742Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T23:00:22.743Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T23:00:22.744Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T23:00:22.745Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-18T23:00:22.745Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T23:00:22.746Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T23:00:22.747Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T23:00:22.748Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T23:00:22.758Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "54ms"
+}
+[2026-03-18T23:00:22.761Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T23:00:22.762Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T23:00:22.776Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T23:00:22.777Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T23:00:22.778Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T23:00:22.778Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T23:00:22.780Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T23:00:22.781Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T23:00:22.864Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T23:00:22.864Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T23:00:30.398Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/ui-pages.html"
+}
+[2026-03-18T23:00:30.400Z] [INFO] HTTP GET /ui-pages.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:00:30.445Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:00:30.446Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:00:43.768Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/cardinfo.html"
+}
+[2026-03-18T23:00:43.770Z] [INFO] HTTP GET /cardinfo.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:00:43.823Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:00:43.823Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-18T23:00:43.824Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:00:43.825Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:14.666Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-18T23:01:14.668Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:14.710Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:01:14.711Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-18T23:01:14.712Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-18T23:01:14.713Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-18T23:01:14.713Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-03-18T23:01:14.714Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-03-18T23:01:14.714Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:14.715Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:14.719Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T23:01:14.721Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-18T23:01:14.754Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-18T23:01:14.755Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:14.864Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:14.865Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:14.887Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:14.888Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:17.893Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:17.893Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:17.904Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:17.905Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:18.715Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:18.715Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:18.725Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:18.725Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:20.243Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:20.244Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:20.257Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:20.257Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:21.505Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:21.505Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:21.516Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:21.517Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:22.244Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:22.245Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:22.258Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:22.263Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:30.511Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:30.512Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:30.524Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:30.524Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:32.193Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-18T23:01:32.196Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T23:01:32.228Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:01:32.229Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-18T23:01:32.230Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-18T23:01:32.231Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-18T23:01:32.232Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-03-18T23:01:32.232Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-03-18T23:01:32.233Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T23:01:32.234Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:32.238Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T23:01:32.241Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-03-18T23:01:32.280Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-18T23:01:32.282Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:32.330Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:32.330Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:32.360Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:32.360Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:35.300Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:35.304Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=month"
+}
+[2026-03-18T23:01:35.315Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:35.316Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-18T23:01:36.687Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:36.687Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?period=week"
+}
+[2026-03-18T23:01:36.698Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:36.699Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-18T23:01:41.768Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-18T23:01:41.773Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T23:01:41.807Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:01:41.808Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/esther.jpg"
+}
+[2026-03-18T23:01:41.809Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:41.810Z] [INFO] HTTP GET /public/assets/images/esther.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:41.811Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/hawkins.jpg"
+}
+[2026-03-18T23:01:41.817Z] [INFO] HTTP GET /public/assets/images/hawkins.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-18T23:01:41.851Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jenny.jpg"
+}
+[2026-03-18T23:01:41.852Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Leslie.jpg"
+}
+[2026-03-18T23:01:41.852Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/jerome.jpg"
+}
+[2026-03-18T23:01:41.853Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-18T23:01:41.853Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/betty.jpg"
+}
+[2026-03-18T23:01:41.854Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-18T23:01:41.854Z] [INFO] HTTP GET /public/assets/images/Leslie.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:41.860Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-18T23:01:41.861Z] [INFO] HTTP GET /public/assets/images/betty.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-03-18T23:01:41.862Z] [INFO] HTTP GET /public/assets/images/jenny.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-03-18T23:01:41.864Z] [INFO] HTTP GET /public/assets/images/jerome.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-03-18T23:01:41.870Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-18T23:01:41.872Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:41.875Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "19ms"
+}
+[2026-03-18T23:01:41.893Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-18T23:01:41.896Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-18T23:01:41.896Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T23:01:41.897Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:41.897Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T23:01:41.898Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Andy%20Cody.jpg"
+}
+[2026-03-18T23:01:41.900Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T23:01:41.901Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T23:01:41.902Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Alex%20Tran.jpg"
+}
+[2026-03-18T23:01:41.902Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Kanope%20Francoise.jpg"
+}
+[2026-03-18T23:01:41.910Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T23:01:41.911Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-18T23:01:41.914Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T23:01:41.915Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/assets/images/Mallorie%20Jean.jpg"
+}
+[2026-03-18T23:01:50.385Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/card.html"
+}
+[2026-03-18T23:01:50.387Z] [INFO] HTTP GET /card.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-18T23:01:50.440Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-18T23:01:50.441Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/Techcombank.png"
+}
+[2026-03-18T23:01:50.441Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:50.443Z] [INFO] HTTP GET /public/assets/images/Techcombank.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-18T23:01:50.476Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/acbbank.png"
+}
+[2026-03-18T23:01:50.478Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/fivestarbank.jpeg"
+}
+[2026-03-18T23:01:50.478Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/fivestarbank.jpeg"
+}
+[2026-03-18T23:01:50.479Z] [INFO] HTTP GET /public/assets/images/acbbank.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-18T23:01:50.480Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/citigroup.png"
+}
+[2026-03-18T23:01:50.480Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/ICBC.png"
+}
+[2026-03-18T23:01:50.480Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/citigroup.png"
+}
+[2026-03-18T23:01:50.481Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/ICBC.png"
+}
+[2026-03-18T23:01:50.481Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/chasebank.jpeg"
+}
+[2026-03-18T23:01:50.482Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/chasebank.jpeg"
+}
+[2026-03-18T23:01:50.482Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/vietinbank.png"
+}
+[2026-03-18T23:01:50.482Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/vietinbank.png"
+}
+[2026-03-18T23:01:50.487Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/Techcombank.png"
+}
+[2026-03-18T23:01:50.488Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/Techcombank.png"
+}
+[2026-03-18T23:01:50.492Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/acbbank.png"
+}
+[2026-03-18T23:01:50.492Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/acbbank.png"
+}
+[2026-03-18T23:01:50.515Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/fivestarbank.jpeg"
+}
+[2026-03-18T23:01:50.516Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Public/Assets/images/citigroup.png"
+}
+[2026-03-18T23:01:50.516Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/fivestarbank.jpeg"
+}
+[2026-03-18T23:01:50.517Z] [ERROR] Static file not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/public/Assets/images/citigroup.png"
+}
+[2026-03-18T23:01:50.518Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-18T23:01:50.518Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-18T23:01:50.520Z] [ERROR] Cards handler error
+  Error: ER_BAD_FIELD_ERROR: Unknown column 'last_4_digits' in 'field list'
+  Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'last_4_digits' in 'field list'
+    at Sequence._packetToError (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:76:16
+    at new Promise (<anonymous>)
+    at CardService.getCards (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:75:16)
+    at handleCards (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/handlers/cards.js:44:45)
+    at Server.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/server.js:281:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

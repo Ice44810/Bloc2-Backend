@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informations de la carte – Budget App</title>
+  <meta name="description" content="Consultez les informations et services de votre carte Budget App." />
+  <link rel="canonical" href="cardinfo.html" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../Public/Assets/style.css" />
+</head>
+
+<body>
+  <h1 class="visually-hidden">Informations de la carte</h1>
+
+  <div class="container">
+    <div class="breadcrumb mt-3">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="./banque.html">Compte Bancaire</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            <span class="bi bi-credit-card text-primary" style="font-size: 15px;">
+            </span>Informations Carte
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div class="card-container">
+      <div class="credit-card shadow-sm mb-3 p-3 position-relative">
+        <div class="d-flex justify-content-between align-items-start mb-4"><img
+            src="../Public/Assets/images/icons8-visa-48.png" alt="visa logo" style="width: 60px;" />
+          <i class="bi bi-trash3 text-white" id="deleteinfo" data-bs-toggle="offcanvas"
+            data-bs-target="#deleteCardSheet" style="cursor: pointer;" role="button" aria-label="Supprimer la carte"></i>
+        </div>
+        <div class="mb-2">
+          <span class="card-number" id="cardNumber">**** **** **** ····</span>
+        </div>
+        <div class="card-footer-info d-flex justify-content-between">
+          <div>
+            <small class="d-block">Exp Date</small>
+            <strong id="cardExpiry">··/··</strong>
+          </div>
+          <div class="text-end">
+            <small class="d-block">Titulaire</small>
+            <strong id="cardHolder">…</strong>
+          </div>
+        </div>
+      </div>
+      <h2 class="fw-bold mb-3 fs-5">Service Carte</h2>
+      <div class="card shadow-sm border-0 p-3">
+        <div class="service-row text-muted">
+          <span class="small">Recharge minimum</span>
+          <strong class="text-dark">€10</strong>
+        </div>
+        <div class="service-row text-muted">
+          <span class="small">Limite Recharge</span>
+          <strong class="text-dark">€2000</strong>
+        </div>
+        <div class="service-row text-muted border-0">
+          <span class="small">Limite paiement</span>
+          <strong class="text-dark">€2000</strong>
+        </div>
+        <div class="service-row text-muted border-0">
+          <span class="small">Limite paiement</span>
+          <strong class="text-dark">€2000</strong>
+        </div>
+        <div class="service-row text-muted border-0">
+          <span class="small">Payment limit</span>
+          <strong class="text-dark">€2000</strong>
+        </div>
+      </div>
+      <!-- Pour une mise en prod, il faudra modifier cette partie de code en rendant "Augmentaion de la Limite"
+                ; "Gerer la recharge" cliquable -->
+      <h2 class="fw-bold mt-3 mb-3 fs-5">Services avancés</h2>
+      <div class="card shadow-sm border-0 p-2 mb-2 d-flex flex-row justify-content-between align-items-center">
+        <span>Augmentaion de la Limite</span>
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+      </div>
+      <div class="card shadow-sm border-0 p-2 d-flex flex-row justify-content-between align-items-center">
+        <span>Gérer la recharge</span>
+        <i class="bi bi-chevron-right" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offcanvas pour supprimer la carte -->
+  <div class="offcanvas offcanvas-bottom action-sheet-ios" tabindex="-1" id="deleteCardSheet">
+    <div class="offcanvas-body small">
+      <div class="list-group rounded-4 mb-2">
+        <div class="list-group-item text-center py-2">
+          <small class="mb-0 text-muted extra-small">Êtes-vous sûr de vouloir supprimer cette carte ?</small>
+        </div>
+        <button type="button"
+          class="list-group-item list-group-item-action text-center text-danger fw-semibold py-3"
+          id="confirmDelete">
+          Supprimer la carte
+        </button>
+      </div>
+
+      <button type="button" class="btn btn-white w-100 rounded-4 py-3 fw-bold text-primary-ios"
+        data-bs-dismiss="offcanvas">
+        Annuler
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="/public/js/api.js"></script>
+  <script>
+    let currentCard = null;
+
+    // La carte à afficher est donnée dans l'adresse : cardinfo.html?id=3
+    // Sans id, on affiche la première carte de l'utilisateur.
+    async function loadCard() {
+      const cardElement = document.querySelector('.credit-card');
+      try {
+        const id = new URLSearchParams(window.location.search).get('id');
+        if (id) {
+          currentCard = await api.getCard(id);            // GET /api/cards/:id
+        } else {
+          const cards = await api.getCards();            // GET /api/cards
+          currentCard = cards[0] || null;
+        }
+
+        if (!currentCard) {
+          cardElement.outerHTML = '<p class="text-muted">Aucune carte enregistrée. <a href="./addnewcard.html">Ajouter une carte</a></p>';
+          return;
+        }
+
+        // "2027-05" -> "05/27"
+        const [year, month] = currentCard.expiry_date.split('-');
+        document.getElementById('cardNumber').textContent = `**** **** **** ${currentCard.last_4_digits}`;
+        document.getElementById('cardExpiry').textContent = month ? `${month}/${year.slice(2)}` : currentCard.expiry_date;
+        document.getElementById('cardHolder').textContent = currentCard.card_holder_name;
+        cardElement.querySelector('img').alt = `Logo ${currentCard.card_brand}`;
+      } catch (error) {
+        alert('Impossible de charger la carte : ' + error.message);
+      }
+    }
+    loadCard();
+
+    // Suppression : DELETE /api/cards/:id
+    document.getElementById('confirmDelete').addEventListener('click', async function () {
+      const offcanvasElement = document.getElementById('deleteCardSheet');
+      bootstrap.Offcanvas.getInstance(offcanvasElement).hide();
+      if (!currentCard) return;
+
+      try {
+        await api.deleteCard(currentCard.id);
+        // Petite animation de sortie, puis retour au profil
+        const cardToDelete = document.querySelector('.credit-card');
+        cardToDelete.style.transition = "all 0.4s ease";
+        cardToDelete.style.opacity = "0";
+        cardToDelete.style.transform = "scale(0.9)";
+        setTimeout(() => { window.location.href = './profile.html'; }, 400);
+      } catch (error) {
+        alert('Suppression impossible : ' + error.message);
+      }
+    });
+  </script>
+</body>
+
+</html>

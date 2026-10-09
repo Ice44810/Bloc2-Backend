@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Récompenses – Budget App</title>
+  <meta name="description" content="Consultez vos récompenses, coupons et offres Budget App." />
+  <link rel="canonical" href="rewards.html" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../Public/Assets/style.css">
+</head>
+
+<body>
+  <h1 class="visually-hidden">Mes récompenses</h1>
+
+    <!-- HEADER -->
+    <div class="container">
+        <div class="breadcrumb mt-3 d-flex justify-content-between">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <span class="bi bi-gift text-warning" style="font-size: 15px;"></span>
+                        Mes Récompenses
+                    </li>
+                </ol>
+            </nav>
+            <!-- Notifications -->
+            <div class="header-icons d-flex align-items-center gap-2">
+                <a href="#offcanvasLeft" class="menu-link position-relative" data-bs-toggle="offcanvas" role="button"
+                    id="bellIcon">
+                    <i class="bi bi-bell-fill text-black fs-4" aria-hidden="true"></i>
+                    <span id="notificationBadge"
+                        class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                        <span class="visually-hidden">Nouvelles notifications</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="search-bar position-relative mb-3 px-3">
+            <input type="text" class="form-control rounded-3 fs-6 ps-5" placeholder="Rechercher des produits..."
+                style="height: 50px;" />
+            <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-4 text-muted" aria-hidden="true"></i>
+        </div>
+
+
+        <!-- Partie card -->
+        <div class="scroll-container px-4 ms-3 mx-3 rewards-center">
+            <div class="rewards-card-item">
+                <div class="card rounded-4 border-0 p-3 shadow-sm"
+                    style="background-color: #68c0d1; min-height: 160px; width: 300px;">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="text-center">
+                            <img src="../Public/Assets/images/iconeshopping.jpg" alt="Mode" class="rounded-3 bg-white"
+                                style="width: 60px; height: 60px; object-fit: contain;">
+                            <p class="small mb-0 fw-bold mt-1 text-dark">Mode</p>
+                        </div>
+                        <div class="text-end">
+                            <h5 class="fw-bold mb-2 text-dark">SHOPPING EN<br>LIGNE</h5>
+                            <button class="btn btn-sm btn-dark rounded-pill px-3">Plus</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rewards-card-item">
+                <div class="card rounded-4 border-0 p-3 shadow-sm"
+                    style="background-color: #131921; min-height: 160px; width: 300px;">
+                    <div class="d-flex justify-content-between align-items-center text-white">
+                        <div>
+                            <i class="bi bi-amazon fs-1 text-warning" aria-hidden="true"></i>
+                            <p class="small mb-0 fw-bold">Amazon</p>
+                        </div>
+                        <div class="text-end">
+                            <h6 class="fw-bold mb-2">PRIME DAY<br>DISPONIBLE</h6><a href="https://www.amazon.fr"
+                                class="btn btn-sm btn-warning rounded-pill px-3 fw-bold">Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rewards-card-item">
+                <div class="card rounded-4 border-0 p-3 shadow-sm"
+                    style="background-color: #e1bc2a; min-height: 160px; width: 300px;">
+                    <div class="d-flex justify-content-between align-items-center text-dark">
+                        <div class="text-center">
+                            <img src="../Public/Assets/images/logofnac.png" alt="FNAC" class="rounded-3 bg-white p-1"
+                                style="width: 50px;">
+                            <p class="small mb-0 fw-bold mt-1">FNAC</p>
+                        </div>
+                        <div class="text-end">
+                            <h5 class="fw-bold mb-2">OFFRES<br>ADHÉRENTS</h5><a href="https://www.fnac.com"
+                                class="btn btn-sm btn-dark rounded-pill px-3">Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rewards-card-item">
+                <div class="card rounded-4 border-0 p-3 shadow-sm"
+                    style="background-color: #3142ac; min-height: 160px; width: 300px;">
+                    <div class="d-flex justify-content-between align-items-center text-white">
+                        <div class="text-center">
+                            <img src="../Public/Assets/images/logocdiscount.png" alt="Cdiscount"
+                                style="width: 100px; background-color: white;" class="rounded-3 p-1">
+                            <p class="small mb-0 fw-bold mt-1">Cdiscount</p>
+                        </div>
+                        <div class="text-end">
+                            <h5 class="fw-bold mb-2">Ventes<br>Flash</h5>
+                            <a href="https://www.cdiscount.com"
+                                class="btn btn-sm btn-light text-primary rounded-pill px-3 fw-bold">Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rewards-card-item">
+                <div class="card rounded-4 border-0 p-3 shadow-sm"
+                    style="background-color: #e38556; min-height: 160px; width: 300px;">
+                    <div class="d-flex justify-content-between align-items-center text-white">
+                        <div class="text-center">
+                            <img src="../Public/Assets/images/logoboulanger.png" alt="Boulanger"
+                                style="width: 100px; background-color: white;" class="rounded-3 p-1">
+                            <p class="small mb-0 fw-bold mt-1">Boulanger</p>
+                        </div>
+                        <div class="text-end">
+                            <h5 class="fw-bold mb-2">Ventes<br>Flash</h5>
+                            <a href="https://www.boulanger.com"
+                                class="btn btn-sm btn-light text-primary rounded-pill px-3 fw-bold">Plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll ... -->
+        <div class="scroll-dots d-flex justify-content-center gap-2">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <!-- 2ème partie tableau : catégories -->
+        <div class="container-fluid service-header mt-4 px-4 ms-3 mx-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="service-title mb-2">Catégories</h2>
+                <a href="./servicemanagement2.html" id="toggleCategories" class="view-all-link" aria-expanded="false"
+                    aria-controls="containerCategories">Tout voir</a>
+            </div>
+        </div>
+        <div class="container-fluid service-grid mt-2" id="containerCategories">
+            <div class="row row-cols-4 row-cols-md-4 g-3 mb-5">
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #e1f5fe;"><i
+                            class="bi bi-gift-fill text-danger" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Chèque cadeau</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #fce4ec;">
+                        <i class="bi bi-basket-fill text-warning" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Cosmetique</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #fff9c4;">
+                        <i class="bi bi-shop text-success" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Shopping</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #e0f2f1;">
+                        <i class="bi bi-cake2 text-secondary" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">restaurant</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #e0f2f1;">
+                        <i class="bi bi-shop-window text-secondary" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Epicérie</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #e8eaf6;">
+                        <i class="bi bi-airplane text-primary" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Voyages</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #fbe9e7;">
+                        <i class="bi bi-heart-pulse text-danger" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Médicale</p>
+                </div>
+                <div class="col category-item">
+                    <div class="category-icon" style="background-color: #f3e5f5;">
+                        <i class="bi bi-gem text-primary" aria-hidden="true"></i>
+                    </div>
+                    <p class="small fw-semibold">Autre service</p>
+                </div>
+            </div>
+        </div>
+        <!-- 3ème partie tableau : A la Une -->
+        <div class="container-fluid service-header mt-4 px-4 ms-3 mx-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="service-title mb-2">A la Une</h2>
+                <a href="./rewards.html" id="toggleOutstanding" class="view-all-link" aria-expanded="false"
+                    aria-controls="containeroutstanding">Tout voir</a>
+            </div>
+        </div>
+        <div class="container-fluid service-grid mt-2" id="containeroutstanding">
+            <div class="row text-center mb-5">
+                <div class="col-3">
+                    <a href="./giftcarddetail.html">
+                        <img src="../Public/Assets/images/logobk.png" class="brand-logo" alt="Burger King"
+                            style="height: 60px;"></a>
+                    <p class="small">Burger King</p>
+                </div>
+                <div class="col-3">
+                    <a href="./giftcarddetail.html">
+                        <img src="../Public/Assets/images/logomadco.png" class="brand-logo" alt="MacDonald's"
+                            style="height: 60px;"></a>
+                    <p class="small">MacDonald's</p>
+                </div>
+                <div class="col-3">
+                    <a href="./giftcarddetail.html">
+                        <img src="../Public/Assets/images/logokfc.png" class="brand-logo" alt="KFC"
+                            style="height: 60px;"></a>
+                    <p class="small">KFC</p>
+                </div>
+                <div class="col-3">
+                    <a href="./giftcarddetail.html">
+                        <img src="../Public/Assets/images/logosushishop.png" class="brand-logo" alt="Sushi Shop"
+                            style="height: 60px;"></a>
+                    <p class="small">Sushi Shop</p>
+                </div>
+            </div>
+        </div>
+        <!-- 4ème partie tableau : Coupons -->
+        <div class="container-fluid service-header mt-4 px-4 ms-3 mx-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="service-title mb-2">Coupons</h2>
+                <a href="#ContainerGiftcard" id="toggleContainerGiftcard" class="view-all-link mb-2"
+                    aria-expanded="false" aria-controls="ContainerGiftcard">Tout voir</a>
+            </div>
+        </div>
+        <div class="scroll-container px-3">
+            <div class="coupon-card px-2 mb-4" style="margin-right: -0.5rem; margin-left: -0.5rem;" class="col-md-4">
+                <div class="coupon-card">
+                    <div class="coupon-left">
+                        <span class="d-block small text-muted">CUISINE TEST</span>
+                        <span class="h5 fw-bold text-success mb-0">R100</span>
+                        <p class="small text-muted mb-0">COUPON</p>
+                    </div>
+                    <div class="coupon-right"
+                        style="background-image: url('../Public/Assets/images/giftsalade-1.jpg');">
+                    </div>
+                </div>
+            </div>
+
+            <div class="coupon-card px-3 mb-4">
+                <div class="coupon-card bg-dark text-white">
+                    <div class="coupon-left">
+                        <span class="d-block small text-light">CUISINE TEST
+                        </span>
+                        <span class="h5 fw-bold text-success mb-0">R100</span>
+                        <p class="small text-light mb-0">COUPON</p>
+                    </div>
+                    <div class="coupon-right"
+                        style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');text-decoration: none;">
+                    </div>
+                </div>
+            </div>
+            <div class="coupon-card px-3 mb-4" style="margin-right: -0.5rem; margin-left: -0.5rem;" class="col-md-4">
+                <div class="coupon-card">
+                    <div class="coupon-left">
+                        <span class="d-block small text-muted">CUISINE TEST
+                        </span>
+                        <span class="h5 fw-bold text-success mb-0">R100</span>
+                        <p class="small text-muted mb-0">COUPON</p>
+                    </div>
+                    <div class="coupon-right"
+                        style="background-image: url('../Public/Assets/images/giftsalade-1.jpg');">
+                    </div>
+                </div>
+            </div>
+            <div class="coupon-card px-3 mb-4">
+                <div class="coupon-card bg-dark text-white">
+                    <div class="coupon-left">
+                        <span class="d-block small text-light">CUISINE TEST</span>
+                        <span class="h5 fw-bold text-success mb-0">R100</span>
+                        <p class="small text-light mb-0">COUPON</p>
+                    </div>
+                    <div class="coupon-right"
+                        style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+                    </div>
+                </div>
+            </div>
+            <div class="coupon-card px-3 mb-4" style="margin-right: -0.5rem; margin-left: -0.5rem;" class="col-md-4">
+                <div class="coupon-card">
+                    <div class="coupon-left">
+                        <span class="d-block small text-muted">CUISINE TEST</span>
+                        <span class="h5 fw-bold text-success mb-0">R100</span>
+                        <p class="small text-muted mb-0">COUPON</p>
+                    </div>
+                    <div class="coupon-right"
+                        style="background-image: url('../Public/Assets/images/giftsalade-1.jpg');">
+                    </div>
+                </div>
+            </div>
+            <div class="coupon-card px-3 mb-4">
+                <div class="coupon-card bg-dark text-white">
+                    <div class="coupon-left">
+                        <span class="d-block small text-light">CUISINE TEST</span>
+                        <span class="h5 fw-bold text-success mb-0">R100</span>
+                        <p class="small text-light mb-0">COUPON</p>
+                    </div>
+                    <div class="coupon-right"
+                        style="background-image: url('../Public/Assets/images/giftravioli-2.jpg');">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll ... -->
+        <div class="scroll-dots d-flex justify-content-center gap-2">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <!-- 5e Partie du tableau : Proche de chez vous -->
+        <div class="container-fluid service-header mt-4 px-4 ms-3 mx-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="service-title mb-2">A proximité</h2>
+                <a href="./dealmanagement.html" id="toggleDealnearyou" class="view-all-link" aria-expanded="false"
+                    aria-controls="containerDealnearyou">Tout voir</a>
+            </div>
+        </div> <!-- Revoir le scrollbar de cette section-->
+        <div class="scroll-container px-2">
+            <div class="d-flex flex-nowrap overflow-auto px-4 pb-3 gap-3 scroll-content">
+                <div class="flex-shrink-0" style="width: 280px; height: 280px;">
+                    <div class="card deal-card h-100 shadow-sm border-0">
+                        <div class="discount-badge">35%</div>
+                        <img src="../Public/Assets/images/burger.png" class="card-img-top" alt="Burger"
+                            style="height: 140px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title h6 fw-bold">
+                                <a href="giftcarddetail.html" class="text-decoration-none text-dark stretched-link">
+                                    The Big King Burger - Burger King
+                                </a>
+                            </h5>
+                            <div class="d-flex align-items-center mt-auto">
+                                <span class="rating-text">★★★★☆</span>
+                                <span class="ms-1 small fw-bold">4.1</span>
+                                <span class="ms-auto rating-count small text-muted">100+ notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-shrink-0" style="width: 280px; height: 280px;">
+                    <div class="card deal-card h-100 shadow-sm border-0">
+                        <div class="discount-badge">40%</div>
+                        <img src="../Public/Assets/images/menuduokfc.jpg" class="card-img-top" alt="Fries"
+                            style="height: 140px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title h6 fw-bold">
+                                <a href="giftcarddetail.html" class="text-decoration-none text-dark stretched-link">
+                                    NOUVEAUTE Bucket - KFC
+                                </a>
+                            </h5>
+                            <div class="d-flex align-items-center mt-auto">
+                                <span class="rating-text">★★★★☆</span>
+                                <span class="ms-1 small fw-bold">4.1</span>
+                                <span class="ms-auto rating-count small text-muted">100+ notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-shrink-0" style="width: 280px; height: 280px;">
+                    <div class="card deal-card h-100 shadow-sm border-0">
+                        <div class="discount-badge">30%</div>
+                        <img src="../Public/Assets/images/glaceburgerking.png" class="card-img-top" alt="Chicken"
+                            style="height: 140px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title h6 fw-bold">
+                                <a href="giftcarddetail.html" class="text-decoration-none text-dark stretched-link">
+                                    King Fusion - Burger King
+                                </a>
+                            </h5>
+                            <div class="d-flex align-items-center mt-auto">
+                                <span class="rating-text">★★★★☆</span>
+                                <span class="ms-1 small fw-bold">4.1</span>
+                                <span class="ms-auto rating-count small text-muted">100+ notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-shrink-0" style="width: 280px; height: 280px;">
+                    <div class="card deal-card h-100 shadow-sm border-0">
+                        <div class="discount-badge">35%</div>
+                        <img src="../Public/Assets/images/krispertenders.png" class="card-img-top" alt="Burger"
+                            style="height: 140px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title h6 fw-bold">
+                                <a href="giftcarddetail.html" class="text-decoration-none text-dark stretched-link">
+                                    Krispy Tenders - Burger King
+                                </a>
+                            </h5>
+                            <div class="d-flex align-items-center mt-auto">
+                                <span class="rating-text">★★★★☆</span>
+                                <span class="ms-1 small fw-bold">4.1</span>
+                                <span class="ms-auto rating-count small text-muted">100+ notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-shrink-0" style="width: 280px; height: 280px;">
+                    <div class="card deal-card h-100 shadow-sm border-0">
+                        <div class="discount-badge">40%</div>
+                        <img src="../Public/Assets/images/bucketkfc.jpg" class="card-img-top" alt="Fries"
+                            style="height: 140px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title h6 fw-bold">
+                                <a href="giftcarddetail.html" class="text-decoration-none text-dark stretched-link">
+                                    Menu Bucket - KFC
+                                </a>
+                            </h5>
+                            <div class="d-flex align-items-center mt-auto">
+                                <span class="rating-text">★★★★☆</span>
+                                <span class="ms-1 small fw-bold">4.1</span>
+                                <span class="ms-auto rating-count small text-muted">100+ notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-shrink-0" style="width: 280px; height: 280px;">
+                    <div class="card deal-card h-100 shadow-sm border-0">
+                        <div class="discount-badge">30%</div>
+                        <img src="../Public/Assets/images/glaceburgerking.png" class="card-img-top" alt="Chicken"
+                            style="height: 140px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title h6 fw-bold">
+                                <a href="giftcarddetail.html" class="text-decoration-none text-dark stretched-link">
+                                    Burger - Macdonald's
+                                </a>
+                            </h5>
+                            <div class="d-flex align-items-center mt-auto">
+                                <span class="rating-text">★★★★☆</span>
+                                <span class="ms-1 small fw-bold">4.1</span>
+                                <span class="ms-auto rating-count small text-muted">100+ notes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll ... -->
+        <div class="scroll-dots d-flex justify-content-center gap-2">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <!-- OFF CANVAS Notification -->
+        <div class="offcanvas offcanvas-start top-0" tabindex="-1" id="offcanvasLeft">
+            <div class="offcanvas-header-rewards bg-white border-bottom">
+                <div class="d-flex align-items-center">
+                    <button type="button" class="btn-close border-0 p-3 me-2" data-bs-dismiss="offcanvas"
+                        aria-label="Fermer les notifications"></button>
+                    <h2 class="mb-1 fw-bold flex-grow-1 text-center me-4 fs-5">Notification</h2>
+                </div>
+            </div>
+            <div class="offcanvas-body flex-grow-1 p-0 mx-auto">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-allnotification-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-allnotification" type="button" role="tab">Toutes</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-remind-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-remind" type="button" role="tab">Rappel</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-transaction-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-transaction" type="button" role="tab">Transactions</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-promotion-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-promotion" type="button" role="tab">Promotions</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-allnotification" role="tabpanel">
+                        <div class="list-group-item d-flex flex-column border rounded p-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <i class="bi bi-bell" aria-hidden="true"></i>
+                                <span class="fw-bold">Toutes notifications</span>
+                                <small class="text-muted">5 Min</small>
+                            </div>
+                            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+                                paid
+                                through Alipay wallet!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-remind" role="tabpanel">
+                        <div class="list-group-item d-flex flex-column border rounded p-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <i class="bi bi-bell" aria-hidden="true"></i>
+                                <span class="fw-bold">Rappel</span>
+                                <small class="text-muted">5 Min</small>
+                            </div>
+                            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+                                paid
+                                through Alipay wallet!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-transaction" role="tabpanel">
+                        <div class="list-group-item d-flex flex-column border rounded p-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <i class="bi bi-credit-card" aria-hidden="true"></i>
+                                <span class="fw-bold">Transactions</span>
+                                <small class="text-muted">5 Min</small>
+                            </div>
+                            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+                                paid
+                                through Alipay wallet!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-promotion" role="tabpanel">
+                        <div class="list-group-item d-flex flex-column border rounded p-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <i class="bi bi-tag" aria-hidden="true"></i>
+                                <span class="fw-bold">Promotions</span>
+                                <small class="text-muted">12h</small>
+                            </div>
+                            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+                                paid
+                                through Alipay wallet!
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <i class="bi bi-tag" aria-hidden="true"></i>
+                            <span class="fw-bold">Promotions</span>
+                            <small class="text-muted">12h</small>
+                        </div>
+                        <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills paid
+                            through Alipay wallet!
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <i class="bi bi-tag" aria-hidden="true"></i>
+                            <span class="fw-bold">Promotions</span>
+                            <small class="text-muted">12h</small>
+                        </div>
+                        <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills paid
+                            through Alipay wallet!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER NAVIGATION -->
+        <footer class="footer py-2">
+            <div class="d-flex justify-content-around align-items-center">
+                <a href="./index.html" class="footer-link">
+                    <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+                    <span>Accueil</span>
+                </a>
+                <a href="./bankhistory.html" class="footer-link">
+                    <i class="bi bi-clock-history" aria-hidden="true"></i>
+                    <span>Historique</span>
+                </a>
+                <a href="./myqr.html" class="footer-link">
+                    <i class="bi bi-qr-code-scan" aria-hidden="true"></i>
+                    <span>QR</span>
+                </a>
+                <a href="./rewards.html" class="active-link" aria-current="page">
+                    <i class="bi bi-gift" aria-hidden="true"></i>
+                    <span>Récompenses</span>
+                </a>
+                <a href="./profile.html" class="footer-link">
+                    <i class="bi bi-person" aria-hidden="true"></i><span>Profil</span></a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+
+            // JavaScript pour masquer le badge de notification
+            document.addEventListener('DOMContentLoaded', function () {
+                const bellIcon = document.getElementById('bellIcon');
+                const badge = document.getElementById('notificationBadge');
+                const offcanvasEl = document.getElementById('offcanvasLeft');
+
+                if (offcanvasEl && badge) {
+                    // Quand l'utilisateur clique sur la cloche ou que l'offcanvas commence à s'afficher
+                    offcanvasEl.addEventListener('show.bs.offcanvas', function () {
+                        // Masque le badge avec une petite transition ou directement
+                        badge.style.display = 'none';
+                    });
+                }
+            });
+
+            document.addEventListener('DOMContentLoaded', function () {
+                // GESTION DES ONGLETS (NOTIFICATIONS)
+                const triggerTabList = document.querySelectorAll('#pills-tab button');
+                triggerTabList.forEach(triggerEl => {
+                    const tabTrigger = new bootstrap.Tab(triggerEl); // (trigger) Quand l'utilisateur clique sur un onglet
+                    triggerEl.addEventListener('click', event => {
+                        event.preventDefault();
+                        tabTrigger.show();
+                    });
+                });
+
+                // BARRE DE RECHERCHE (FILTRE SIMPLE)
+                // Permet de filtrer visuellement les titres des cartes
+                const searchInput = document.querySelector('.search-bar input');
+                if (searchInput) {
+                    searchInput.addEventListener('input', function (e) {
+                        const term = e.target.value.toLowerCase();
+                        const cards = document.querySelectorAll('.card');
+
+                        cards.forEach(card => {
+                            const title = card.innerText.toLowerCase();
+                            if (title.includes(term)) {
+                                card.closest('[class*="col"], .flex-shrink-0').style.display = 'block';
+                            } else {
+                                card.closest('[class*="col"], .flex-shrink-0').style.display = 'none';
+                            }
+                        });
+                    });
+                }
+            });
+
+            // SCROLL DOTS
+            // On sélectionne tous les conteneurs de cartes
+            const scrollContainers = document.querySelectorAll(".scroll-container");
+            const allDotsGroups = document.querySelectorAll(".scroll-dots");
+
+            scrollContainers.forEach((container, index) => {
+                const dotsGroup = allDotsGroups[index];
+                if (!dotsGroup) return;
+
+                const dots = dotsGroup.querySelectorAll(".dot");
+                if (!container || !dots.length) return;
+
+                let isDown = false;
+                let startX;
+                let scrollLeft;
+
+                container.addEventListener("scroll", () => {
+                    const maxScroll = container.scrollWidth - container.offsetWidth;
+                    if (maxScroll <= 0) return;
+
+                    const scrollPercentage = container.scrollLeft / maxScroll;
+                    const activeIndex = Math.round(scrollPercentage * (dots.length - 1));
+
+                    dots.forEach((dot, i) => {
+                        dot.classList.toggle("active", i === activeIndex);
+                    });
+                });
+
+                container.addEventListener("mousedown", (e) => {
+                    isDown = true;
+                    startX = e.pageX - container.offsetLeft;
+                    scrollLeft = container.scrollLeft;
+                });
+
+                container.addEventListener("mouseleave", () => isDown = false);
+                container.addEventListener("mouseup", () => isDown = false);
+
+                container.addEventListener("mousemove", (e) => {
+                    if (!isDown) return;
+                    e.preventDefault();
+                    const x = e.pageX - container.offsetLeft;
+                    const walk = (x - startX) * 2;
+                    container.scrollLeft = scrollLeft - walk;
+                });
+            });
+
+        </script>
+</body>

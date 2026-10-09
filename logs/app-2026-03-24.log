@@ -1,0 +1,2716 @@
+[2026-03-24T00:21:56.267Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:21:56.269Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:21:56.334Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:21:56.335Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:21:56.357Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:21:56.361Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:21:56.363Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:21:56.364Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:21:56.365Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:21:56.365Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-03-24T00:21:56.367Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:21:56.368Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:22:02.042Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:22:02.044Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:22:02.088Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:22:02.089Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:22:02.106Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:22:02.107Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:22:02.108Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:22:02.109Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:22:02.110Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:22:02.111Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-24T00:22:02.114Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:22:02.116Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:25:31.313Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:25:31.319Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T00:25:31.373Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:25:31.374Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:25:31.392Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:25:31.393Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:25:31.397Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:25:31.398Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T00:25:31.399Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T00:25:31.400Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T00:25:31.414Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:25:31.417Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:26:13.264Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:26:13.269Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:26:13.357Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:26:13.358Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:26:13.375Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:26:13.378Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:26:13.381Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:26:13.389Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "11ms"
+}
+[2026-03-24T00:26:13.396Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:26:13.399Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:26:13.400Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:26:13.402Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:29:23.186Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:29:23.192Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T00:29:23.283Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:29:23.284Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:29:23.317Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:29:23.322Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:29:23.323Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:29:23.327Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:29:23.352Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "35ms"
+}
+[2026-03-24T00:29:23.355Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "33ms"
+}
+[2026-03-24T00:29:23.358Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "34ms"
+}
+[2026-03-24T00:29:23.359Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "31ms"
+}
+[2026-03-24T00:32:20.982Z] [INFO] Connected to MySQL
+[2026-03-24T00:32:20.987Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T00:32:20.989Z] [ERROR] Database switch error
+  Error: Cannot enqueue ChangeUser after invoking quit.
+  Stack: Error: Cannot enqueue ChangeUser after invoking quit.
+    at Protocol._validateEnqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:215:16)
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.changeUser (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:63:15)
+    at Connection.changeUser (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:131:25)
+    at Query.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/utils/db.js:27:4)
+    at Query.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.OkPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:74:10)
+[2026-03-24T00:32:21.731Z] [INFO] Connected to MySQL
+[2026-03-24T00:32:21.744Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T00:32:21.745Z] [ERROR] Database switch error
+  Error: Cannot enqueue ChangeUser after invoking quit.
+  Stack: Error: Cannot enqueue ChangeUser after invoking quit.
+    at Protocol._validateEnqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:215:16)
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.changeUser (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:63:15)
+    at Connection.changeUser (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:131:25)
+    at Query.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/utils/db.js:27:4)
+    at Query.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.OkPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:74:10)
+[2026-03-24T00:32:22.793Z] [INFO] Connected to MySQL
+[2026-03-24T00:32:22.796Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T00:32:22.797Z] [ERROR] Database switch error
+  Error: Cannot enqueue ChangeUser after invoking quit.
+  Stack: Error: Cannot enqueue ChangeUser after invoking quit.
+    at Protocol._validateEnqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:215:16)
+    at Protocol._enqueue (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.changeUser (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/Protocol.js:63:15)
+    at Connection.changeUser (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:131:25)
+    at Query.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/utils/db.js:27:4)
+    at Query.<anonymous> (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/Connection.js:488:16)
+    at Sequence.end (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.OkPacket (/home/yangue/Documents/ProjetFilRougeIlaria2025/node_modules/mysql/lib/protocol/sequences/Query.js:74:10)
+[2026-03-24T00:32:47.695Z] [INFO] Connected to MySQL
+[2026-03-24T00:32:47.696Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T00:32:47.701Z] [INFO] Using existing user ID: 2
+[2026-03-24T00:32:47.723Z] [INFO] Users table ready with full schema.
+[2026-03-24T00:32:47.724Z] [INFO] Transactions table ready.
+[2026-03-24T00:32:47.724Z] [INFO] Categories table ready.
+[2026-03-24T00:32:47.774Z] [INFO] Seeded 8 transactions for user 2
+[2026-03-24T00:32:47.774Z] [INFO] ✅ Demo data ready! Login: test@example.com / password123
+[2026-03-24T00:32:47.774Z] [INFO] Test: http://localhost:3000/bankhistory.html
+[2026-03-24T00:34:51.744Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:34:51.747Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:34:51.814Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:34:51.815Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:34:51.856Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:34:51.857Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:34:51.858Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:34:51.859Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:34:51.860Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:34:51.860Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:34:51.861Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:34:51.862Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:35:11.139Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:35:11.145Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T00:35:11.194Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:35:11.195Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:35:11.210Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:35:11.211Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:35:11.212Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:35:11.213Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:35:11.214Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:35:11.218Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:35:11.219Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-03-24T00:35:11.220Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-03-24T00:36:15.896Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:36:15.935Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "39ms"
+}
+[2026-03-24T00:36:16.006Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:36:16.008Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:36:16.009Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:36:16.010Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T00:36:16.010Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:36:16.010Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:36:16.011Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:36:16.011Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:36:16.039Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:36:16.040Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:38:45.987Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T00:38:45.990Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:38:46.104Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:38:46.105Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:38:46.113Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:38:46.116Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T00:38:46.127Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T00:38:46.129Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-03-24T00:38:46.138Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-24T00:38:46.172Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "54ms"
+}
+[2026-03-24T00:38:46.472Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T00:38:46.476Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T00:38:46.480Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T00:38:46.484Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:38:46.485Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T00:38:46.486Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-24T00:38:46.487Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "15ms"
+}
+[2026-03-24T00:38:46.489Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:38:46.490Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-24T00:38:46.492Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "7ms"
+}
+[2026-03-24T00:38:46.768Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:38:46.769Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:38:46.770Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:38:46.770Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:38:46.781Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:38:46.781Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:38:56.156Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:38:56.159Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:38:56.210Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:38:56.211Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:38:56.217Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:38:56.219Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:38:56.220Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:38:56.220Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:38:56.221Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:38:56.221Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:38:56.222Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:38:56.223Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:39:02.290Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:39:02.290Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-24T00:39:02.347Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:39:02.348Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:02.350Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:39:02.351Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:39:02.353Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:39:02.354Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:39:02.355Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:39:02.356Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:39:02.360Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:39:02.361Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:21.386Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:39:21.387Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:21.436Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:39:21.438Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:39:21.440Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:39:21.441Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:21.445Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:39:21.446Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:39:21.446Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-24T00:39:21.447Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:39:21.468Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:39:21.469Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:39:33.086Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:39:33.087Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:33.134Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/.well-known/appspecific/com.chrome.devtools.json"
+}
+[2026-03-24T00:39:33.134Z] [ERROR] Page not found
+  Data: {
+  "path": "/home/yangue/Documents/ProjetFilRougeIlaria2025/Budget_App/Backend/pages/.well-known/appspecific/com.chrome.devtools.json.html",
+  "pageName": ".well-known/appspecific/com.chrome.devtools.json.html"
+}
+[2026-03-24T00:39:33.149Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:39:33.150Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:33.152Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:39:33.154Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:39:33.155Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:39:33.156Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:39:33.160Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:39:33.161Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-24T00:54:56.406Z] [INFO] Budget_App Server Started
+[2026-03-24T00:54:56.407Z] [INFO] Server running on http://localhost:3000
+[2026-03-24T00:54:56.409Z] [INFO] Connected to MySQL
+[2026-03-24T00:54:56.410Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T00:54:56.412Z] [INFO] Users table ready with full schema.
+[2026-03-24T00:54:56.412Z] [INFO] Transactions table ready.
+[2026-03-24T00:54:56.412Z] [INFO] Categories table ready.
+[2026-03-24T00:55:02.491Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-24T00:55:02.547Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-24T00:55:02.551Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T00:55:02.626Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:55:02.629Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:55:36.901Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-24T00:55:37.101Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T00:55:37.102Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:55:37.115Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T00:55:37.116Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:55:37.182Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:55:37.183Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T00:55:37.184Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T00:55:37.185Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:55:37.189Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T00:55:37.208Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "22ms"
+}
+[2026-03-24T00:55:37.251Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T00:55:37.257Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T00:55:37.260Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T00:55:37.262Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "10ms"
+}
+[2026-03-24T00:55:37.263Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:55:37.264Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T00:55:37.265Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "8ms"
+}
+[2026-03-24T00:55:37.267Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T00:55:37.269Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T00:55:37.274Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-03-24T00:55:37.373Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:55:37.373Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:55:37.376Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:55:37.377Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:55:37.382Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:55:37.383Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:55:45.442Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/Profile.html"
+}
+[2026-03-24T00:55:45.445Z] [INFO] HTTP GET /Profile.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:55:45.508Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:55:45.510Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:55:45.511Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:55:45.512Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:55:45.513Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T00:55:45.516Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:55:45.604Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-24T00:55:45.604Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/users/profile"
+}
+[2026-03-24T00:55:45.661Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-24T00:55:45.661Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats?"
+}
+[2026-03-24T00:55:56.152Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/topup.html"
+}
+[2026-03-24T00:55:56.153Z] [INFO] HTTP GET /topup.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:55:56.239Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:55:56.240Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:55:56.243Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T00:55:56.244Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:55:56.246Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T00:55:56.247Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T00:55:56.343Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:55:56.343Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:55:56.344Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-24T00:55:56.344Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/cards"
+}
+[2026-03-24T00:55:59.811Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T00:55:59.813Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:55:59.874Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:55:59.875Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T00:55:59.876Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:55:59.876Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T00:55:59.877Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T00:55:59.890Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-03-24T00:55:59.961Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T00:55:59.964Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:55:59.976Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T00:55:59.977Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T00:55:59.985Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:55:59.986Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T00:55:59.991Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "14ms"
+}
+[2026-03-24T00:55:59.992Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "16ms"
+}
+[2026-03-24T00:55:59.997Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-03-24T00:55:59.999Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-03-24T00:56:00.071Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:56:00.071Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T00:56:00.093Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:56:00.094Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:56:00.098Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:56:00.098Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T00:56:31.226Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T00:56:31.228Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T00:56:31.303Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T00:56:31.304Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T00:56:31.305Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/charts.js"
+}
+[2026-03-24T00:56:31.306Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:56:31.308Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:56:31.308Z] [INFO] HTTP GET /public/js/charts.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T00:56:31.315Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T00:56:31.317Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T01:29:11.724Z] [INFO] Connected to MySQL
+[2026-03-24T01:29:11.726Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T01:29:11.728Z] [INFO] Using existing user ID: 2
+[2026-03-24T01:29:11.749Z] [INFO] Users table ready with full schema.
+[2026-03-24T01:29:11.750Z] [INFO] Transactions table ready.
+[2026-03-24T01:29:11.751Z] [INFO] Categories table ready.
+[2026-03-24T01:29:11.798Z] [INFO] Seeded 8 transactions for user 2
+[2026-03-24T01:29:11.798Z] [INFO] ✅ Demo data ready! Login: test@example.com / password123
+[2026-03-24T01:29:11.798Z] [INFO] Test: http://localhost:3000/bankhistory.html
+[2026-03-24T01:33:46.326Z] [INFO] Budget_App Server Started
+[2026-03-24T01:33:46.327Z] [INFO] Server running on http://localhost:3000
+[2026-03-24T01:33:46.329Z] [INFO] Connected to MySQL
+[2026-03-24T01:33:46.330Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T01:33:46.334Z] [INFO] Users table ready with full schema.
+[2026-03-24T01:33:46.334Z] [INFO] Transactions table ready.
+[2026-03-24T01:33:46.335Z] [INFO] Categories table ready.
+[2026-03-24T01:34:18.218Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/"
+}
+[2026-03-24T01:34:18.248Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/login.html"
+}
+[2026-03-24T01:34:18.254Z] [INFO] HTTP GET /login.html
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T01:34:18.361Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T01:34:18.366Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T01:34:41.489Z] [INFO] Incoming request
+  Data: {
+  "method": "POST",
+  "url": "/login"
+}
+[2026-03-24T01:34:41.690Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T01:34:41.693Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T01:34:41.709Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T01:34:41.711Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T01:34:41.779Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T01:34:41.780Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T01:34:41.782Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T01:34:41.787Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T01:34:41.794Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T01:34:41.803Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "19ms"
+}
+[2026-03-24T01:34:41.896Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T01:34:41.899Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T01:34:41.900Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T01:34:41.902Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T01:34:41.903Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T01:34:41.904Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T01:34:41.905Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T01:34:41.906Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T01:34:41.908Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T01:34:41.909Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T01:34:42.009Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T01:34:42.009Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T01:34:42.013Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T01:34:42.014Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T01:34:42.023Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T01:34:42.024Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T01:34:50.167Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T01:34:50.171Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T01:34:50.284Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T01:34:50.291Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T01:34:50.294Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T01:34:50.297Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "12ms"
+}
+[2026-03-24T01:34:50.450Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:34:50.451Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:34:53.027Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T01:34:53.027Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T01:34:55.525Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=year"
+}
+[2026-03-24T01:34:55.526Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=year"
+}
+[2026-03-24T01:34:58.847Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:34:58.847Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:35:10.101Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T01:35:10.102Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T01:35:10.866Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:35:10.867Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:39:46.234Z] [INFO] Connected to MySQL
+[2026-03-24T01:39:46.236Z] [INFO] Database 'Backend_node' ready.
+[2026-03-24T01:39:46.237Z] [INFO] Using existing user ID: 2
+[2026-03-24T01:39:46.241Z] [INFO] Users table ready with full schema.
+[2026-03-24T01:39:46.242Z] [INFO] Transactions table ready.
+[2026-03-24T01:39:46.242Z] [INFO] Categories table ready.
+[2026-03-24T01:39:46.285Z] [INFO] Seeded 8 transactions for user 2
+[2026-03-24T01:39:46.285Z] [INFO] ✅ Demo data ready! Login: test@example.com / password123
+[2026-03-24T01:39:46.285Z] [INFO] Test: http://localhost:3000/bankhistory.html
+[2026-03-24T01:43:50.972Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T01:43:50.975Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T01:43:51.060Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T01:43:51.061Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T01:43:51.062Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T01:43:51.063Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T01:43:51.182Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:43:51.183Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:43:51.193Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T01:43:51.194Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T01:43:51.202Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T01:43:51.203Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T01:44:08.152Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T01:44:08.153Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T01:44:10.059Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T01:44:10.060Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:44.405Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T02:12:44.406Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T02:12:45.785Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:45.785Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:47.351Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T02:12:47.354Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:12:47.435Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:12:47.436Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:12:47.437Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T02:12:47.438Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:12:47.511Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:47.511Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:47.513Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:12:47.513Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:12:47.516Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:12:47.516Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:12:50.448Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T02:12:50.450Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:12:50.485Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:12:50.486Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T02:12:50.487Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:12:50.488Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:12:50.564Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:50.565Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:12:50.565Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:12:50.565Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:12:50.566Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:12:50.567Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:15:13.563Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T02:15:13.564Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:13.611Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:15:13.612Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:13.614Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T02:15:13.616Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T02:15:13.619Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:15:13.641Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "24ms"
+}
+[2026-03-24T02:15:13.707Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T02:15:13.709Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:15:13.715Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T02:15:13.717Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T02:15:13.718Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T02:15:13.719Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T02:15:13.719Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:15:13.720Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T02:15:13.721Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:15:13.722Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:15:13.787Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:15:13.788Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:15:13.790Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:13.791Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:13.796Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:13.796Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:23.571Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T02:15:23.577Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T02:15:23.613Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:15:23.614Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:23.616Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T02:15:23.617Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T02:15:23.618Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:23.620Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T02:15:23.627Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T02:15:23.636Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "18ms"
+}
+[2026-03-24T02:15:23.660Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T02:15:23.661Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T02:15:23.662Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:15:23.663Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T02:15:23.663Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T02:15:23.664Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:15:23.664Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:23.665Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:15:23.740Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:15:23.740Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:15:23.741Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:23.741Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:23.744Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:23.744Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:25.637Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T02:15:25.638Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.682Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:15:25.683Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.684Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T02:15:25.685Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T02:15:25.686Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.686Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T02:15:25.687Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.692Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T02:15:25.720Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T02:15:25.722Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.723Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T02:15:25.723Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T02:15:25.724Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T02:15:25.724Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.725Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:15:25.725Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:25.790Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:15:25.790Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:15:25.792Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:25.792Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:25.795Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:25.796Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:15:27.936Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T02:15:27.937Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:27.983Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:15:27.985Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:15:27.986Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T02:15:27.987Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-24T02:15:28.064Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:15:28.064Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:15:28.070Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:15:28.071Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:15:28.074Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:15:28.074Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:19:51.612Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T02:19:51.613Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:19:51.673Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:19:51.674Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T02:19:51.675Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:19:51.675Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:19:52.119Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:19:52.119Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:19:52.120Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:19:52.120Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:19:52.122Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:19:52.123Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:19:58.709Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T02:19:58.709Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T02:19:59.716Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:19:59.716Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:09.300Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T02:27:09.303Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:27:09.362Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:27:09.363Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T02:27:09.364Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "1ms"
+}
+[2026-03-24T02:27:09.367Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "4ms"
+}
+[2026-03-24T02:27:09.738Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:09.738Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:09.742Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:09.743Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:09.744Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:27:09.745Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:27:09.754Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:27:09.755Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:27:26.169Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:26.170Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:26.170Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:26.170Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:30.102Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T02:27:30.103Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=month"
+}
+[2026-03-24T02:27:30.104Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=30"
+}
+[2026-03-24T02:27:30.104Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=30"
+}
+[2026-03-24T02:27:31.423Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:31.423Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:31.424Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:31.424Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:33.443Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/bankhistory.html"
+}
+[2026-03-24T02:27:33.449Z] [INFO] HTTP GET /bankhistory.html
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T02:27:33.492Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:27:33.493Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/bankhistory.js"
+}
+[2026-03-24T02:27:33.494Z] [INFO] HTTP GET /public/js/bankhistory.js
+  Data: {
+  "statusCode": 200,
+  "duration": "0ms"
+}
+[2026-03-24T02:27:33.496Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:27:33.580Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:33.580Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:33.582Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:33.582Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:33.583Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:27:33.583Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats"
+}
+[2026-03-24T02:27:33.584Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:27:33.584Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions"
+}
+[2026-03-24T02:27:46.074Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:46.074Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:46.075Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:46.075Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:53.930Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:53.931Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/transactions?period=week"
+}
+[2026-03-24T02:27:53.931Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:53.931Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/stats/daily_evolution?days=7"
+}
+[2026-03-24T02:27:57.387Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/index.html"
+}
+[2026-03-24T02:27:57.390Z] [INFO] HTTP GET /index.html
+  Data: {
+  "statusCode": 200,
+  "duration": "3ms"
+}
+[2026-03-24T02:27:57.435Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/style.css"
+}
+[2026-03-24T02:27:57.436Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/iconeshopping.jpg"
+}
+[2026-03-24T02:27:57.437Z] [INFO] HTTP GET /public/assets/style.css
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:27:57.443Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logofnac.png"
+}
+[2026-03-24T02:27:57.445Z] [INFO] HTTP GET /public/assets/images/logofnac.png
+  Data: {
+  "statusCode": 200,
+  "duration": "2ms"
+}
+[2026-03-24T02:27:57.451Z] [INFO] HTTP GET /public/assets/images/iconeshopping.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "14ms"
+}
+[2026-03-24T02:27:57.512Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logocdiscount.png"
+}
+[2026-03-24T02:27:57.514Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/logoboulanger.png"
+}
+[2026-03-24T02:27:57.517Z] [INFO] HTTP GET /public/assets/images/logocdiscount.png
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T02:27:57.519Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/icons8-visa-48.png"
+}
+[2026-03-24T02:27:57.521Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/js/api.js"
+}
+[2026-03-24T02:27:57.521Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/public/assets/images/profil.jpg"
+}
+[2026-03-24T02:27:57.524Z] [INFO] HTTP GET /public/assets/images/logoboulanger.png
+  Data: {
+  "statusCode": 200,
+  "duration": "9ms"
+}
+[2026-03-24T02:27:57.525Z] [INFO] HTTP GET /public/assets/images/icons8-visa-48.png
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T02:27:57.526Z] [INFO] HTTP GET /public/js/api.js
+  Data: {
+  "statusCode": 200,
+  "duration": "5ms"
+}
+[2026-03-24T02:27:57.528Z] [INFO] HTTP GET /public/assets/images/profil.jpg
+  Data: {
+  "statusCode": 200,
+  "duration": "6ms"
+}
+[2026-03-24T02:27:57.631Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:27:57.632Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/home"
+}
+[2026-03-24T02:27:57.635Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:27:57.635Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:27:57.640Z] [INFO] Incoming request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}
+[2026-03-24T02:27:57.640Z] [INFO] API request
+  Data: {
+  "method": "GET",
+  "url": "/api/recipients"
+}

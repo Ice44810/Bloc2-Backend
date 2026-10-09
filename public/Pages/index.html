@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget App – Gestion de votre budget</title>
+  <meta name="description" content="Budget App vous permet de gérer votre budget, vos transactions et vos paiements." />
+  <link rel="canonical" href="index.html" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../Public/Assets/style.css" />
+</head>
+
+<body>
+  <h1 class="visually-hidden">Budget App – Gestion de votre budget</h1>
+
+  <header class="mobile-header">
+    <div class="container-fluid">
+      <div class="header-top d-flex justify-content-between align-items-center p-3">
+        <div class="user-info d-flex align-items-center">
+          <img src="../Public/Assets/images/profil.jpg" alt="Photo de profil de l'utilisateur" class="rounded-circle me-3" width="50" height="50">
+
+          <div>
+            <a href="./profile.html" class="text-decoration-none text-dark">
+              <p class="username fw-bold mb-0 text-white">Themesflat</p>
+            </a>
+            <p class="slogan mb-0">Economisons votre argent!</p>
+          </div>
+        </div>
+        <div class="header-icons">
+          <a href="#offcanvasMenu" class="menu-link text-white" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasMenu" role="button" aria-label="Ouvrir le menu">
+            <i class="bi bi-grid fs-4 me-2" aria-hidden="true"></i>
+          </a>
+          <!-- Offcanvas Menu ouverture gauche -->
+          <div class="offcanvas Menu offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header text-white d-flex justify-content-between"
+              style="background: linear-gradient(135deg, #5e35b1, #4a3cc9); border-radius: 0 0 12px 0; padding: 10px;">
+              <i class="bi bi-wallet fs-4 me-2" aria-hidden="true"></i>
+              <span class="fw-bold fs-5" id="offcanvasMenuLabel">Budget App</span>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Fermer le menu"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p class="text-muted small fw-bold">MENU</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                  <a href="./index.html">
+                    <span><i class="bi bi-house me-3" aria-hidden="true"></i>Accueil</span></a>
+                  <i class="bi bi-chevron-right small text-muted" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                  <a href="./ui-pages.html">
+                    <span><i class="bi bi-book me-3" aria-hidden="true"></i>Pages</span></a>
+                  <i class="bi bi-chevron-right small text-muted" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                  <span><i class="bi bi-grid me-3" aria-hidden="true"></i>Composants</span>
+                  <i class="bi bi-chevron-right small text-muted" aria-hidden="true"></i>
+                </li>
+                <li class="list-group-item border-0 d-flex justify-content-between align-items-center">
+                  <a href="./profile.html">
+                    <span><i class="bi bi-person-circle me-3" aria-hidden="true"></i>Profil</span></a>
+                  <i class="bi bi-chevron-right small text-muted" aria-hidden="true"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="#offcanvasNotification" class="notification-link position-relative text-dark"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNotification" role="button" id="bellIcon"
+            aria-label="Ouvrir les notifications">
+            <i class="bi bi-bell-fill text-white fs-4" aria-hidden="true"></i>
+            <span id="notificationBadge"
+              class="notification-badge position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-1 border border-light">
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="stats-section p-3 mx-2 mb-3">
+        <div class="row g-0">
+          <div class="col-6 pe-2">
+            <p class="stat-label mb-1">Votre solde:</p>
+            <p class="stat-value text-black" id="balance">…</p>
+          </div>
+          <div class="col-6 ps-2 text-end">
+            <a href="./rewards.html" class="text-decoration-none text-dark">
+              <p class="stat-label mb-1">Vos recompenses:</p>
+              <p class="stat-value">
+                <i class="bi bi-gift-fill text-danger me-2" aria-hidden="true"></i>
+                <span id="rewards">…</span> Point
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid px-3 mb-4">
+        <h2 class="fw-bold mb-2 fs-6">Dernières transactions</h2>
+        <ul class="list-group" id="last-transactions">
+          <!-- Injecté par JS -->
+        </ul>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- Première partie tableau : Quick Actions -->
+    <div class="quick-actions-section container-fluid mt-4 mb-4">
+      <div class="row text-center">
+        <div class="col-3">
+          <button type="button" class="action-item" data-bs-toggle="modal"
+            data-bs-target="#manageTransferModal">
+            <div class="action-icon-wrapper">
+              <i class="bi bi-currency-dollar fs-4" aria-hidden="true"></i>
+              <i class="bi bi-arrow-down-up fs-6 transfer-arrow" aria-hidden="true"></i>
+            </div>
+            <p class="mt-2 action-text">Transfert</p>
+          </button>
+        </div>
+        <div class="col-3">
+          <a href="./topup.html" class="action-item">
+            <div class="action-icon-wrapper">
+              <i class="bi bi-wallet fs-4" aria-hidden="true"></i>
+              <i class="bi bi-currency-dollar fs-6 topup-dollar" aria-hidden="true"></i>
+            </div>
+            <p class="mt-2 action-text">Recharges</p>
+          </a>
+        </div>
+        <div class="col-3">
+          <button type="button" class="action-item" data-bs-toggle="modal"
+            data-bs-target="#manageCardModal">
+            <div class="action-icon-wrapper">
+              <i class="bi bi-credit-card fs-4" aria-hidden="true"></i>
+              <i class="bi bi-pencil-fill fs-6 card-fill" style="font-size: 0.7rem !important;" aria-hidden="true"></i>
+            </div>
+            <p class="mt-2 action-text">Cartes</p>
+          </button>
+        </div>
+        <div class=" col-3">
+          <a href="./myqr.html" class="action-item">
+            <div class="action-icon-wrapper">
+              <i class="bi bi-qr-code fs-4" aria-hidden="true"></i>
+              <i class="bi bi-qr-code-scan fs-6 qr-scan" aria-hidden="true"></i>
+            </div>
+            <p class="mt-2 action-text">Mon QR</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 2ème partie tableau : vos services -->
+    <div class="container-fluid service-header mt-4 px-4">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="service-title mb-0">Vos services</h2>
+        <a href="./bill.html" class="view-all-link">
+          Tout voir <!-- permet de voir les éléments cachés sur une page -->
+        </a>
+      </div>
+    </div>
+    <div class="container-fluid service-grid mt-3 px-4 collapse show" id="collapseServices">
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <a href="./mobile.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-phone fs-1 text-info" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Mobile</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="./internet.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-wifi fs-1 text-primary" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Internet</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="./bill.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-file-earmark-text fs-1 text-info" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Facture</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="./electricity.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-lightning-charge fs-1 text-warning" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Electricité</p>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <a href="./film.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-film fs-1 text-danger" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Film</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="./waterbill.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-droplet fs-1 text-info" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Facture Eau</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="./rewards.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-percent fs-1 text-success" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Bons de reduction</p>
+          </a>
+        </div>
+        <div class="col-6 col-md-3">
+          <a href="./market.html" class="service-card text-center d-block p-3">
+            <i class="bi bi-cart fs-1 text-warning" aria-hidden="true"></i>
+            <p class="mt-2 mb-0">Marché</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3ème partie tableau : contacts rescents -->
+    <div class="container-fluid service-header mt-4 px-4">
+      <div class="d-flex justify-content-between align-items-center">
+        <h2 class="service-title mb-3">Contacts récents</h2>
+        <button type="button" class="view-all-link border-0 bg-transparent" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasSavedRecipients" aria-controls="offcanvasSavedRecipients">
+          Tout voir
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid service-grid mt-3 px-4">
+      <div class="row row-cols-3 row-cols-sm-4 row-cols-md-6 g-3      mb-4">
+        <div class="col text-center">
+          <img src="../Public/Assets/images/esther.jpg" alt="Esther" class="rounded-circle mb-1" style="width: 60px; height: 60px; object-fit: cover;
+                border: 3px solid transparent; padding: 2px;
+                box-shadow: 0 0 0 1px #d3d3d3;">
+
+          <p class="small text-truncate mb-0">Esther</p>
+        </div>
+        <div class="col text-center">
+          <img src="../Public/Assets/images/hawkins.jpg" alt="Hawkins" class="rounded-circle mb-1" style="width: 60px; height: 60px; object-fit: cover;
+                border: 3px solid transparent; padding: 2px;
+                box-shadow: 0 0 0 1px #d3d3d3;">
+
+          <p class="small text-truncate mb-0">Hawkins</p>
+        </div>
+        <div class="col text-center">
+           <img src="../Public/Assets/images/jenny.jpg" alt="Jenny" class="rounded-circle mb-1" style="width: 60px; height: 60px; object-fit: cover;
+                border: 3px solid transparent; padding: 2px;
+                box-shadow: 0 0 0 1px #d3d3d3;">
+
+          <p class="small text-truncate mb-0">Jenny</p>
+        </div>
+        <div class="col text-center">
+           <img src="../Public/Assets/images/Leslie.jpg" alt="Leslie" class="rounded-circle mb-1" style="width: 60px; height: 60px; object-fit: cover;
+                border: 3px solid transparent; padding: 2px;
+                box-shadow: 0 0 0 1px #d3d3d3;">
+
+          <p class="small text-truncate mb-0">Leslie</p>
+        </div>
+        <div class="col text-center">
+          <img src="../Public/Assets/images/jerome.jpg" alt="Jerome" class="rounded-circle mb-1" style="width: 60px; height: 60px; object-fit: cover;
+                border: 3px solid transparent; padding: 2px;
+                box-shadow: 0 0 0 1px #d3d3d3;">
+          <p class="small text-truncate mb-0">Jerome</p>
+        </div>
+        <div class="col text-center">
+          <img src="../Public/Assets/images/betty.jpg" alt="Betty" class="rounded-circle mb-1" style="width: 60px; height: 60px; object-fit: cover;
+                    border: 3px solid transparent; padding: 2px;
+                    box-shadow: 0 0 0 1px #d3d3d3;">
+          <p class="small text-truncate mb-0">Betty</p>
+        </div>
+      </div>
+    </div>
+    <!-- 4ème partie tableau : card service scroll-->
+    <div class="scroll-container px-3">
+      <div class="shopping-card-item">
+        <div class="card rounded-4 border-0 p-3 shadow-sm"
+          style="background-color: #68c0d1; min-height: 150px">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="text-center">
+              <img src="../Public/Assets/images/iconeshopping.jpg" alt="Mode" class="rounded-3 bg-white"
+                style="width: 60px; height: 60px; object-fit: contain;">
+
+              <p class="small mb-0 fw-bold mt-1 text-dark">Mode</p>
+            </div>
+            <div class="text-end">
+              <p class="fw-bold mb-2 text-dark">SHOPPING EN<br>LIGNE</p>
+              <button class="btn btn-sm btn-dark rounded-pill px-3">Plus</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shopping-card-item">
+        <div class="card rounded-4 border-0 p-3 shadow-sm"
+          style="background-color: #131921; min-height: 150px">
+          <div class="d-flex justify-content-between align-items-center text-white">
+            <div>
+              <i class="bi bi-amazon fs-1 text-warning" aria-hidden="true"></i>
+              <p class="small mb-0 fw-bold">Amazon</p>
+            </div>
+            <div class="text-end">
+              <p class="fw-bold mb-2">PRIME DAY<br>DISPONIBLE</p>
+              <a href="https://www.amazon.fr"
+                class="btn btn-sm btn-warning rounded-pill px-3 fw-bold">Plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shopping-card-item">
+        <div class="card rounded-4 border-0 p-3 shadow-sm"
+          style="background-color: #e1bc2a; min-height: 150px;">
+          <div class="d-flex justify-content-between align-items-center text-dark">
+            <div class="text-center">
+              <img src="../Public/Assets/images/logofnac.png" alt="FNAC" class="rounded-3 bg-white p-1"
+                style="width: 50px;">
+
+              <p class="small mb-0 fw-bold mt-1">FNAC</p>
+            </div>
+            <div class="text-end">
+              <p class="fw-bold mb-2">OFFRES<br>ADHÉRENTS</p>
+              <a href="https://www.fnac.com" class="btn btn-sm btn-dark rounded-pill px-3">Plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shopping-card-item">
+        <div class="card rounded-4 border-0 p-3 shadow-sm"
+          style="background-color: #3142ac; min-height: 150px;">
+          <div class="d-flex justify-content-between align-items-center text-white">
+            <div class="text-center">
+              <img src="../Public/Assets/images/logocdiscount.png" alt="Cdiscount"
+                style="width: 100px; background-color: white;" class="rounded-3 p-1">
+              <p class="small mb-0 fw-bold mt-1">Cdiscount</p>
+            </div>
+            <div class="text-end">
+              <p class="fw-bold mb-2">Ventes<br>Flash</p>
+              <a href="https://www.cdiscount.com"
+                class="btn btn-sm btn-light text-primary rounded-pill px-3 fw-bold">Plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="shopping-card-item">
+        <div class="card rounded-4 border-0 p-3 shadow-sm"
+          style="background-color: #e38556; min-height: 150px;">
+          <div class="d-flex justify-content-between align-items-center text-white">
+            <div class="text-center">
+              <img src="../Public/Assets/images/logoboulanger.png" alt="Boulanger"
+                style="width: 100px; background-color: white;" class="rounded-3 p-1">
+              <p class="small mb-0 fw-bold mt-1">Boulanger</p>
+            </div>
+            <div class="text-end">
+              <p class="fw-bold mb-2">Ventes<br>Flash</p>
+              <a href="https://www.boulanger.com"
+                class="btn btn-sm btn-light text-primary rounded-pill px-3 fw-bold">Plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scroll ... -->
+    <div class="scroll-dots d-flex justify-content-center gap-2">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </main>
+  <!-- Modal Carte chosir bancaire ouverture vers le haut -->
+  <div class="modal fade modal-top" id="manageCardModal" tabindex="-1" aria-labelledby="manageCardModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog m-0 shadow-lg">
+      <div class="modal-content border-0 rounded-0 rounded-bottom-4">
+        <div class="modal-header border-0 align-items-center">
+          <button type="button" class="btn border-0 p-0" data-bs-dismiss="modal" aria-label="Fermer">
+            <i class="bi bi-chevron-left fs-4" aria-hidden="true"></i>
+          </button>
+          <h2 class="modal-title w-100 text-center fw-bold fs-6" id="manageCardModalLabel">Gérer Votre Carte
+          </h2>
+          <div style="width: 30px;"></div>
+        </div>
+
+        <div class="modal-body px-4 pt-0">
+          <!-- Cartes de l'utilisateur : injectées par JS depuis GET /api/cards -->
+          <div class="other-cards-list mb-4" id="userCards"></div>
+          <a href="./addnewcard.html" class="btn add-dashed btn-outline-light w-100 py-3 mb-4 text-center text-black fw-bold rounded-3">
+            Ajouter une nouvelle carte
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal chosir Méthode de transfert -->
+  <div class="modal fade modal-top" id="manageTransferModal" tabindex="-1" aria-labelledby="manageTransferModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog m-0 shadow-lg" style="max-width: 100%;">
+      <div class="modal-content border-0 rounded-0 rounded-bottom-4">
+
+        <div class="modal-header border-0 d-flex align-items-center justify-content-between px-3">
+          <button type="button" class="btn border-0 p-0" data-bs-dismiss="modal" aria-label="Fermer">
+            <i class="bi bi-x-lg fs-5" aria-hidden="true"></i>
+          </button>
+          <h2 class="modal-title fw-bold fs-6 text-dark" id="manageTransferModalLabel">Méthode Transfert</h2>
+          <a href="./myqr.html" class="btn border-0 p-0" aria-label="Scanner un QR code">
+            <i class="bi bi-qr-code-scan fs-5" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="modal-body p-0">
+          <div class="transfer-options px-3 mb-4">
+            <div class="d-flex align-items-center py-3 border-bottom" role="button">
+              <div
+                class="icon-circle bg-light-purple d-flex align-items-center justify-content-center me-3">
+                <i class="bi bi-people-fill text-primary" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1">
+                <p class="mb-0 fw-bold small text-dark">Transfert vers amis</p>
+                <a href="./mycontact.html">
+                  <p class="mb-0 text-muted extra-small" style="font-size: 0.75rem;">Gratuit, Numéro
+                    de
+                    téléphone</p>
+                </a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center py-3 border-bottom" role="button">
+              <div
+                class="icon-circle bg-light-purple d-flex align-items-center justify-content-center me-3">
+                <i class="bi bi-bank2 text-primary" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1">
+                <p class="mb-0 fw-bold small text-dark">Transfert vers banque</p>
+                <a href="./transferbybank.html">
+                  <p class="mb-0 text-muted extra-small" style="font-size: 0.75rem;">Transfert vers
+                    compte bancaire, Carte bancaire</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OFF CANVAS Notification -->
+  <div class="offcanvas offcanvas-start-lg top-0" tabindex="1" id="offcanvasNotification">
+    <div class="offcanvas-header-rewards bg-white border-bottom">
+      <div class="d-flex align-items-center">
+        <button type="button" class="btn-close border-0 p-2 me-2" data-bs-dismiss="offcanvas"
+          aria-label="Fermer les notifications"></button>
+        <h2 class="mb-2 mt-2 fw-semibold flex-grow-1 text-center me-4 fs-5">Notification</h2>
+      </div>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-allnotification-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-allnotification" type="button" role="tab">Toutes</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-remind-tab" data-bs-toggle="pill" data-bs-target="#pills-remind"
+            type="button" role="tab">Rappel</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-transaction-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-transaction" type="button" role="tab">Transactions</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-promotion-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-promotion" type="button" role="tab">Promotions</button>
+        </li>
+      </ul>
+      <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-allnotification" role="tabpanel">
+          <div class="list-group-item d-flex flex-column border rounded p-2">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <i class="bi bi-bell" aria-hidden="true"></i>
+              <span class="fw-bold">Toutes notifications</span>
+              <small class="text-muted">5 Min</small>
+            </div>
+            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+              paid
+              through Alipay wallet!
+            </p>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-remind" role="tabpanel">
+          <div class="list-group-item d-flex flex-column border rounded p-2">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <i class="bi bi-bell" aria-hidden="true"></i>
+              <span class="fw-bold">Rappel</span>
+              <small class="text-muted">5 Min</small>
+            </div>
+            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+              paid
+              through Alipay wallet!
+            </p>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-transaction" role="tabpanel">
+          <div class="list-group-item d-flex flex-column border rounded p-2">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <i class="bi bi-credit-card" aria-hidden="true"></i>
+              <span class="fw-bold">Transactions</span>
+              <small class="text-muted">5 Min</small>
+            </div>
+            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+              paid
+              through Alipay wallet!
+            </p>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-promotion" role="tabpanel">
+          <div class="list-group-item d-flex flex-column border rounded p-2">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <i class="bi bi-tag" aria-hidden="true"></i>
+              <span class="fw-bold">Promotions</span>
+              <small class="text-muted">12h</small>
+            </div>
+            <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills
+              paid
+              through Alipay wallet!
+            </p>
+          </div>
+          <div class="d-flex justify-content-between align-items-center mb-1">
+            <i class="bi bi-tag" aria-hidden="true"></i>
+            <span class="fw-bold">Promotions</span>
+            <small class="text-muted">12h</small>
+          </div>
+          <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills paid
+            through Alipay wallet!
+          </p>
+          <div class="d-flex justify-content-between align-items-center mb-1">
+            <i class="bi bi-tag" aria-hidden="true"></i>
+            <span class="fw-bold">Promotions</span>
+            <small class="text-muted">12h</small>
+          </div>
+          <p class="small mb-0">Alipay gives you 20% offcoupon for all bills, applicable for bills paid
+            through Alipay wallet!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OFF CANVAS Saved Recipients -->
+  <div class="offcanvas offcanvas-start offcanvas-custom-width" tabindex="-1" id="offcanvasSavedRecipients"
+    aria-labelledby="offcanvasSavedRecipientsLabel">
+    <div class="offcanvas-header border-bottom shadow-sm py-3">
+      <div class="d-flex align-items-center w-100">
+        <button type="button" class="btn border-0 p-0" data-bs-dismiss="offcanvas" aria-label="Fermer">
+          <i class="bi bi-chevron-left fs-6 text-dark" aria-hidden="true"></i>
+        </button>
+        <h2 class="offcanvas-title mb-0 fw-bold flex-grow-1 text-center me-4 fs-5"
+          id="offcanvasSavedRecipientsLabel">
+          Destinataires Sauvegardés
+        </h2>
+        <a href="addnewrecipient.html" aria-label="Ajouter un destinataire"><i class="bi bi-plus fs-4 text-dark" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="offcanvas-body p-0">
+      <div class="container-fluid my-3">
+        <div class="p-3 rounded-3 bg-secondary-subtle">
+          <div class="input-group align-items-center rounded-3 px-2">
+            <span class="bg-transparent border-0 pe-2">
+              <i class="bi bi-search text-muted fs-6" aria-hidden="true"></i>
+            </span>
+            <input type="text" class="form-control border-0 shadow-none fs-6 rounded-2" id="searchInput"
+              placeholder="Rechercher un destinataire" style="height: 45px;" />
+            <button class="btn border-0 p-2" type="button" id="clearSearch" aria-label="Effacer la recherche">
+              <i class="bi bi-x-circle-fill text-muted fs-6" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <ul class="nav nav-tabs nav-fill mb-3" id="recipientTabs" role="tablist">
+        <li class="nav-item">
+          <button class="nav-link active" id="phone-tab" data-bs-toggle="tab" data-bs-target="#phone"
+            type="button" role="tab">
+            Téléphone
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" id="bank-tab" data-bs-toggle="tab" data-bs-target="#bank" type="button"
+            role="tab">
+            Compte bancaire
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content px-3" id="recipientTabsContent">
+        <div class="tab-pane fade show active" id="phone" role="tabpanel">
+          <!-- Injecté par JS depuis GET /api/recipients -->
+        </div>
+
+        <div class="tab-pane fade" id="bank" role="tabpanel">
+          <!-- Injecté par JS depuis GET /api/recipients -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Autorisation Notification -->
+  <div class="modal fade" id="notificationModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered mx-auto" style="max-width: 300px;">
+      <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+        <div class="modal-body p-4 text-center">
+          <p class="fw-bold mb-0 text-dark fs-5">"Alipay" voudrais vous envoyer des Notifications</p><br>
+          <p class="small text-muted">Les Notifications inclues, alertes, sons et icones. Elles sont
+            réglables
+            dans les Paramètres</p>
+        </div>
+        <div class="d-flex border-top border-secondary-subtle">
+          <button type="button" class="btn btn-ios-action border-end text-muted" id="denyNotifications">
+            Ne pas autoriser
+          </button>
+          <button type="button" class="btn btn-ios-action text-primary-subtle fw-semibold me-2"
+            id="allowNotifications" style="padding-left: 50px;">
+            Autoriser
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer py-2">
+    <div class="d-flex justify-content-around align-items-center">
+              <a href="./index.html" class="active-link" aria-current="page">
+        <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+        <span>Accueil</span>
+      </a>
+
+      <a href="./bankhistory.html" class="footer-link">
+        <i class="bi bi-clock-history" aria-hidden="true"></i>
+        <span>Historique</span>
+      </a>
+      <a href="./myqr.html" class="footer-link">
+        <i class="bi bi-qr-code-scan" aria-hidden="true"></i>
+        <span>QR</span>
+      </a>
+      <a href="./rewards.html" class="footer-link">
+        <i class="bi bi-gift" aria-hidden="true"></i>
+        <span>Récompenses</span>
+      </a>
+      <a href="./profile.html" class="footer-link">
+        <i class="bi bi-person" aria-hidden="true"></i>
+        <span>Profil</span>
+      </a>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/public/js/api.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // NOTIFICATIONS
+
+      const badge = document.querySelector('.notification-badge');
+      const notificationLink = document.querySelector('.notification-link');
+
+      function toggleNotificationBadge(show) {
+        if (!badge) return;
+        badge.classList.toggle('d-none', !show);
+      }
+
+      // Simulation : notifications présentes au chargement
+      toggleNotificationBadge(true);
+
+      if (notificationLink) {
+        notificationLink.addEventListener('click', () => {
+          toggleNotificationBadge(false);
+        });
+      }
+
+    });
+
+    // SCROLL DOTS
+    // On sélectionne tous les conteneurs de cartes et leurs groupes de points correspondants
+    const scrollContainers = document.querySelectorAll(".scroll-container");
+    const allDotsGroups = document.querySelectorAll(".scroll-dots");
+
+    scrollContainers.forEach((container, index) => {
+      const dots = allDotsGroups[index].querySelectorAll(".dot");
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+
+      // --- 1. GESTION DES POINTS (SCROLL) ---
+      container.addEventListener("scroll", () => {
+        // On calcule la progression du scroll
+        const maxScroll = container.scrollWidth - container.offsetWidth;
+        if (maxScroll <= 0) return;
+
+        const scrollPercentage = container.scrollLeft / maxScroll;
+        // Détermine quel point doit être actif
+        let activeIndex = Math.round(scrollPercentage * (dots.length - 1));
+
+        dots.forEach((dot, i) => {
+          dot.classList.toggle("active", i === activeIndex);
+        });
+      });
+
+      // --- 2. GESTION DU GLISSEMENT A LA SOURIS ---
+      container.addEventListener("mousedown", (e) => {
+        isDown = true;
+        container.classList.add("active"); // Pour changer le curseur
+        startX = e.pageX - container.offsetLeft;
+        scrollLeft = container.scrollLeft;
+      });
+
+      container.addEventListener("mouseleave", () => {
+        isDown = false;
+      });
+
+      container.addEventListener("mouseup", () => {
+        isDown = false;
+      });
+
+      container.addEventListener("mousemove", (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - container.offsetLeft;
+        const walk = (x - startX) * 2; // Vitesse de défilement
+        container.scrollLeft = scrollLeft - walk;
+      });
+    });
+
+    // MODAL AUTORISATION NOTIFICATIONS
+    //  On vérifie si l'utilisateur a déjà fait un choix
+    const hasMadeChoice = localStorage.getItem("notificationChoiceMade");
+
+    // On sélectionne le modal
+    const notificationModalElement = document.getElementById('notificationModal');
+    const modalInstance = new bootstrap.Modal(notificationModalElement);
+
+    // Si aucun choix n'est stocké en mémoire, on affiche le modal
+    if (!hasMadeChoice) {
+      modalInstance.show();
+    }
+
+    // On écoute le clic sur les boutons pour enregistrer le choix
+    const btnAutoriser = document.getElementById('allowNotifications');
+    const btnRefuser = document.getElementById("denyNotifications");
+
+    // Fonction pour enregistrer le choix et ne plus afficher le modal
+    function saveChoice() {
+      localStorage.setItem("notificationChoiceMade", "true");
+    }
+
+    if (btnAutoriser) {
+      btnAutoriser.addEventListener('click', saveChoice);
+    }
+
+    if (btnRefuser) {
+      btnRefuser.addEventListener('click', saveChoice);
+    }
+    // CHARGEMENT DES DONNÉES DEPUIS L'API BACKEND
+    async function loadDashboard() {
+      try {
+        // GET /api/home et GET /api/stats/rewards en parallèle
+        const [home, rewards] = await Promise.all([api.getHomeData(), api.getRewards()]);
+
+        // Nom de l'utilisateur dans l'en-tête
+        const usernameEl = document.querySelector(".username");
+        if (usernameEl) usernameEl.textContent = home.username;
+
+        // Solde
+        document.getElementById("balance").textContent = UI.formatCurrency(home.balance);
+
+        // Récompenses (arrondies au point inférieur)
+        document.getElementById("rewards").textContent = Math.floor(rewards.points);
+
+        // Dernières transactions
+        const transactionsList = document.getElementById("last-transactions");
+        transactionsList.innerHTML = "";
+
+        if (home.lastTransactions.length === 0) {
+          transactionsList.innerHTML = '<li class="list-group-item text-muted">Aucune transaction</li>';
+          return;
+        }
+
+        home.lastTransactions.forEach(tx => {
+          const isIncome = tx.type === "income";
+          const li = document.createElement("li");
+          li.className = "list-group-item d-flex justify-content-between align-items-center";
+
+          // textContent (et pas innerHTML) : le titre vient de l'utilisateur, on ne l'interprète pas comme du HTML
+          const title = document.createElement("span");
+          title.textContent = tx.title;
+
+          const amount = document.createElement("span");
+          amount.className = isIncome ? "text-success" : "text-danger";
+          amount.textContent = (isIncome ? "+" : "-") + UI.formatCurrency(tx.amount);
+
+          li.append(title, amount);
+          transactionsList.appendChild(li);
+        });
+      } catch (error) {
+        console.error("Erreur API :", error);
+      }
+    }
+
+    loadDashboard();
+
+    // Cartes bancaires (modal "Gérer votre carte") : GET /api/cards
+    async function loadCards() {
+      const container = document.getElementById('userCards');
+      try {
+        const cards = await api.getCards();
+        if (cards.length === 0) {
+          container.innerHTML = '<p class="text-muted text-center small">Aucune carte enregistrée</p>';
+          return;
+        }
+        container.innerHTML = cards.map(card => `
+          <a href="./cardinfo.html?id=${card.id}" class="d-flex align-items-center py-3 border-bottom text-decoration-none">
+            <i class="bi bi-credit-card-2-front fs-3 text-primary me-3" aria-hidden="true"></i>
+            <div class="flex-grow-1">
+              <p class="mb-0 fw-bold small text-dark">${UI.escapeHtml(card.card_brand)}</p>
+              <p class="mb-0 text-muted extra-small">**** **** **** ${UI.escapeHtml(card.last_4_digits)}</p>
+            </div>
+            <i class="bi bi-chevron-right text-muted" aria-hidden="true"></i>
+          </a>
+        `).join('');
+      } catch (error) {
+        console.error('Erreur API :', error);
+      }
+    }
+    loadCards();
+
+    // Contacts : GET /api/recipients, rangés dans les onglets Téléphone / Compte bancaire
+    UI.loadRecipients('phone', 'bank', 'searchInput');
+
+    // Bouton pour vider la recherche
+    document.getElementById('clearSearch').addEventListener('click', () => {
+      const input = document.getElementById('searchInput');
+      input.value = '';
+      input.dispatchEvent(new Event('input'));
+    });
+  </script>
+
+</body>
+
+</html>
